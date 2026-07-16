@@ -15,11 +15,6 @@
 
 This platform moves beyond generic alert systems by offering **Role-Based AI Assistants** that deliver context-aware, highly specific actionable insights for Citizens, Government Officials, Emergency Responders, and Tourists.
 
-### 🏆 Hackathon Tracks Targeted
-- **Track 2: Best AI Assistant for Social Impact**
-- **Track 3: Most Innovative Gemma Assistant**
-
----
 
 ## ✨ Key Features
 
