@@ -476,58 +476,29 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="demos/Gemma Al Assistant crisis citizens.mp4">
-        <img src="https://img.shields.io/badge/▶_Play-Citizen_Copilot_Demo-22c55e?style=for-the-badge&logo=youtube" alt="Citizen Demo"/>
-      </a>
-      <br/><br/>
       <b>👥 Citizen AI Copilot</b><br/>
-      <sub>Real-time safety guidance & evacuation recommendations</sub>
+      <sub>Real-time safety guidance & evacuation recommendations</sub><br/><br/>
+      <video src="https://github.com/user-attachments/assets/6daacd3c-a2df-4b3f-971c-0ebf5a4bfdd3" controls width="100%"></video>
     </td>
     <td align="center" width="50%">
-      <a href="demos/Gemma Al Assistant crisis tourist.mp4">
-        <img src="https://img.shields.io/badge/▶_Play-Tourist_Copilot_Demo-f59e0b?style=for-the-badge&logo=youtube" alt="Tourist Demo"/>
-      </a>
-      <br/><br/>
       <b>✈️ Tourist AI Copilot</b><br/>
-      <sub>Travel safety intelligence for visitors & tourists</sub>
+      <sub>Travel safety intelligence for visitors & tourists</sub><br/><br/>
+      <video src="https://github.com/user-attachments/assets/bdf95853-40cc-4366-9b60-9afc1c1b0c83" controls width="100%"></video>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="demos/Gemma Al Assistant crisis Emergency responder .mp4">
-        <img src="https://img.shields.io/badge/▶_Play-Responder_Copilot_Demo-ef4444?style=for-the-badge&logo=youtube" alt="Responder Demo"/>
-      </a>
-      <br/><br/>
       <b>🚑 Emergency Responder AI Copilot</b><br/>
-      <sub>Tactical deployment & resource allocation intelligence</sub>
+      <sub>Tactical deployment & resource allocation intelligence</sub><br/><br/>
+      <video src="https://github.com/user-attachments/assets/0cf5a99a-d77d-4bff-8d68-99f1cee475a4" controls width="100%"></video>
     </td>
     <td align="center" width="50%">
-      <a href="demos/Gemma Al Assistant crisis government .mp4">
-        <img src="https://img.shields.io/badge/▶_Play-Government_Copilot_Demo-6366f1?style=for-the-badge&logo=youtube" alt="Government Demo"/>
-      </a>
-      <br/><br/>
       <b>🏛️ Government AI Copilot</b><br/>
-      <sub>Strategic decision support & policy recommendations</sub>
+      <sub>Strategic decision support & policy recommendations</sub><br/><br/>
+      <video src="https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676" controls width="100%"></video>
     </td>
   </tr>
 </table>
-
-### 🏆 Kaggle AI Platform Demo
-
-<table>
-  <tr>
-    <td align="center" width="100%">
-      <a href="demos/Kaggleai.mp4">
-        <img src="https://img.shields.io/badge/▶_Play-Kaggle_AI_Platform_Demo-20BEFF?style=for-the-badge&logo=kaggle" alt="Kaggle AI Demo"/>
-      </a>
-      <br/><br/>
-      <b>🏆 Full AI Pipeline Demo — Kaggle Platform</b><br/>
-      <sub>End-to-end data ingestion, AI processing, confidence scoring & multi-agent intelligence generation</sub>
-    </td>
-  </tr>
-</table>
-
-> 💡 **Tip:** Click any badge above to view the video. Videos are stored in the [`demos/`](demos/) folder.
 
 ---
 
