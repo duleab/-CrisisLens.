@@ -1,10 +1,10 @@
-# 🌍 CrisisLens
+# CrisisLens
 ## AI-Powered Multi-Agent Disaster Intelligence Platform
 
-> ### 🎯 Tagline
+> ###  Tagline
 > **"One Crisis. Multiple Perspectives. Smarter Decisions."**
 
-### 🌍 Mission Statement
+### Mission Statement
 Building resilient communities through AI-powered disaster intelligence, trusted information, and coordinated emergency response in alignment with UN Sustainable Development Goals.
 
 ---
@@ -31,7 +31,7 @@ Building resilient communities through AI-powered disaster intelligence, trusted
 
 ---
 
-## 🎯 Vision & Problem Statement
+##  Vision & Problem Statement
 
 ### Vision
 To transform scattered disaster information into **actionable, role-specific decisions** that save lives and strengthen community resilience across Indonesia and beyond.
@@ -56,7 +56,7 @@ During disasters, critical information is:
 
 ---
 
-## 🚀 Our Solution
+##  Our Solution
 
 **CrisisLens transforms "What happened?" into "What should I do next?"**
 
@@ -87,7 +87,7 @@ Instead of providing generic alerts, CrisisLens:
 
 ---
 
-## 🎯 UN SDG Alignment
+##  UN SDG Alignment
 
 CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
@@ -289,8 +289,8 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 - 🌡️ Risk heatmaps by district
 - 👥 Affected population statistics
 - 🏗️ Infrastructure damage assessment
-- 📈 Resource needs prediction
-- 🎯 Priority district rankings
+- Resource needs prediction
+-  Priority district rankings
 - 📋 Automated situation reports
 
 **Sample Interactions:**
@@ -311,7 +311,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 - 💧 Water and sanitation status
 - 👶 Vulnerable population tracking
 - 📦 Supply chain coordination
-- 🎯 Priority intervention areas
+-  Priority intervention areas
 
 **Sample Interactions:**
 > - "Where should we distribute food supplies?"
@@ -349,7 +349,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 - ✈️ Airport and port operational status
 - 🏭 Facility risk assessments
 - 👥 Employee safety guidance
-- 📈 Business impact predictions
+- Business impact predictions
 
 **Sample Interactions:**
 > - "Can delivery trucks reach Jakarta today?"
@@ -489,7 +489,7 @@ https://github.com/user-attachments/assets/0cf5a99a-d77d-4bff-8d68-99f1cee475a4
 
 https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676
 
-> 💡 **Tip:** Click any badge above to view the video. Videos are stored in the [`demos/`](demos/) folder.
+>  **Tip:** Click any badge above to view the video. Videos are stored in the [`demos/`](demos/) folder.
 
 ---
 
@@ -518,7 +518,7 @@ https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Development:** Streamlit (MVP), React/Next.js (Production)
@@ -583,7 +583,7 @@ https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676
 - Automated duplicate detection across multiple sources
 - Real-time fact-checking and misinformation filtering
 
-#### 🎯 Mission-Based Intelligence
+####  Mission-Based Intelligence
 - Instead of just showing data, provides actionable missions
 - "Deploy rescue teams to District A" vs. "Earthquake occurred"
 - Transforms information into decisions
@@ -597,7 +597,7 @@ Every recommendation includes:
 
 ---
 
-## 🎯 Hackathon MVP Scope
+##  Hackathon MVP Scope
 
 ### Core MVP Features (Feasible in 48-72 hours)
 
@@ -631,7 +631,7 @@ Day 3: Dashboard + Demo preparation
 
 ---
 
-## 🎭 Demo Flow
+##  Demo Flow
 
 #### 1. Opening Hook (30 seconds)
 > *"What if one earthquake could instantly become seven different intelligent responses?"*
@@ -668,15 +668,15 @@ Show current fragmented disaster response:
 - Scalable to ASEAN and global deployment
 
 ### Evaluation Points
-- ✨ **Innovation:** Multi-agent AI for disaster response
-- 🎯 **Gemma Integration:** Sophisticated reasoning and personalization
-- 🌍 **Social Impact:** Clear contribution to SDG goals
-- 🛠️ **Technical Excellence:** Real-time processing and scalability
-- 💡 **Practical Value:** Immediate applicability to real disasters
+-  **Innovation:** Multi-agent AI for disaster response
+-  **Gemma Integration:** Sophisticated reasoning and personalization
+- **Social Impact:** Clear contribution to SDG goals
+- **Technical Excellence:** Real-time processing and scalability
+-  **Practical Value:** Immediate applicability to real disasters
 
 ---
 
-## 🚀 Future Roadmap
+##  Future Roadmap
 
 ### Phase 1: Indonesia Foundation (0-6 months)
 - Deploy across all Indonesian provinces
@@ -711,7 +711,7 @@ Show current fragmented disaster response:
 
 ---
 
-## 📈 Social Impact
+## Social Impact
 
 ### Quantifiable Benefits
 
@@ -743,7 +743,7 @@ Show current fragmented disaster response:
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Using Docker (Recommended)
 
@@ -819,7 +819,7 @@ Open [`crisislens-ai-platform.ipynb`](crisislens-ai-platform.ipynb) in Kaggle or
 
 ---
 
-## 🎯 Call to Action
+##  Call to Action
 
 CrisisLens represents the future of disaster response — where AI transforms scattered information into life-saving decisions for every stakeholder.
 
