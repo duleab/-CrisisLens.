@@ -9,7 +9,7 @@ Building resilient communities through AI-powered disaster intelligence, trusted
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Vision & Problem Statement](#-vision--problem-statement)
 - [Our Solution](#-our-solution)
 - [UN SDG Alignment](#-un-sdg-alignment)
@@ -77,13 +77,13 @@ Instead of providing generic alerts, CrisisLens:
 
 **One disaster event generates seven different intelligent responses** tailored for:
 
-- 👥 Citizens
-- ✈️ Tourists
-- 🚑 Emergency Responders
-- 🏛️ Government Officials
-- 🤝 NGO Workers
-- 📰 Media Personnel
-- 🏢 Businesses
+-  Citizens
+-  Tourists
+-  Emergency Responders
+-  Government Officials
+-  NGO Workers
+-  Media Personnel
+-  Businesses
 
 ---
 
@@ -129,7 +129,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
                     🌐 INTERNET
@@ -159,14 +159,14 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
               • Population assessment
                       │
                       ▼
-         🤖 Gemma AI Reasoning Layer
+          Gemma AI Reasoning Layer
               • Situation analysis
               • Risk assessment
               • Recommendation generation
               • Multi-language support
                       │
                       ▼
-        👥 Multi-Agent AI System
+         Multi-Agent AI System
     ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┐
     │Citizen│Tourist│Responder│Gov│NGO│Media│Biz│
     └─────┴─────┴─────┴─────┴─────┴─────┴─────┘
@@ -178,7 +178,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-## ⚙️ AI Pipeline
+##  AI Pipeline
 
 ```
 1. COLLECT
@@ -218,9 +218,9 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-## 🤖 Multi-Agent AI Copilots
+##  Multi-Agent AI Copilots
 
-### 👥 Citizen Copilot
+###  Citizen Copilot
 **Mission:** Keep citizens safe and informed
 
 **Dashboard Features:**
@@ -241,7 +241,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-### ✈️ Tourist Copilot
+###  Tourist Copilot
 **Mission:** Protect travelers and visitors
 
 **Dashboard Features:**
@@ -249,9 +249,9 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 - 🏨 Hotel safety assessments
 - 🗺️ Tourist attraction operational status
 - 🏖️ Beach and coastal warnings
-- 🏛️ Embassy and consulate information
+-  Embassy and consulate information
 - 🏥 Tourist-friendly hospitals
-- 📱 Emergency contacts for foreigners
+-  Emergency contacts for foreigners
 
 **Sample Interactions:**
 > - "Is Bali safe to visit this weekend?"
@@ -261,16 +261,16 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-### 🚑 Emergency Responder Copilot
+###  Emergency Responder Copilot
 **Mission:** Support rescue and relief operations
 
 **Dashboard Features:**
 - 🆘 Priority incident mapping
 - 🗺️ Live operational situation map
-- 🚑 Hospital capacity and accessibility
+-  Hospital capacity and accessibility
 - 🏠 Shelter occupancy status
 - 🛣️ Safe routes for emergency vehicles
-- 👥 Population density in affected areas
+-  Population density in affected areas
 - 📊 Resource allocation recommendations
 
 **Sample Interactions:**
@@ -281,17 +281,17 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-### 🏛️ Government Copilot
+###  Government Copilot
 **Mission:** Support policy and coordination decisions
 
 **Dashboard Features:**
 - 🇮🇩 National disaster overview map
-- 🌡️ Risk heatmaps by district
-- 👥 Affected population statistics
-- 🏗️ Infrastructure damage assessment
+- Risk heatmaps by district
+-  Affected population statistics
+- Infrastructure damage assessment
 - Resource needs prediction
 -  Priority district rankings
-- 📋 Automated situation reports
+-  Automated situation reports
 
 **Sample Interactions:**
 > - "Which districts need immediate assistance?"
@@ -301,7 +301,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-### 🤝 NGO Copilot
+###  NGO Copilot
 **Mission:** Coordinate humanitarian aid effectively
 
 **Dashboard Features:**
@@ -321,12 +321,12 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-### 📰 Media Copilot
+###  Media Copilot
 **Mission:** Enable responsible and accurate reporting
 
 **Dashboard Features:**
 - ✅ Verified event summaries
-- 📰 Official press releases
+-  Official press releases
 - ⏰ Timeline of events
 - 📊 Impact statistics
 - 🎥 Approved media content
@@ -340,15 +340,15 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ---
 
-### 🏢 Business Copilot
+###  Business Copilot
 **Mission:** Protect business operations and continuity
 
 **Dashboard Features:**
 - 🚚 Supply chain disruption tracking
 - 🛣️ Logistics route monitoring
-- ✈️ Airport and port operational status
+-  Airport and port operational status
 - 🏭 Facility risk assessments
-- 👥 Employee safety guidance
+-  Employee safety guidance
 - Business impact predictions
 
 **Sample Interactions:**
@@ -383,7 +383,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 - 🌊 Flood zones and evacuation areas
 - 🔥 Fire perimeters and smoke
 - 🌋 Volcanic activity zones
-- 👥 Population density overlays
+-  Population density overlays
 
 **Interactive Features:**
 - Click any disaster for detailed AI analysis
@@ -418,7 +418,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 - 📊 Key metrics and statistics
 - 🔔 Alert notification center
 - 💬 AI chat interface
-- 📱 Mobile-responsive design
+-  Mobile-responsive design
 
 ### Role-Specific Modules
 
@@ -448,21 +448,21 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
   <tr>
     <td align="center" width="50%">
       <img src="figures/CrisisLens citizen dashboard interface.png" alt="Citizen Dashboard" width="100%"/>
-      <br/><b>👥 Citizen Dashboard</b>
+      <br/><b> Citizen Dashboard</b>
     </td>
     <td align="center" width="50%">
       <img src="figures/Travel safety dashboard for Bali.png" alt="Tourist Dashboard" width="100%"/>
-      <br/><b>✈️ Tourist Dashboard — Bali Travel Safety</b>
+      <br/><b> Tourist Dashboard — Bali Travel Safety</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="figures/CrisisLens AI emergency response dashboard.png" alt="Emergency Responder Dashboard" width="100%"/>
-      <br/><b>🚑 Emergency Responder Dashboard</b>
+      <br/><b> Emergency Responder Dashboard</b>
     </td>
     <td align="center" width="50%">
       <img src="figures/Government crisis response dashboard interface.png" alt="Government Dashboard" width="100%"/>
-      <br/><b>🏛️ Government Crisis Response Dashboard</b>
+      <br/><b> Government Crisis Response Dashboard</b>
     </td>
   </tr>
 </table>
@@ -471,21 +471,21 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ## 🎬 Demo Videos
 
-### 🤖 Gemma AI Assistant — Role-Based Copilots
+###  Gemma AI Assistant — Role-Based Copilots
 
-**👥 Citizen AI Copilot** — Real-time safety guidance & evacuation recommendations
+** Citizen AI Copilot** — Real-time safety guidance & evacuation recommendations
 
 https://github.com/user-attachments/assets/6daacd3c-a2df-4b3f-971c-0ebf5a4bfdd3
 
-**✈️ Tourist AI Copilot** — Travel safety intelligence for visitors & tourists
+** Tourist AI Copilot** — Travel safety intelligence for visitors & tourists
 
 https://github.com/user-attachments/assets/bdf95853-40cc-4366-9b60-9afc1c1b0c83
 
-**🚑 Emergency Responder AI Copilot** — Tactical deployment & resource allocation intelligence
+** Emergency Responder AI Copilot** — Tactical deployment & resource allocation intelligence
 
 https://github.com/user-attachments/assets/0cf5a99a-d77d-4bff-8d68-99f1cee475a4
 
-**🏛️ Government AI Copilot** — Strategic decision support & policy recommendations
+** Government AI Copilot** — Strategic decision support & policy recommendations
 
 https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676
 
