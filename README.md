@@ -473,7 +473,7 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ###  Gemma AI Assistant — Role-Based Copilots
 
-** Citizen AI Copilot** — Real-time safety guidance & evacuation recommendations
+** Citizen AI Copilot ** — Real-time safety guidance & evacuation recommendations
 
 https://github.com/user-attachments/assets/6daacd3c-a2df-4b3f-971c-0ebf5a4bfdd3
 
