@@ -1,151 +1,188 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { useAppStore } from '../store/useAppStore'
-import { getRoleIcon, getRoleColor } from '../lib/utils'
-import { 
-  Bell, 
-  Settings, 
-  LogOut, 
-  Wifi, 
-  WifiOff,
-  AlertTriangle 
-} from 'lucide-react'
+import type { Role } from './Sidebar'
 
-const Header: React.FC = () => {
-  const navigate = useNavigate()
-  const { 
-    userRole, 
-    userLocation, 
-    isConnected, 
-    dashboardStats,
-    reset 
-  } = useAppStore()
+const ROLE_TITLES: Record<Role, string> = {
+  citizen: 'Citizen Dashboard',
+  tourist: 'Tourist Safety Dashboard',
+  responder: 'Emergency Responder Dashboard',
+  government: 'Government Dashboard',
+}
 
-  const handleLogout = () => {
-    reset()
-    navigate('/')
-  }
+const ROLE_SUBTITLES: Record<Role, string> = {
+  citizen: '',
+  tourist: '',
+  responder: 'Real-time situational awareness for emergency response teams',
+  government: 'Strategic crisis intelligence and coordination dashboard',
+}
 
-  const handleRoleChange = () => {
-    navigate('/select-role')
-  }
+const ROLE_BADGE: Record<Role, { label: string; color: string } | null> = {
+  citizen: null,
+  tourist: null,
+  responder: { label: '🚨 Emergency Mode', color: 'bg-red-600 hover:bg-red-700' },
+  government: { label: 'GOVERNMENT', color: 'bg-indigo-100 text-indigo-700 border border-indigo-200' },
+}
+
+interface Props {
+  role: Role
+  darkMode: boolean
+  onToggleDark: () => void
+  onRoleChange: (r: Role) => void
+  lastUpdated: Date | null
+  systemOnline: boolean
+  notifCount: number
+  onRefresh: () => void
+  loading: boolean
+}
+
+const ROLES: Role[] = ['citizen', 'tourist', 'responder', 'government']
+const ROLE_ICONS: Record<Role, string> = {
+  citizen: '👥', tourist: '✈️', responder: '🚑', government: '🏛️'
+}
+
+export default function Header({
+  role, darkMode, onToggleDark, onRoleChange,
+  lastUpdated, systemOnline, notifCount, onRefresh, loading,
+}: Props) {
+  const badge = ROLE_BADGE[role]
+  const subtitle = ROLE_SUBTITLES[role]
+
+  const fmtTime = (d: Date) =>
+    d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+  const fmtDate = (d: Date) =>
+    d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
 
   return (
-    <header className="bg-white shadow-sm border-b border-gray-200">
-      <div className="flex items-center justify-between px-6 py-4">
-        {/* Left: Logo and breadcrumb */}
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">CL</span>
+    <header className={`flex-shrink-0 border-b px-5 ${
+      darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+    }`}>
+      {/* Top row */}
+      <div className="flex items-center justify-between h-14">
+        {/* Logo + title */}
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">📡</span>
             </div>
-            <h1 className="text-xl font-semibold text-gray-900">CrisisLens</h1>
+            <div>
+              <span className={`font-bold text-sm ${darkMode ? 'text-white' : 'text-gray-900'}`}>CrisisLens</span>
+              <span className="text-red-500 font-bold text-sm"> AI 2.0</span>
+            </div>
           </div>
-          
-          <div className="text-gray-400">|</div>
-          
-          <div className="flex items-center space-x-2">
-            <span className="text-2xl">{getRoleIcon(userRole || 'citizen')}</span>
-            <span className="text-lg font-medium capitalize text-gray-700">
-              {userRole} Dashboard
+          <div className={`h-5 w-px ${darkMode ? 'bg-gray-600' : 'bg-gray-300'}`} />
+          <div>
+            <span className={`text-sm font-medium ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+              {ROLE_TITLES[role]}
             </span>
-          </div>
-        </div>
-
-        {/* Center: Quick stats */}
-        <div className="hidden md:flex items-center space-x-6">
-          {dashboardStats && (
-            <>
-              <div className="flex items-center space-x-2 text-sm">
-                <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                <span className="text-gray-600">Total Events:</span>
-                <span className="font-semibold">{dashboardStats.totalEvents}</span>
-              </div>
-              
-              <div className="flex items-center space-x-2 text-sm">
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                <span className="text-gray-600">Verified:</span>
-                <span className="font-semibold">{dashboardStats.verified}</span>
-              </div>
-              
-              {dashboardStats.criticalEvents > 0 && (
-                <div className="flex items-center space-x-2 text-sm text-red-600">
-                  <AlertTriangle className="w-4 h-4" />
-                  <span className="font-semibold">{dashboardStats.criticalEvents} Critical</span>
-                </div>
-              )}
-            </>
-          )}
-        </div>
-
-        {/* Right: Status and controls */}
-        <div className="flex items-center space-x-4">
-          {/* Connection status */}
-          <div className="flex items-center space-x-2">
-            {isConnected ? (
-              <div className="flex items-center space-x-1 text-green-600">
-                <Wifi className="w-4 h-4" />
-                <span className="text-sm hidden sm:inline">Connected</span>
-              </div>
-            ) : (
-              <div className="flex items-center space-x-1 text-red-600">
-                <WifiOff className="w-4 h-4" />
-                <span className="text-sm hidden sm:inline">Disconnected</span>
-              </div>
+            {subtitle && (
+              <div className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{subtitle}</div>
             )}
           </div>
+        </div>
 
-          {/* Location indicator */}
-          {userLocation && (
-            <div className="text-sm text-gray-600 hidden sm:block">
-              📍 {userLocation}
+        {/* Right controls */}
+        <div className="flex items-center gap-3">
+          {/* System status */}
+          <div className="hidden md:flex items-center gap-1.5">
+            <span className={`w-2 h-2 rounded-full live-dot ${systemOnline ? 'bg-green-500' : 'bg-red-500'}`} />
+            <span className={`text-xs font-medium ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+              {systemOnline ? 'System Online' : 'Disconnected'}
+            </span>
+          </div>
+
+          {/* Location */}
+          <div className={`hidden md:flex items-center gap-1 text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+            <span>📍</span>
+            <span>Indonesia</span>
+          </div>
+
+          {/* Date */}
+          {lastUpdated && (
+            <div className={`hidden lg:flex items-center gap-1 text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+              <span>📅</span>
+              <span>{fmtDate(lastUpdated)}</span>
             </div>
           )}
 
-          {/* Notifications */}
-          <button className="relative p-2 text-gray-600 hover:bg-gray-100 rounded-lg">
-            <Bell className="w-5 h-5" />
-            <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full"></span>
+          {/* Auto-refresh indicator */}
+          {lastUpdated && (
+            <div className={`hidden md:flex items-center gap-1 text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+              <span>🔄</span>
+              <span>Updated {fmtTime(lastUpdated)}</span>
+            </div>
+          )}
+
+          {/* Refresh button */}
+          <button
+            onClick={onRefresh}
+            disabled={loading}
+            className={`text-xs px-3 py-1.5 rounded-lg font-medium transition-all ${
+              loading ? 'opacity-50 cursor-not-allowed' : ''
+            } ${darkMode ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}
+          >
+            {loading ? '⏳' : '🔄'} {loading ? 'Loading...' : 'Refresh'}
           </button>
 
-          {/* Settings dropdown */}
-          <div className="relative group">
-            <button className="p-2 text-gray-600 hover:bg-gray-100 rounded-lg">
-              <Settings className="w-5 h-5" />
-            </button>
-            
-            {/* Dropdown menu */}
-            <div className="absolute right-0 top-full mt-1 w-48 bg-white rounded-lg shadow-lg border opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-              <div className="py-2">
-                <button
-                  onClick={handleRoleChange}
-                  className="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                >
-                  <span className="mr-3">{getRoleIcon(userRole || 'citizen')}</span>
-                  Change Role
-                </button>
-                
-                <hr className="my-2" />
-                
-                <button
-                  onClick={handleLogout}
-                  className="flex items-center w-full px-4 py-2 text-sm text-red-600 hover:bg-red-50"
-                >
-                  <LogOut className="w-4 h-4 mr-3" />
-                  Logout
-                </button>
-              </div>
-            </div>
-          </div>
+          {/* Notification bell */}
+          <button className="relative p-1.5">
+            <span className={`text-lg ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>🔔</span>
+            {notifCount > 0 && (
+              <span className="absolute -top-0.5 -right-0.5 w-4 h-4 bg-red-500 rounded-full text-white text-xs flex items-center justify-center font-bold">
+                {Math.min(notifCount, 9)}
+              </span>
+            )}
+          </button>
 
-          {/* Role badge */}
-          <div className={`px-3 py-1 rounded-full text-sm font-medium border ${getRoleColor(userRole || 'citizen')}`}>
-            {userRole?.toUpperCase()}
+          {/* Dark mode toggle */}
+          <button
+            onClick={onToggleDark}
+            className={`p-1.5 rounded-lg transition-all ${
+              darkMode ? 'bg-gray-700 text-yellow-400 hover:bg-gray-600' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+            }`}
+            title="Toggle dark mode"
+          >
+            {darkMode ? '☀️' : '🌙'}
+          </button>
+
+          {/* Government badge */}
+          {badge && (
+            <span className={`text-xs font-bold px-3 py-1 rounded-lg ${badge.color} text-white`}>
+              {badge.label}
+            </span>
+          )}
+
+          {/* Role switcher */}
+          <div className="relative group">
+            <button className={`flex items-center gap-2 pl-2 pr-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+              darkMode ? 'bg-gray-700 text-gray-200 hover:bg-gray-600' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}>
+              <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-xs">
+                {ROLE_ICONS[role]}
+              </div>
+              <span>Welcome, {role.charAt(0).toUpperCase() + role.slice(1)}</span>
+              <span className="text-xs opacity-60">▾</span>
+            </button>
+            {/* Dropdown */}
+            <div className={`absolute right-0 top-full mt-1 w-44 rounded-xl shadow-lg border z-50 overflow-hidden hidden group-hover:block ${
+              darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+            }`}>
+              {ROLES.map(r => (
+                <button
+                  key={r}
+                  onClick={() => onRoleChange(r)}
+                  className={`w-full flex items-center gap-2 px-4 py-2.5 text-sm transition-all ${
+                    r === role
+                      ? darkMode ? 'bg-blue-900/40 text-blue-400' : 'bg-blue-50 text-blue-700'
+                      : darkMode ? 'text-gray-300 hover:bg-gray-700' : 'text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  <span>{ROLE_ICONS[r]}</span>
+                  <span className="capitalize font-medium">{r}</span>
+                  {r === role && <span className="ml-auto text-xs">✓</span>}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
     </header>
   )
 }
-
-export default Header

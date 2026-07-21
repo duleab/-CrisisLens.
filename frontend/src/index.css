@@ -1,161 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222.2 84% 4.9%;
-    --muted: 210 40% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96%;
-    --accent-foreground: 222.2 84% 4.9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
-    --radius: 0.5rem;
-  }
+html, body, #root { height: 100%; margin: 0; padding: 0; }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 222.2 84% 4.9%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 224.3 76.3% 94.1%;
-  }
+/* ── Live pulse dot ─────────────────────────── */
+@keyframes livePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+.live-dot { animation: livePulse 1.5s ease-in-out infinite; }
+
+/* ── Marker pulse ring (critical events) ────── */
+@keyframes markerRing {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+.marker-pulse::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  animation: markerRing 1.8s ease-out infinite;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+/* ── Number counter animation ───────────────── */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
+.kpi-number { animation: countUp 0.6s ease-out; }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
+/* ── Slide in from right ────────────────────── */
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(16px); }
+  to   { opacity: 1; transform: translateX(0); }
 }
+.slide-in-right { animation: slideInRight 0.35s ease-out; }
 
-::-webkit-scrollbar-track {
-  @apply bg-gray-100;
+/* ── Fade in ────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
+.fade-in { animation: fadeIn 0.4s ease-out; }
 
-::-webkit-scrollbar-thumb {
-  @apply bg-gray-300 rounded-full;
+/* ── Typing dots ────────────────────────────── */
+@keyframes typingBounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-6px); }
 }
+.typing-dot:nth-child(1) { animation: typingBounce 1s 0s infinite; }
+.typing-dot:nth-child(2) { animation: typingBounce 1s 0.15s infinite; }
+.typing-dot:nth-child(3) { animation: typingBounce 1s 0.3s infinite; }
 
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-gray-400;
+/* ── Custom scrollbar ───────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+.dark ::-webkit-scrollbar-thumb { background: #475569; }
+
+/* ── Leaflet popup override ─────────────────── */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15) !important;
+  padding: 0 !important;
+  overflow: hidden;
 }
+.leaflet-popup-content { margin: 0 !important; }
+.leaflet-popup-tip-container { display: none; }
 
-/* Loading animations */
-@keyframes pulse-ring {
-  0% {
-    transform: scale(0.33);
-  }
-  40%, 50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.2);
-  }
-}
-
-.animate-pulse-ring {
-  animation: pulse-ring 1.25s ease-in-out infinite;
-}
-
-/* Crisis severity colors */
-.severity-critical {
-  @apply bg-red-500 text-white;
-}
-
-.severity-high {
-  @apply bg-orange-500 text-white;
-}
-
-.severity-medium {
-  @apply bg-yellow-500 text-black;
-}
-
-.severity-low {
-  @apply bg-blue-500 text-white;
-}
-
-/* Role colors */
-.role-citizen {
-  @apply bg-blue-100 text-blue-800 border-blue-200;
-}
-
-.role-government {
-  @apply bg-purple-100 text-purple-800 border-purple-200;
-}
-
-.role-responder {
-  @apply bg-red-100 text-red-800 border-red-200;
-}
-
-.role-tourist {
-  @apply bg-green-100 text-green-800 border-green-200;
-}
-
-/* Leaflet map customizations */
-.leaflet-container {
-  height: 100%;
-  width: 100%;
-}
-
-.leaflet-popup-content {
-  font-family: inherit;
-}
-
-/* Custom map markers */
+/* ── Custom map marker ──────────────────────── */
 .crisis-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   border: 2px solid white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
+.crisis-marker:hover { transform: scale(1.2); }
 
-.crisis-marker-critical {
-  background-color: #ef4444;
+/* ── Smooth theme transition ────────────────── */
+*, *::before, *::after {
+  transition-property: background-color, border-color, color;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
 }
-
-.crisis-marker-high {
-  background-color: #f97316;
-}
-
-.crisis-marker-medium {
-  background-color: #eab308;
-}
-
-.crisis-marker-low {
-  background-color: #3b82f6;
+/* Exclude animations from the global transition */
+[class*="animate-"], [class*="kpi-number"], [class*="live-dot"] {
+  transition: none;
 }

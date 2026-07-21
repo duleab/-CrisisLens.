@@ -1,169 +1,129 @@
-import React from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
-import { useAppStore } from '../store/useAppStore'
-import { 
-  LayoutDashboard, 
-  Map, 
-  MessageSquare, 
-  BarChart3, 
-  Shield, 
-  AlertTriangle,
-  Users,
-  Plane,
-  Building2
-} from 'lucide-react'
+import type { CrisisEvent } from '../api'
 
-const Sidebar: React.FC = () => {
-  const location = useLocation()
-  const { userRole, crisisEvents } = useAppStore()
+export type Role = 'citizen' | 'tourist' | 'responder' | 'government'
 
-  // Role-specific navigation items
-  const getNavItems = () => {
-    const baseItems = [
-      {
-        icon: LayoutDashboard,
-        label: 'Dashboard',
-        path: `/dashboard/${userRole}`,
-        description: 'Overview and key metrics'
-      },
-      {
-        icon: Map,
-        label: 'Crisis Map',
-        path: `/dashboard/${userRole}#map`,
-        description: 'Geographic view of events'
-      },
-      {
-        icon: MessageSquare,
-        label: 'AI Assistant',
-        path: `/dashboard/${userRole}#chat`,
-        description: 'Role-based guidance'
-      },
-      {
-        icon: BarChart3,
-        label: 'Analytics',
-        path: `/dashboard/${userRole}#analytics`,
-        description: 'Trends and insights'
-      }
-    ]
+const NAV_ITEMS: Record<Role, { icon: string; label: string; sub: string }[]> = {
+  citizen: [
+    { icon: '⊞', label: 'Dashboard', sub: 'Overview and alerts' },
+    { icon: '△', label: 'Alerts', sub: 'Active Crisis Alerts' },
+    { icon: '◎', label: 'Map', sub: 'Live Crisis Map' },
+    { icon: '⊕', label: 'Resources', sub: 'Shelters, Hospitals, Helplines' },
+    { icon: '✦', label: 'Safety Tips', sub: 'Stay Safe, Stay Informed' },
+    { icon: '⊡', label: 'Report', sub: 'Send a Report' },
+    { icon: '⊙', label: 'Settings', sub: 'Preferences' },
+  ],
+  tourist: [
+    { icon: '⊞', label: 'Dashboard', sub: 'Overview & safety at a glance' },
+    { icon: '◎', label: 'Safety Map', sub: 'Real-time risk in Bali' },
+    { icon: '△', label: 'Travel Alerts', sub: 'Current warnings' },
+    { icon: '⊕', label: 'Places & Services', sub: 'Hospitals, shelters & more' },
+    { icon: '✦', label: 'Itinerary Safety', sub: 'Check your travel plan' },
+    { icon: '☀', label: 'Travel Tips', sub: 'Stay safe, stay informed' },
+    { icon: '⊗', label: 'Emergency Help', sub: 'Contact & resources' },
+    { icon: '⊙', label: 'Settings', sub: 'Preferences' },
+  ],
+  responder: [
+    { icon: '⊞', label: 'Dashboard', sub: 'Live overview' },
+    { icon: '△', label: 'Incidents', sub: 'Active & ongoing' },
+    { icon: '⊙', label: 'Operations', sub: 'Teams & resources' },
+    { icon: '⊕', label: 'Resources', sub: 'Assets & availability' },
+    { icon: '✉', label: 'Communications', sub: 'Alerts & messages' },
+    { icon: '⊡', label: 'Reports', sub: 'Generate reports' },
+    { icon: '⊙', label: 'Settings', sub: 'Preferences' },
+  ],
+  government: [
+    { icon: '⊞', label: 'Dashboard', sub: 'Overview and key metrics' },
+    { icon: '◎', label: 'Crisis Map', sub: 'Geographic view of events' },
+    { icon: '⊕', label: 'AI Assistant', sub: 'Role-based guidance' },
+    { icon: '∿', label: 'Analytics', sub: 'Trends and insights' },
+    { icon: '⊡', label: 'Command Center', sub: 'Strategic coordination' },
+  ],
+}
 
-    // Add role-specific items
-    switch (userRole) {
-      case 'government':
-        return [
-          ...baseItems,
-          {
-            icon: Building2,
-            label: 'Command Center',
-            path: `/dashboard/${userRole}#command`,
-            description: 'Strategic coordination'
-          }
-        ]
-      
-      case 'responder':
-        return [
-          ...baseItems,
-          {
-            icon: Shield,
-            label: 'Operations',
-            path: `/dashboard/${userRole}#operations`,
-            description: 'Tactical management'
-          }
-        ]
-      
-      case 'citizen':
-        return [
-          ...baseItems,
-          {
-            icon: Users,
-            label: 'Community',
-            path: `/dashboard/${userRole}#community`,
-            description: 'Local information'
-          }
-        ]
-      
-      case 'tourist':
-        return [
-          ...baseItems,
-          {
-            icon: Plane,
-            label: 'Travel Safety',
-            path: `/dashboard/${userRole}#travel`,
-            description: 'Destination guidance'
-          }
-        ]
-      
-      default:
-        return baseItems
-    }
-  }
+const ROLE_COLORS: Record<Role, string> = {
+  citizen: 'bg-blue-600',
+  tourist: 'bg-emerald-600',
+  responder: 'bg-red-600',
+  government: 'bg-indigo-600',
+}
 
-  const navItems = getNavItems()
-  const criticalEvents = crisisEvents.filter(e => e.severity === 'critical').length
+const FOOTER_TEXT: Record<Role, { title: string; subtitle: string }> = {
+  citizen: { title: 'Stay Informed, Stay Safe', subtitle: 'Together We Are Stronger' },
+  tourist: { title: 'Your Safety Our Priority', subtitle: 'Stay informed. Stay safe.' },
+  responder: { title: 'Responder Mode', subtitle: 'For authorized personnel only' },
+  government: { title: 'CrisisLens v2.0.1', subtitle: 'Real-time Crisis Intelligence' },
+}
+
+interface Props {
+  role: Role
+  darkMode: boolean
+  events: CrisisEvent[]
+}
+
+export default function Sidebar({ role, darkMode, events }: Props) {
+  const navItems = NAV_ITEMS[role]
+  const footer = FOOTER_TEXT[role]
+  const criticalCount = events.filter(e => e.severity === 'critical' || e.severity === 'high').length
 
   return (
-    <aside className="w-64 bg-white shadow-sm border-r border-gray-200">
-      <div className="flex flex-col h-full">
-        {/* Crisis status indicator */}
-        {criticalEvents > 0 && (
-          <div className="mx-4 mt-4 p-3 bg-red-50 border border-red-200 rounded-lg">
-            <div className="flex items-center space-x-2 text-red-700">
-              <AlertTriangle className="w-4 h-4" />
-              <span className="text-sm font-medium">
-                {criticalEvents} Critical Alert{criticalEvents > 1 ? 's' : ''}
-              </span>
+    <aside className={`w-60 flex-shrink-0 flex flex-col border-r h-full ${
+      darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+    }`}>
+      {/* Nav items */}
+      <nav className="flex-1 p-3 space-y-0.5 overflow-y-auto pt-4">
+        {navItems.map((item, i) => (
+          <button
+            key={item.label}
+            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-all group ${
+              i === 0
+                ? darkMode
+                  ? 'bg-blue-900/40 text-blue-400'
+                  : 'bg-blue-50 text-blue-700'
+                : darkMode
+                  ? 'text-gray-400 hover:bg-gray-700 hover:text-gray-200'
+                  : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+            }`}
+          >
+            <span className={`text-lg w-6 text-center flex-shrink-0 ${i === 0 ? 'opacity-100' : 'opacity-60 group-hover:opacity-100'}`}>
+              {item.icon}
+            </span>
+            <div className="min-w-0">
+              <div className={`text-sm font-medium ${i === 0 ? '' : ''}`}>{item.label}</div>
+              <div className={`text-xs truncate ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{item.sub}</div>
             </div>
+            {item.label === 'Alerts' && criticalCount > 0 && (
+              <span className="ml-auto bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0">
+                {criticalCount}
+              </span>
+            )}
+          </button>
+        ))}
+      </nav>
+
+      {/* Footer branding */}
+      <div className={`p-4 border-t ${darkMode ? 'border-gray-700' : 'border-gray-100'}`}>
+        <div className={`flex items-center gap-3 p-3 rounded-xl ${
+          role === 'responder'
+            ? 'bg-red-50 border border-red-200 dark:bg-red-900/20 dark:border-red-800'
+            : darkMode ? 'bg-gray-700' : 'bg-gray-50'
+        }`}>
+          <div className={`w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm ${ROLE_COLORS[role]}`}>
+            {role === 'citizen' ? '🛡' : role === 'tourist' ? '🌴' : role === 'responder' ? '🚑' : '🏛'}
           </div>
-        )}
-
-        {/* Navigation */}
-        <nav className="flex-1 px-4 py-6 space-y-2">
-          {navItems.map((item) => {
-            const Icon = item.icon
-            const isActive = location.pathname === item.path || 
-              (item.path.includes('#') && location.hash === item.path.split('#')[1])
-            
-            return (
-              <NavLink
-                key={item.path}
-                to={item.path}
-                className={`
-                  flex items-center space-x-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors
-                  ${isActive 
-                    ? 'bg-blue-50 text-blue-700 border border-blue-200' 
-                    : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
-                  }
-                `}
-              >
-                <Icon className="w-5 h-5" />
-                <div className="flex-1">
-                  <div className="font-medium">{item.label}</div>
-                  <div className="text-xs text-gray-500 mt-0.5">
-                    {item.description}
-                  </div>
-                </div>
-              </NavLink>
-            )
-          })}
-        </nav>
-
-        {/* Footer info */}
-        <div className="px-4 py-4 border-t border-gray-200">
-          <div className="text-xs text-gray-500 space-y-1">
-            <div>CrisisLens v2.0</div>
-            <div>Real-time Crisis Intelligence</div>
-            <div className="flex items-center space-x-1">
-              <div className={`w-2 h-2 rounded-full ${
-                crisisEvents.length > 0 ? 'bg-green-400' : 'bg-gray-400'
-              }`}></div>
-              <span>
-                {crisisEvents.length} active event{crisisEvents.length !== 1 ? 's' : ''}
-              </span>
-            </div>
+          <div className="min-w-0">
+            <div className={`text-xs font-semibold truncate ${
+              role === 'responder' ? 'text-red-700' : darkMode ? 'text-gray-200' : 'text-gray-700'
+            }`}>{footer.title}</div>
+            <div className={`text-xs truncate ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{footer.subtitle}</div>
           </div>
         </div>
+        {role === 'government' && (
+          <div className="flex items-center gap-1.5 mt-2 px-1">
+            <span className="w-2 h-2 rounded-full bg-green-500 live-dot"></span>
+            <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Active events</span>
+          </div>
+        )}
       </div>
     </aside>
   )
 }
-
-export default Sidebar

@@ -1,182 +1,47 @@
-# ======================================================================
-# CrisisLens Production Docker Compose Configuration
-# ======================================================================
-version: '3.8'
+version: "3.9"
 
 services:
-  # PostgreSQL Database
   postgres:
-    image: postgres:15-alpine
-    restart: unless-stopped
+    image: postgres:16-alpine
     environment:
-      POSTGRES_DB: crisislens
-      POSTGRES_USER: crisislens_user
-      POSTGRES_PASSWORD: ${DB_PASSWORD:-crisislens_secure_password}
+      POSTGRES_USER: ${POSTGRES_USER:-crisislens}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: ${POSTGRES_DB:-crisislens}
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./backend/app/db/init.sql:/docker-entrypoint-initdb.d/init.sql
-    ports:
-      - "5432:5432"
+      - pgdata:/var/lib/postgresql/data
+    # No host port needed — backend connects via Docker internal network (postgres:5432)
+    # Removing to avoid conflict with any local PostgreSQL installation
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U crisislens_user -d crisislens"]
-      interval: 10s
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-crisislens}"]
+      interval: 5s
       timeout: 5s
       retries: 5
 
-  # Redis Cache
-  redis:
-    image: redis:7-alpine
-    restart: unless-stopped
-    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-redis_secure_password}
-    volumes:
-      - redis_data:/data
-    ports:
-      - "6379:6379"
-    healthcheck:
-      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
-      interval: 10s
-      timeout: 3s
-      retries: 5
-
-  # FastAPI Backend
   backend:
     build:
       context: ./backend
-      dockerfile: Dockerfile
-    restart: unless-stopped
+    env_file:
+      - .env
     environment:
-      # Database
-      DATABASE_URL: postgresql://crisislens_user:${DB_PASSWORD:-crisislens_secure_password}@postgres:5432/crisislens
-      REDIS_URL: redis://:${REDIS_PASSWORD:-redis_secure_password}@redis:6379/0
-      
-      # API Keys (from environment or secrets)
-      GOOGLE_API_KEY: ${GOOGLE_API_KEY}
-      NEWSAPI_KEY: ${NEWSAPI_KEY}
-      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
-      
-      # Security
-      SECRET_KEY: ${SECRET_KEY:-your-super-secret-key-change-in-production}
-      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:5173}
-      
-      # Configuration
-      DEBUG: ${DEBUG:-false}
-      LOG_LEVEL: ${LOG_LEVEL:-info}
-    ports:
-      - "8000:8000"
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-crisislens}:${POSTGRES_PASSWORD:-changeme}@postgres:5432/${POSTGRES_DB:-crisislens}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173}
     depends_on:
       postgres:
         condition: service_healthy
-      redis:
-        condition: service_healthy
-    volumes:
-      - ./backend/logs:/app/logs
-      - ./backend/cache:/app/cache
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
+    ports:
+      - "8080:8000"
 
-  # React Frontend (Production Build)
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile
       args:
-        VITE_API_URL: ${FRONTEND_API_URL:-http://localhost:8000/api/v1}
-        VITE_WS_URL: ${FRONTEND_WS_URL:-ws://localhost:8000/ws}
-    restart: unless-stopped
-    ports:
-      - "3000:80"
+        # Vite bakes VITE_* vars at BUILD time — must be a build arg, not runtime env.
+        # From the browser's perspective, the backend is always at localhost:8080.
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8080}
     depends_on:
       - backend
-    environment:
-      - NODE_ENV=production
-
-  # Nginx Reverse Proxy (Production)
-  nginx:
-    image: nginx:alpine
-    restart: unless-stopped
     ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx/ssl:/etc/nginx/ssl
-      - ./frontend/dist:/var/www/html
-    depends_on:
-      - frontend
-      - backend
-    profiles:
-      - production
-
-  # Background Task Worker
-  worker:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    restart: unless-stopped
-    command: python -m app.workers.crisis_collector
-    environment:
-      # Same as backend
-      DATABASE_URL: postgresql://crisislens_user:${DB_PASSWORD:-crisislens_secure_password}@postgres:5432/crisislens
-      REDIS_URL: redis://:${REDIS_PASSWORD:-redis_secure_password}@redis:6379/0
-      GOOGLE_API_KEY: ${GOOGLE_API_KEY}
-      NEWSAPI_KEY: ${NEWSAPI_KEY}
-      LOG_LEVEL: ${LOG_LEVEL:-info}
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    volumes:
-      - ./backend/logs:/app/logs
-      - ./backend/cache:/app/cache
-
-  # Monitoring (Optional)
-  prometheus:
-    image: prom/prometheus:latest
-    restart: unless-stopped
-    ports:
-      - "9090:9090"
-    volumes:
-      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
-      - prometheus_data:/prometheus
-    command:
-      - '--config.file=/etc/prometheus/prometheus.yml'
-      - '--storage.tsdb.path=/prometheus'
-      - '--web.console.libraries=/etc/prometheus/console_libraries'
-      - '--web.console.templates=/etc/prometheus/consoles'
-    profiles:
-      - monitoring
-
-  grafana:
-    image: grafana/grafana:latest
-    restart: unless-stopped
-    ports:
-      - "3001:3000"
-    environment:
-      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
-    volumes:
-      - grafana_data:/var/lib/grafana
-      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
-      - ./monitoring/grafana/datasources:/etc/grafana/provisioning/datasources
-    depends_on:
-      - prometheus
-    profiles:
-      - monitoring
+      - "5173:5173"
 
 volumes:
-  postgres_data:
-    driver: local
-  redis_data:
-    driver: local
-  prometheus_data:
-    driver: local
-  grafana_data:
-    driver: local
-
-networks:
-  default:
-    name: crisislens_network
+  pgdata:

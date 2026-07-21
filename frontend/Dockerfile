@@ -1,33 +1,18 @@
-# Multi-stage build for React frontend
-FROM node:18-alpine as build
-
+FROM node:20-alpine AS build
 WORKDIR /app
-
-# Copy package files
-COPY package*.json ./
-
-# Install dependencies
-RUN npm ci --only=production
-
-# Copy source code
+COPY package.json package-lock.json* ./
+RUN npm install
 COPY . .
-
-# Build arguments for environment variables
-ARG VITE_API_URL
-ARG VITE_WS_URL
-
-# Build the app
+# VITE_* vars must be present at BUILD time (Vite bakes them into the JS bundle).
+# docker-compose passes this via build.args, not environment.
+ARG VITE_API_BASE_URL=http://localhost:8000
+ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
 RUN npm run build
 
-# Production stage
-FROM nginx:alpine
-
-# Copy built app
-COPY --from=build /app/dist /usr/share/nginx/html
-
-# Copy nginx configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+FROM node:20-alpine
+WORKDIR /app
+COPY --from=build /app/dist ./dist
+COPY --from=build /app/package.json .
+RUN npm install -g serve
+EXPOSE 5173
+CMD ["serve", "-s", "dist", "-l", "5173"]
