@@ -22,7 +22,16 @@ CrisisLens is an AI-powered crisis intelligence platform that automatically coll
 ## 📊 Latest Pipeline Run
 
 <!-- CRISISLENS_STATS_START -->
-*First run data will appear here after the first GitHub Actions execution.*
+## 📊 Latest Pipeline Run
+
+| Field | Value |
+|-------|-------|
+| **Last Run** | 2026-07-23 |
+| **Events Detected** | 46 |
+| **Sources Active** | 4 (USGS, BMKG, WHO, GDACS) |
+| **Top Crisis Type** | earthquake (26 events) |
+
+*🤖 Auto-updated daily by GitHub Actions — [View latest report](data/daily_report_2026-07-23.json)*
 <!-- CRISISLENS_STATS_END -->
 
 ---
