@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; margin: 0; padding: 0; }
+
+/* ── Live pulse dot ─────────────────────────── */
+@keyframes livePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+.live-dot { animation: livePulse 1.5s ease-in-out infinite; }
+
+/* ── Marker pulse ring (critical events) ────── */
+@keyframes markerRing {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+.marker-pulse::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  animation: markerRing 1.8s ease-out infinite;
+}
+
+/* ── Number counter animation ───────────────── */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.kpi-number { animation: countUp 0.6s ease-out; }
+
+/* ── Slide in from right ────────────────────── */
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.slide-in-right { animation: slideInRight 0.35s ease-out; }
+
+/* ── Fade in ────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.fade-in { animation: fadeIn 0.4s ease-out; }
+
+/* ── Typing dots ────────────────────────────── */
+@keyframes typingBounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-6px); }
+}
+.typing-dot:nth-child(1) { animation: typingBounce 1s 0s infinite; }
+.typing-dot:nth-child(2) { animation: typingBounce 1s 0.15s infinite; }
+.typing-dot:nth-child(3) { animation: typingBounce 1s 0.3s infinite; }
+
+/* ── Custom scrollbar ───────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+.dark ::-webkit-scrollbar-thumb { background: #475569; }
+
+/* ── Leaflet popup override ─────────────────── */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15) !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.leaflet-popup-content { margin: 0 !important; }
+.leaflet-popup-tip-container { display: none; }
+
+/* ── Custom map marker ──────────────────────── */
+.crisis-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.crisis-marker:hover { transform: scale(1.2); }
+
+/* ── Smooth theme transition ────────────────── */
+*, *::before, *::after {
+  transition-property: background-color, border-color, color;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+}
+/* Exclude animations from the global transition */
+[class*="animate-"], [class*="kpi-number"], [class*="live-dot"] {
+  transition: none;
+}

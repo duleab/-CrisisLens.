@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-crisislens}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: ${POSTGRES_DB:-crisislens}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # No host port needed — backend connects via Docker internal network (postgres:5432)
+    # Removing to avoid conflict with any local PostgreSQL installation
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-crisislens}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-crisislens}:${POSTGRES_PASSWORD:-changeme}@postgres:5432/${POSTGRES_DB:-crisislens}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8080:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # Vite bakes VITE_* vars at BUILD time — must be a build arg, not runtime env.
+        # From the browser's perspective, the backend is always at localhost:8080.
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8080}
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+
+volumes:
+  pgdata:
