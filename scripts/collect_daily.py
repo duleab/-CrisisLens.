@@ -12,10 +12,15 @@ No Docker needed — pure Python, runs free on GitHub's servers.
 import json
 import csv
 import re
+import sys
 import requests
 import feedparser
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Fix emoji output on Windows terminals
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
