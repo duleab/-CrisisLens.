@@ -6,3 +6,11 @@ __pycache__/
 virtualenv/
 venv/
 .venv/
+
+# Keep data/ folder tracked — daily JSON reports committed by GitHub Actions
+# Only exclude the temp count file used for commit messages
+data/.event_count.txt
+
+# Python cache
+*.egg-info/
+.pytest_cache/

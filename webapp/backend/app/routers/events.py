@@ -1,16 +1,17 @@
 import asyncio
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db import get_db
 from app.models import Event
-from app.schemas import EventOut, IngestResponse
+from app.schemas import EventOut, EventUpdate, IngestResponse
 from app.pipeline import (
     fetch_usgs, fetch_bmkg, fetch_gdacs, fetch_eonet,
     fetch_open_meteo, fetch_who_rss, fetch_newsapi, to_event_row
 )
 from app.config import settings
+from app.gemma import ask_crisislens
 
 router = APIRouter(prefix="/api", tags=["events"])
 
@@ -121,3 +122,37 @@ async def ingest(db: AsyncSession = Depends(get_db)):
 
     await db.commit()
     return IngestResponse(fetched=len(all_raw), saved=saved, skipped_duplicates=skipped)
+
+@router.patch("/events/{event_id}", response_model=EventOut)
+async def update_event(event_id: str, update_data: EventUpdate, db: AsyncSession = Depends(get_db)):
+    result = await db.execute(select(Event).where(Event.id == event_id))
+    event = result.scalar_one_or_none()
+    if not event:
+        raise HTTPException(status_code=404, detail="Event not found")
+    
+    if update_data.status is not None:
+        event.status = update_data.status
+        
+    await db.commit()
+    await db.refresh(event)
+    return event
+
+@router.post("/report")
+async def generate_report(db: AsyncSession = Depends(get_db), region: str = Query("sea")):
+    rows = (await db.execute(select(Event).order_by(Event.severity.desc(), Event.system_confidence.desc()))).scalars().all()
+    filtered = [r for r in rows if _is_in_region(r, region)][:50] # Top 50 most important events
+    
+    if not filtered:
+        return {"report": "No events found in the current region to generate a report."}
+        
+    # Build a prompt for Gemma
+    prompt = f"Please generate a strategic executive Situation Report based on the following {len(filtered)} recent crisis events. Group by severity and summarize the key threats, casualties, and required resources.\n\n"
+    for e in filtered:
+        prompt += f"- [{e.severity.upper()}] {e.crisis_type} at {e.location_name or e.country_iso} (Confidence: {int(e.system_confidence*100)}%). Mag: {e.magnitude}, Casualties: {e.casualties_estimated}.\n"
+        
+    try:
+        response, _ = await ask_crisislens(prompt, "government", "en", filtered)
+        return {"report": response}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+

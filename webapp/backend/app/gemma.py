@@ -62,16 +62,13 @@ def _call_gemma(prompt: str, model: str | None = None, temperature: float = 0.2,
         return "⚠️ No GOOGLE_API_KEY configured on the backend."
 
     try:
-        config_kwargs = dict(temperature=temperature, max_output_tokens=max_output_tokens)
-        try:
-            config_kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=0)
-        except Exception:
-            pass  # older SDK/model without thinking_config support — fine, skip it
-
         resp = client.models.generate_content(
             model=model or settings.deep_model,
             contents=prompt,
-            config=types.GenerateContentConfig(**config_kwargs),
+            config=types.GenerateContentConfig(
+                temperature=temperature,
+                max_output_tokens=max_output_tokens,
+            ),
         )
         if resp.text and resp.text.strip():
             return resp.text.strip()

@@ -1,0 +1,51 @@
+name: 🌍 CrisisLens Daily Pipeline
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC (1 PM WIB / Indonesia time)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Also allows you to trigger it manually from the GitHub Actions UI anytime
+
+jobs:
+  collect-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write   # needed to git push back to the repo
+
+    steps:
+      # Step 1: Download your repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: Install required packages
+      - name: Install dependencies
+        run: |
+          pip install feedparser requests python-dateutil
+
+      # Step 4: Run your collection script
+      - name: Run CrisisLens daily collection
+        run: python scripts/collect_daily.py
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+
+      # Step 5: Commit and push the new output files
+      - name: Commit daily report
+        run: |
+          git config --local user.email "119504348+duleab@users.noreply.github.com"
+          git config --local user.name "Dule_Abera"
+          git add data/
+          git add README.md
+          # Only commit if there are actual changes (avoids empty commits)
+          git diff --staged --quiet || git commit -m "🤖 CrisisLens daily report — $(date '+%Y-%m-%d'): $(cat data/.event_count.txt 2>/dev/null || echo '?') events detected"
+          git push

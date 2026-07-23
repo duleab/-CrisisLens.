@@ -6,8 +6,8 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     google_api_key: str = Field(default="", alias="GOOGLE_API_KEY")
-    deep_model: str = Field(default="gemma-2-9b-it", alias="CRISISLENS_DEEP_MODEL")
-    fast_model: str = Field(default="gemma-2-9b-it", alias="CRISISLENS_FAST_MODEL")
+    deep_model: str = Field(default="gemini-2.0-flash-lite", alias="CRISISLENS_DEEP_MODEL")
+    fast_model: str = Field(default="gemini-2.0-flash-lite", alias="CRISISLENS_FAST_MODEL")
 
     database_url: str = Field(
         default="postgresql+asyncpg://crisislens:changeme@localhost:5432/crisislens",

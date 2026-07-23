@@ -7,6 +7,7 @@ class EventOut(BaseModel):
     crisis_type: str
     sub_type: str | None = None
     severity: str
+    status: str
     system_confidence: float
     location_name: str | None = None
     country_iso: str | None = None
@@ -24,6 +25,8 @@ class EventOut(BaseModel):
     class Config:
         from_attributes = True
 
+class EventUpdate(BaseModel):
+    status: str | None = None
 
 class ChatRequest(BaseModel):
     question: str

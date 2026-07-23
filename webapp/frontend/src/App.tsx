@@ -1,4 +1,5 @@
 import { useEffect, useState, useCallback, useRef } from 'react'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import { fetchEvents, fetchStats, triggerIngest, type CrisisEvent, type Stats } from './api'
 import Sidebar from './components/Sidebar'
 import type { Role } from './components/Sidebar'
@@ -8,13 +9,17 @@ import CitizenDashboard from './pages/CitizenDashboard'
 import GovernmentDashboard from './pages/GovernmentDashboard'
 import ResponderDashboard from './pages/ResponderDashboard'
 import TouristDashboard from './pages/TouristDashboard'
+import MapPage from './pages/MapPage'
+import AssistantPage from './pages/AssistantPage'
+import AnalyticsPage from './pages/AnalyticsPage'
+import CommandCenterPage from './pages/CommandCenterPage'
 
 const AUTO_REFRESH_SECS = 60
 
 export default function App() {
   const [role, setRole] = useState<Role>(() => (localStorage.getItem('cl_role') as Role) || 'citizen')
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('cl_dark') === 'true')
-  const [region, setRegion] = useState<'sea' | 'world'>('sea')
+  const [region, setRegion] = useState<'sea' | 'world'>('world')
   const [timeFilter, setTimeFilter] = useState<'24h' | '7d' | '14d' | '30d' | 'all'>('all')
   const [events, setEvents] = useState<CrisisEvent[]>([])
   const [stats, setStats] = useState<Stats | null>(null)
@@ -110,19 +115,6 @@ export default function App() {
 
   const criticalCount = filteredEvents.filter(e => e.severity === 'critical' || e.severity === 'high').length
 
-  const renderDashboard = () => {
-    switch (role) {
-      case 'government':
-        return <GovernmentDashboard events={filteredEvents} stats={stats} darkMode={darkMode} region={region} />
-      case 'responder':
-        return <ResponderDashboard events={filteredEvents} stats={stats} darkMode={darkMode} region={region} />
-      case 'tourist':
-        return <TouristDashboard events={filteredEvents} stats={stats} darkMode={darkMode} region={region} />
-      default:
-        return <CitizenDashboard events={filteredEvents} stats={stats} darkMode={darkMode} loading={loading} onIngest={handleIngest} region={region} />
-    }
-  }
-
   return (
     <div className={`flex h-screen overflow-hidden ${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-900'}`}>
       {/* Sidebar */}
@@ -153,7 +145,21 @@ export default function App() {
 
         {/* Dashboard content */}
         <main className="flex-1 overflow-hidden">
-          {renderDashboard()}
+          <Routes>
+            <Route path="/" element={
+              role === 'government' ? <GovernmentDashboard events={filteredEvents} stats={stats} darkMode={darkMode} region={region} /> :
+              role === 'responder' ? <ResponderDashboard events={filteredEvents} stats={stats} darkMode={darkMode} region={region} /> :
+              role === 'tourist' ? <TouristDashboard events={filteredEvents} stats={stats} darkMode={darkMode} region={region} /> :
+              <CitizenDashboard events={filteredEvents} stats={stats} darkMode={darkMode} loading={loading} onIngest={handleIngest} region={region} />
+            } />
+            <Route path="/map" element={<MapPage events={filteredEvents} darkMode={darkMode} region={region} />} />
+            <Route path="/assistant" element={<AssistantPage darkMode={darkMode} initialRole={role} />} />
+            <Route path="/analytics" element={<AnalyticsPage events={filteredEvents} darkMode={darkMode} />} />
+            <Route path="/command-center" element={<CommandCenterPage events={filteredEvents} darkMode={darkMode} />} />
+            
+            {/* Fallback for other items for now */}
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
         </main>
       </div>
 

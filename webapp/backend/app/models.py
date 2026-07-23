@@ -26,6 +26,7 @@ class Event(Base):
     crisis_type: Mapped[str] = mapped_column(String, default="unknown")
     sub_type: Mapped[str | None] = mapped_column(String, nullable=True)
     severity: Mapped[str] = mapped_column(String, default="low")
+    status: Mapped[str] = mapped_column(String, default="new")
     system_confidence: Mapped[float] = mapped_column(Float, default=0.0)
     trust_score: Mapped[float] = mapped_column(Float, default=0.5)
 

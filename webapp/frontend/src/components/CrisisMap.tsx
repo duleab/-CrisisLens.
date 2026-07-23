@@ -1,6 +1,6 @@
 import { useEffect, useRef, createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, useMap, LayersControl } from 'react-leaflet'
 import { LatLngBounds, divIcon } from 'leaflet'
 import type { CrisisEvent } from '../api'
 import { SEVERITY_STYLE, CRISIS_ICON, DEFAULT_ICON, getSeverityStyle, getCrisisIcon } from '../constants'
@@ -89,9 +89,11 @@ interface Props {
   events: CrisisEvent[]
   darkMode: boolean
   region?: 'sea' | 'world'
+  selectedEventId?: string
+  onSelectEvent?: (id: string) => void
 }
 
-export default function CrisisMap({ events, darkMode, region = 'sea' }: Props) {
+export default function CrisisMap({ events, darkMode, region = 'sea', selectedEventId, onSelectEvent }: Props) {
   const geoEvents = events.filter(e => e.latitude != null && e.longitude != null)
 
   // Track coordinate frequency to apply slight radial jitter so markers at exact same spot don't overlap completely
@@ -125,7 +127,45 @@ export default function CrisisMap({ events, darkMode, region = 'sea' }: Props) {
         style={{ height: '100%', width: '100%', borderRadius: '0' }}
         zoomControl={true}
       >
-        <TileLayer url={tileUrl} attribution={tileAttr} />
+        <LayersControl position="topright">
+          <LayersControl.BaseLayer checked={!darkMode} name="Street (Voyager/Carto)">
+            <TileLayer
+              url={darkMode ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png' : 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'}
+              attribution={tileAttr}
+            />
+          </LayersControl.BaseLayer>
+          <LayersControl.BaseLayer checked={darkMode} name="Dark (Carto)">
+            <TileLayer
+              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+              attribution={tileAttr}
+            />
+          </LayersControl.BaseLayer>
+          <LayersControl.BaseLayer name="Satellite (Esri)">
+            <TileLayer
+              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+              attribution="Tiles &copy; Esri"
+            />
+          </LayersControl.BaseLayer>
+          <LayersControl.BaseLayer name="Terrain (OpenTopoMap)">
+            <TileLayer
+              url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+              attribution="&copy; OpenTopoMap"
+            />
+          </LayersControl.BaseLayer>
+          <LayersControl.BaseLayer name="Hybrid (Satellite + Labels)">
+            <>
+              <TileLayer
+                url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+                attribution="Tiles &copy; Esri"
+              />
+              <TileLayer
+                url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
+                attribution="Labels &copy; Esri"
+              />
+            </>
+          </LayersControl.BaseLayer>
+        </LayersControl>
+
         <FitBounds events={geoEvents} region={region} />
 
         {jitteredEvents.map(e => {
@@ -136,6 +176,9 @@ export default function CrisisMap({ events, darkMode, region = 'sea' }: Props) {
               key={e.id}
               position={[e.latitude!, e.longitude!]}
               icon={createMarkerIcon(e.crisis_type, e.severity, e.system_confidence, e.official_confirmed)}
+              eventHandlers={{
+                click: () => onSelectEvent?.(e.id)
+              }}
             >
               <Popup maxWidth={280}>
                 <div style={{ fontFamily: 'Inter, sans-serif', padding: '10px', minWidth: '220px' }}>

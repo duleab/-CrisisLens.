@@ -6,7 +6,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 from app.config import settings
 from app.db import init_db, AsyncSessionLocal
-from app.routers import events, chat
+from app.routers import events, chat, analytics
 from app.pipeline import (
     fetch_usgs, fetch_bmkg, fetch_gdacs, fetch_eonet,
     fetch_open_meteo, fetch_who_rss, fetch_newsapi, to_event_row
@@ -75,13 +75,14 @@ app = FastAPI(title="CrisisLens API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origins.split(","),
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 app.include_router(events.router)
 app.include_router(chat.router)
+app.include_router(analytics.router)
 
 
 @app.get("/health")

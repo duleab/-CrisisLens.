@@ -1,42 +1,43 @@
+import { NavLink } from 'react-router-dom'
 import type { CrisisEvent } from '../api'
 
 export type Role = 'citizen' | 'tourist' | 'responder' | 'government'
 
-const NAV_ITEMS: Record<Role, { icon: string; label: string; sub: string }[]> = {
+const NAV_ITEMS: Record<Role, { icon: string; label: string; sub: string; path: string }[]> = {
   citizen: [
-    { icon: '⊞', label: 'Dashboard', sub: 'Overview and alerts' },
-    { icon: '△', label: 'Alerts', sub: 'Active Crisis Alerts' },
-    { icon: '◎', label: 'Map', sub: 'Live Crisis Map' },
-    { icon: '⊕', label: 'Resources', sub: 'Shelters, Hospitals, Helplines' },
-    { icon: '✦', label: 'Safety Tips', sub: 'Stay Safe, Stay Informed' },
-    { icon: '⊡', label: 'Report', sub: 'Send a Report' },
-    { icon: '⊙', label: 'Settings', sub: 'Preferences' },
+    { icon: '⊞', label: 'Dashboard', sub: 'Overview and alerts', path: '/' },
+    { icon: '△', label: 'Alerts', sub: 'Active Crisis Alerts', path: '/alerts' },
+    { icon: '◎', label: 'Map', sub: 'Live Crisis Map', path: '/map' },
+    { icon: '⊕', label: 'Resources', sub: 'Shelters, Hospitals, Helplines', path: '/resources' },
+    { icon: '✦', label: 'Safety Tips', sub: 'Stay Safe, Stay Informed', path: '/safety-tips' },
+    { icon: '⊡', label: 'Report', sub: 'Send a Report', path: '/report' },
+    { icon: '⊙', label: 'Settings', sub: 'Preferences', path: '/settings' },
   ],
   tourist: [
-    { icon: '⊞', label: 'Dashboard', sub: 'Overview & safety at a glance' },
-    { icon: '◎', label: 'Safety Map', sub: 'Real-time risk in Bali' },
-    { icon: '△', label: 'Travel Alerts', sub: 'Current warnings' },
-    { icon: '⊕', label: 'Places & Services', sub: 'Hospitals, shelters & more' },
-    { icon: '✦', label: 'Itinerary Safety', sub: 'Check your travel plan' },
-    { icon: '☀', label: 'Travel Tips', sub: 'Stay safe, stay informed' },
-    { icon: '⊗', label: 'Emergency Help', sub: 'Contact & resources' },
-    { icon: '⊙', label: 'Settings', sub: 'Preferences' },
+    { icon: '⊞', label: 'Dashboard', sub: 'Overview & safety at a glance', path: '/' },
+    { icon: '◎', label: 'Safety Map', sub: 'Real-time risk in Bali', path: '/map' },
+    { icon: '△', label: 'Travel Alerts', sub: 'Current warnings', path: '/alerts' },
+    { icon: '⊕', label: 'Places & Services', sub: 'Hospitals, shelters & more', path: '/places' },
+    { icon: '✦', label: 'Itinerary Safety', sub: 'Check your travel plan', path: '/itinerary' },
+    { icon: '☀', label: 'Travel Tips', sub: 'Stay safe, stay informed', path: '/tips' },
+    { icon: '⊗', label: 'Emergency Help', sub: 'Contact & resources', path: '/emergency' },
+    { icon: '⊙', label: 'Settings', sub: 'Preferences', path: '/settings' },
   ],
   responder: [
-    { icon: '⊞', label: 'Dashboard', sub: 'Live overview' },
-    { icon: '△', label: 'Incidents', sub: 'Active & ongoing' },
-    { icon: '⊙', label: 'Operations', sub: 'Teams & resources' },
-    { icon: '⊕', label: 'Resources', sub: 'Assets & availability' },
-    { icon: '✉', label: 'Communications', sub: 'Alerts & messages' },
-    { icon: '⊡', label: 'Reports', sub: 'Generate reports' },
-    { icon: '⊙', label: 'Settings', sub: 'Preferences' },
+    { icon: '⊞', label: 'Dashboard', sub: 'Live overview', path: '/' },
+    { icon: '△', label: 'Incidents', sub: 'Active & ongoing', path: '/incidents' },
+    { icon: '⊙', label: 'Operations', sub: 'Teams & resources', path: '/operations' },
+    { icon: '⊕', label: 'Resources', sub: 'Assets & availability', path: '/resources' },
+    { icon: '✉', label: 'Communications', sub: 'Alerts & messages', path: '/communications' },
+    { icon: '⊡', label: 'Reports', sub: 'Generate reports', path: '/reports' },
+    { icon: '⊙', label: 'Settings', sub: 'Preferences', path: '/settings' },
   ],
   government: [
-    { icon: '⊞', label: 'Dashboard', sub: 'Overview and key metrics' },
-    { icon: '◎', label: 'Crisis Map', sub: 'Geographic view of events' },
-    { icon: '⊕', label: 'AI Assistant', sub: 'Role-based guidance' },
-    { icon: '∿', label: 'Analytics', sub: 'Trends and insights' },
-    { icon: '⊡', label: 'Command Center', sub: 'Strategic coordination' },
+    { icon: '⊞', label: 'Dashboard', sub: 'Overview and key metrics', path: '/' },
+    { icon: '◎', label: 'Crisis Map', sub: 'Geographic view of events', path: '/map' },
+    { icon: '⊕', label: 'AI Assistant', sub: 'Role-based guidance', path: '/assistant' },
+    { icon: '∿', label: 'Analytics', sub: 'Trends and insights', path: '/analytics' },
+    { icon: '⊡', label: 'Command Center', sub: 'Strategic coordination', path: '/command-center' },
   ],
 }
 
@@ -71,11 +72,12 @@ export default function Sidebar({ role, darkMode, events }: Props) {
     }`}>
       {/* Nav items */}
       <nav className="flex-1 p-3 space-y-0.5 overflow-y-auto pt-4">
-        {navItems.map((item, i) => (
-          <button
+        {navItems.map((item) => (
+          <NavLink
             key={item.label}
-            className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-all group ${
-              i === 0
+            to={item.path}
+            className={({ isActive }) => `w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-all group ${
+              isActive
                 ? darkMode
                   ? 'bg-blue-900/40 text-blue-400'
                   : 'bg-blue-50 text-blue-700'
@@ -84,19 +86,23 @@ export default function Sidebar({ role, darkMode, events }: Props) {
                   : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
             }`}
           >
-            <span className={`text-lg w-6 text-center flex-shrink-0 ${i === 0 ? 'opacity-100' : 'opacity-60 group-hover:opacity-100'}`}>
-              {item.icon}
-            </span>
-            <div className="min-w-0">
-              <div className={`text-sm font-medium ${i === 0 ? '' : ''}`}>{item.label}</div>
-              <div className={`text-xs truncate ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{item.sub}</div>
-            </div>
-            {item.label === 'Alerts' && criticalCount > 0 && (
-              <span className="ml-auto bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0">
-                {criticalCount}
-              </span>
+            {({ isActive }) => (
+              <>
+                <span className={`text-lg w-6 text-center flex-shrink-0 ${isActive ? 'opacity-100' : 'opacity-60 group-hover:opacity-100'}`}>
+                  {item.icon}
+                </span>
+                <div className="min-w-0">
+                  <div className={`text-sm font-medium ${isActive ? '' : ''}`}>{item.label}</div>
+                  <div className={`text-xs truncate ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{item.sub}</div>
+                </div>
+                {item.label === 'Alerts' && criticalCount > 0 && (
+                  <span className="ml-auto bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0">
+                    {criticalCount}
+                  </span>
+                )}
+              </>
             )}
-          </button>
+          </NavLink>
         ))}
       </nav>
 
