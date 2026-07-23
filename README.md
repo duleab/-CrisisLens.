@@ -842,3 +842,17 @@ CrisisLens represents the future of disaster response — where AI transforms sc
 [![Gemma AI](https://img.shields.io/badge/Gemma-AI-4285F4?logo=google)](https://ai.google.dev/gemma)
 
 </div>
+
+
+<!-- CRISISLENS_STATS_START -->
+## 📊 Latest Pipeline Run
+
+| Field | Value |
+|-------|-------|
+| **Last Run** | 2026-07-23 |
+| **Events Detected** | 54 |
+| **Sources Active** | 5 (USGS, BMKG, ReliefWeb, WHO, GDACS) |
+| **Top Crisis Type** | earthquake (30 events) |
+
+*🤖 Auto-updated daily by GitHub Actions — [View latest report](data/daily_report_2026-07-23.json)*
+<!-- CRISISLENS_STATS_END -->

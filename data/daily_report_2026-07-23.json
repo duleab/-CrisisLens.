@@ -1,0 +1,566 @@
+{
+  "date": "2026-07-23",
+  "collected_at": "2026-07-23T03:20:54.536333+00:00",
+  "total_events": 54,
+  "by_source": {
+    "USGS": 19,
+    "BMKG": 1,
+    "ReliefWeb": 8,
+    "WHO": 11,
+    "GDACS": 15
+  },
+  "by_type": {
+    "earthquake": 30,
+    "volcano": 1,
+    "other": 3,
+    "wildfire": 2,
+    "disease": 9,
+    "flood": 7,
+    "storm": 2
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 78 km WSW of Puerto Casma, Peru",
+      "summary": "M 4.6 - 78 km WSW of Puerto Casma, Peru. Time  2026-07-23 02:55:40 UTC  2026-07-23 02:55:40 UTC at epicenter  Location  9.660&deg;S 79.074&deg;W  Depth  62.20 km (38.65 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2l3",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 33 km NNW of El Cardo, Peru",
+      "summary": "M 4.8 - 33 km NNW of El Cardo, Peru. Time  2026-07-23 02:38:25 UTC  2026-07-23 02:38:25 UTC at epicenter  Location  16.310&deg;S 72.802&deg;W  Depth  96.29 km (59.83 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ku",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 72 km S of Calama, Chile",
+      "summary": "M 4.7 - 72 km S of Calama, Chile. Time  2026-07-23 01:56:00 UTC  2026-07-23 01:56:00 UTC at epicenter  Location  23.110&deg;S 68.987&deg;W  Depth  95.96 km (59.63 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2kg",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 17 km NW of Hihifo, Tonga",
+      "summary": "M 4.9 - 17 km NW of Hihifo, Tonga. Time  2026-07-22 21:58:51 UTC  2026-07-22 21:58:51 UTC at epicenter  Location  15.832&deg;S 173.903&deg;W  Depth  71.25 km (44.27 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2jk",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 104 km ENE of Port-Olry, Vanuatu",
+      "summary": "M 4.9 - 104 km ENE of Port-Olry, Vanuatu. Time  2026-07-22 21:42:50 UTC  2026-07-22 21:42:50 UTC at epicenter  Location  14.732&deg;S 167.994&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2jh",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - Kermadec Islands, New Zealand",
+      "summary": "M 5.0 - Kermadec Islands, New Zealand. Time  2026-07-22 21:03:02 UTC  2026-07-22 21:03:02 UTC at epicenter  Location  29.618&deg;S 177.923&deg;W  Depth  46.90 km (29.14 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2j3",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - Kermadec Islands, New Zealand",
+      "summary": "M 4.9 - Kermadec Islands, New Zealand. Time  2026-07-22 20:07:27 UTC  2026-07-22 20:07:27 UTC at epicenter  Location  29.433&deg;S 177.101&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ig",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - Kermadec Islands region",
+      "summary": "M 4.8 - Kermadec Islands region. Time  2026-07-22 18:29:39 UTC  2026-07-22 18:29:39 UTC at epicenter  Location  31.542&deg;S 179.924&deg;E  Depth  346.44 km (215.27 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2hm",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 96 km SSE of Akhiok, Alaska",
+      "summary": "M 4.9 - 96 km SSE of Akhiok, Alaska. ShakeMap -  IV    DYFI? -  II     Time  2026-07-22 18:13:23 UTC  2026-07-22 18:13:23 UTC at epicenter  Location  56.199&deg;N 153.375&deg;W  Depth  16.20 km (10.07 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026okmwzn",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 61 km SSW of San Pedro de Atacama, Chile",
+      "summary": "M 5.1 - 61 km SSW of San Pedro de Atacama, Chile. Time  2026-07-22 17:34:36 UTC  2026-07-22 17:34:36 UTC at epicenter  Location  23.377&deg;S 68.527&deg;W  Depth  108.73 km (67.56 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2h9",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 200 km W of Abepura, Indonesia",
+      "summary": "M 4.9 - 200 km W of Abepura, Indonesia. Time  2026-07-22 14:50:42 UTC  2026-07-22 14:50:42 UTC at epicenter  Location  2.560&deg;S 138.830&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2gh",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 103 km S of San Pedro de Atacama, Chile",
+      "summary": "M 4.6 - 103 km S of San Pedro de Atacama, Chile. Time  2026-07-22 11:37:17 UTC  2026-07-22 11:37:17 UTC at epicenter  Location  23.837&deg;S 68.322&deg;W  Depth  126.09 km (78.35 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2g0",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 89 km NW of Finschhafen, Papua New Guinea",
+      "summary": "M 4.7 - 89 km NW of Finschhafen, Papua New Guinea. Time  2026-07-22 10:58:32 UTC  2026-07-22 10:58:32 UTC at epicenter  Location  5.912&deg;S 147.365&deg;E  Depth  106.53 km (66.19 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fu",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 66 km SW of Puerto Madero, Mexico",
+      "summary": "M 4.5 - 66 km SW of Puerto Madero, Mexico. Time  2026-07-22 10:24:53 UTC  2026-07-22 10:24:53 UTC at epicenter  Location  14.345&deg;N 92.902&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fq",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 11 km NW of Sugal, Philippines",
+      "summary": "M 4.9 - 11 km NW of Sugal, Philippines. DYFI? -  II     Time  2026-07-22 09:47:20 UTC  2026-07-22 09:47:20 UTC at epicenter  Location  5.733&deg;N 125.390&deg;E  Depth  64.48 km (40.06 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fj",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 121 km NW of Vallenar, Chile",
+      "summary": "M 5.1 - 121 km NW of Vallenar, Chile. Time  2026-07-22 09:34:22 UTC  2026-07-22 09:34:22 UTC at epicenter  Location  27.867&deg;S 71.701&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fd",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 208 km W of Abepura, Indonesia",
+      "summary": "M 4.9 - 208 km W of Abepura, Indonesia. Time  2026-07-22 06:46:40 UTC  2026-07-22 06:46:40 UTC at epicenter  Location  2.635&deg;S 138.760&deg;E  Depth  21.59 km (13.41 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ei",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 55 km WSW of Langsa, Indonesia",
+      "summary": "M 5.0 - 55 km WSW of Langsa, Indonesia. DYFI? -  IV     Time  2026-07-22 04:18:22 UTC  2026-07-22 04:18:22 UTC at epicenter  Location  4.244&deg;N 97.524&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2dz",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 124 km SE of Kuril’sk, Russia",
+      "summary": "M 4.6 - 124 km SE of Kuril’sk, Russia. Time  2026-07-22 03:45:49 UTC  2026-07-22 03:45:49 UTC at epicenter  Location  44.421&deg;N 148.965&deg;E  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2dv",
+      "published": "2026-07-23",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M3.7 — Pusat gempa berada di laut 26 km utara Kota Sorong",
+      "summary": "Magnitude 3.7, Depth 10 km, Location: Pusat gempa berada di laut 26 km utara Kota Sorong. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "23 Jul 2026",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 3.7
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Earthquakes in Venezuela: Situation Report #29 (22 July 2026, Time: 09:00 pm)",
+      "summary": "Earthquakes in Venezuela: Situation Report #29 (22 July 2026, Time: 09:00 pm). Country: Venezuela (Bolivarian Republic of) \n                                       Source: UN Office for the Coordination of Humanitarian Affairs \n                                                                                                   \n                         Please refer to the attached file. \n                          Situation Report No. 29   Earthquakes in Venezuela   22 July 2026   Time: 9:00 pm  \n  Highlights  \n   Authorities report 1,463 aftershocks  since the 7.2 and 7.5 magnitude earthquakes th",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/earthquakes-venezuela-situation-report-29-22-july-2026-time-0900-pm",
+      "published": "Thu, 23 Jul 2026 03:09:37 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "volcano",
+      "title": "Philippines: Mayon Volcano Summary of 24Hr Observation 23 July 2026 12:00 AM [EN/TL]",
+      "summary": "Philippines: Mayon Volcano Summary of 24Hr Observation 23 July 2026 12:00 AM [EN/TL]. Country: Philippines \n                                       Source: Philippine Institute of Volcanology and Seismology \n                                                                                 \n                         Please refer to the attached Infographic.",
+      "url": "https://reliefweb.int/report/philippines/mayon-volcano-summary-24hr-observation-23-july-2026-1200-am-entl",
+      "published": "Thu, 23 Jul 2026 02:28:31 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Venezuela Earthquakes: Pregnant Women and New Mothers Face Growing Health Risks as about 130 Babies Born Every Day",
+      "summary": "Venezuela Earthquakes: Pregnant Women and New Mothers Face Growing Health Risks as about 130 Babies Born Every Day. Country: Venezuela (Bolivarian Republic of) \n                                       Source: Save the Children \n                                                                                                                  CARACAS, 23 July 2026 –  Thousands of pregnant women and new mothers require access to healthcare, nutritious food and safe shelter one month after two devastating earthquakes damaged health facilities and displaced  about 21,000 people  in Venezuela, Save th",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-earthquakes-pregnant-women-and-new-mothers-face-growing-health-risks-about-130-babies-born-every-day",
+      "published": "Thu, 23 Jul 2026 02:01:00 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Philippines: DSWD DROMIC Report #74 on the Effects of Mw 7.8 Earthquake Incident in Maasim, Sarangani as of 22 July 2026, 6PM",
+      "summary": "Philippines: DSWD DROMIC Report #74 on the Effects of Mw 7.8 Earthquake Incident in Maasim, Sarangani as of 22 July 2026, 6PM. Country: Philippines \n                                       Source: Government of the Philippines \n                                                                                                   \n                         Please refer to the attached file.",
+      "url": "https://reliefweb.int/report/philippines/dswd-dromic-report-74-effects-mw-78-earthquake-incident-maasim-sarangani-22-july-2026-6pm",
+      "published": "Thu, 23 Jul 2026 01:59:31 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "other",
+      "title": "Across Borders and Prison Walls: Keeping Families Connected During the Libya–Chad Conflict",
+      "summary": "Across Borders and Prison Walls: Keeping Families Connected During the Libya–Chad Conflict. Countries: Libya, Chad \n                                       Source: International Committee of the Red Cross \n                                                                                                Long before the crises that followed 2011, the International Committee of the Red Cross (ICRC) had already built a long and sometimes difficult history of humanitarian engagement in Libya and across its borders.  \n One important chapter began during the Libya–Chad conflict, which lasted from 1978 t",
+      "url": "https://reliefweb.int/report/libya/across-borders-and-prison-walls-keeping-families-connected-during-libya-chad-conflict",
+      "published": "Thu, 23 Jul 2026 01:29:25 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "wildfire",
+      "title": "DZA: Fire - 07-2026 - Algeria: Wildfires – July 2026 (2026-07-22)",
+      "summary": "DZA: Fire - 07-2026 - Algeria: Wildfires – July 2026 (2026-07-22). Country: Algeria \n                                       Sources: Croissant-Rouge Algérien, International Federation of Red Cross and Red Crescent Societies \n                                                                                                   \n                         Please refer to the attached file. \n                          Description  \n On 18 July 2026, the wildfire emergency in Algeria reached a significant operational peak, with 154 forest, vegetation and agricultural fires recorded within 24 hours across",
+      "url": "https://reliefweb.int/report/algeria/dza-fire-07-2026-algeria-wildfires-july-2026-2026-07-22",
+      "published": "Thu, 23 Jul 2026 01:18:39 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Venezuela | Earthquake - Operation Update #1 (MDRVE015)",
+      "summary": "Venezuela | Earthquake - Operation Update #1 (MDRVE015). Country: Venezuela (Bolivarian Republic of) \n                                       Source: International Federation of Red Cross and Red Crescent Societies \n                                                                                                   \n                         Please refer to the attached file. \n                          A. SITUATION ANALYSIS   Description of the crisis  \n On 24 June 2026, two powerful earthquakes struck north-central Venezuela in rapid succession, with preliminary magnitudes of 7.2 and 7.5. Authori",
+      "url": "https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-earthquake-operation-update-1-mdrve015",
+      "published": "Thu, 23 Jul 2026 01:09:14 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "ReliefWeb",
+      "trust_score": 0.95,
+      "crisis_type": "other",
+      "title": "Eswatini | Drought: Early Action Protocol Annual Report (EAP №: EAP2025CO00 Operation №: MDRSZ005), March 2026",
+      "summary": "Eswatini | Drought: Early Action Protocol Annual Report (EAP №: EAP2025CO00 Operation №: MDRSZ005), March 2026. Country: Eswatini \n                                       Source: International Federation of Red Cross and Red Crescent Societies \n                                                                                                   \n                         Please refer to the attached file. \n                          SUMMARY OF THE EARLY ACTION PROTOCOL  \n The IFRC Disaster Response Emergency Fund (DREF) has allocated CHF 546,685 for the implementation of anticipatory actions aimed a",
+      "url": "https://reliefweb.int/report/eswatini/eswatini-drought-early-action-protocol-annual-report-eap-no-eap2025co00-operation-no-mdrsz005-march-2026",
+      "published": "Thu, 23 Jul 2026 00:59:06 +0000",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Road deaths fall by 21% globally but stronger action is needed to save lives",
+      "summary": "Road deaths fall by 21% globally but stronger action is needed to save lives. Despite the addition of more than one billion motor-vehicles to the world&rsquo;s roads, the global rate of road traffic deaths declined by 21% between 2011 and 2025, according to new data released by the World Health Organization (WHO).    The world has experienced profound changes in road traffic during this time with the emergence of new modes of transport and a sharp rise in motorcycle use. Despite this progress, however, road traffic crashes still claimed 1.16 million people's lives in 2025. Road traffic injurie",
+      "url": "https://www.who.int/news/item/20-07-2026-road-deaths-fall-by-21--globally-but-stronger-action-is-needed-to-save-lives",
+      "published": "Mon, 20 Jul 2026 07:09:01 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Global childhood immunization coverage inches forward despite conflict and hesitancy – UNICEF, WHO",
+      "summary": "Global childhood immunization coverage inches forward despite conflict and hesitancy – UNICEF, WHO. In 2025, 90% of infants globally &ndash; or nearly 116 million &ndash; received at least one dose of a diphtheria, tetanus and pertussis (DTP) vaccine, and 85% &ndash; or 110 million &ndash; completed the full three-dose series, according to the annual WHO-UNICEF Estimates of National Immunization Coverage (WUENIC) released today.&nbsp;&nbsp;  While both indicators rose by one percentage point from the previous year, global coverage remains one point below 2019 levels &ndash; hovering within the",
+      "url": "https://www.who.int/news/item/15-07-2026-global-childhood-immunization-coverage-inches-forward-despite-conflict-and-hesitancy---unicef--who",
+      "published": "Wed, 15 Jul 2026 00:01:54 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
+      "summary": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing. Today, the World Health Organization (WHO)  has added the first molecular diagnostic test for Bundibugyo virus (BDBV) to its Emergency Use Listing (EUL) . The test detects the virus by identifying its genetic material in blood samples, helping confirm infection rapidly and accurately.  WHO&rsquo;s EUL procedure assesses the quality, safety and performance of essential health products based on the available evidence, while ensuring they meet minimum international standards and address the needs of low- and m",
+      "url": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing",
+      "published": "Thu, 02 Jul 2026 16:21:23 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO urges scale up of newborn screening to improve early detection and care of birth defects",
+      "summary": "WHO urges scale up of newborn screening to improve early detection and care of birth defects. The World Health Organization (WHO) today calls on countries to expand newborn screening for birth defects, highlighting how early detection and treatment can save lives and reduce lifelong disability for millions of children.  A new WHO report,  Strengthening capacity for newborn screening, diagnosis and management of birth defects , identifies newborn screening as an important opportunity to accelerate progress in child survival.  Many conditions can be successfully treated if identified early after",
+      "url": "https://www.who.int/news/item/23-06-2026-who-urges-scale-up-of-newborn-screening-to-improve-early-detection-and-care-of-birth-defects",
+      "published": "Tue, 23 Jun 2026 10:01:11 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO issues comprehensive guidelines on filovirus disease, including Ebola and Marburg disease",
+      "summary": "WHO issues comprehensive guidelines on filovirus disease, including Ebola and Marburg disease. As the Democratic Republic of the Congo is battling an Ebola disease outbreak caused by the Bundibugyo virus, the World Health Organization (WHO) has released its first comprehensive guidelines for the clinical management of filovirus disease which include all types of Ebola and Marburg viruses. The new guidelines highlight the importance of early supportive care to improve patient survival and health outcomes, outlining 16 evidence-based recommendations.",
+      "url": "https://www.who.int/news/item/17-06-2026-who-issues-comprehensive-guidelines-on-filovirus-disease--including-ebola-and-marburg-disease",
+      "published": "Wed, 17 Jun 2026 13:30:57 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Open letter to leaders of G7, G20, BRICS and all nations on finalizing the WHO Pandemic Agreement’s Pathogen Access and Benefit Sharing annex",
+      "summary": "Open letter to leaders of G7, G20, BRICS and all nations on finalizing the WHO Pandemic Agreement’s Pathogen Access and Benefit Sharing annex. Dear Leaders of the G7, the G20, BRICS and of all nations,  We write to you together, from Geneva and from Bras&iacute;lia, with one shared conviction: that the world must finish what it started, and that you can help it do so.  We begin not with an institution or an annex, but with a memory the whole world shares. Not so long ago, our hospitals overflowed. Families said goodbye to the people they loved through glass, or by telephone, or not at all. Chi",
+      "url": "https://www.who.int/news/item/15-06-2026-open-letter-to-leaders-of-g7-g20-brics-and-all-nations-on-finalizing-the-who-pandemic-agreement-s-pathogen-access-and-benefit-sharing-annex",
+      "published": "Mon, 15 Jun 2026 09:05:36 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Africa CDC and WHO launch joint continental Ebola response plan",
+      "summary": "Africa CDC and WHO launch joint continental Ebola response plan. The Africa Centres for Disease Control and Prevention (Africa CDC) and the World Health Organization (WHO) today launched a joint  continental preparedness and response plan  on the ongoing Ebola outbreak caused by the Bundibugyo virus. The plan aims to raise US$&nbsp;518&nbsp;million to support African countries together with partners to prepare for, rapidly detect and respond to the outbreak.  The six-month plan, covering June to November 2026, brings together governments, partners and communities under a unified &lsquo;One Res",
+      "url": "https://www.who.int/news/item/05-06-2026-africa-cdc-and-who-launch-joint-continental-ebola-response-plan",
+      "published": "Fri, 05 Jun 2026 12:28:26 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Joint statement by the Government of the Democratic Republic of the Congo and WHO concerning the outbreak of Ebola disease caused by the Bundibugyo virus",
+      "summary": "Joint statement by the Government of the Democratic Republic of the Congo and WHO concerning the outbreak of Ebola disease caused by the Bundibugyo virus. The Government of the Democratic Republic of the Congo (DRC) and the World Health Organization (WHO) reaffirm their strong partnership and shared commitment to protect the health and well-being of the people of Ituri Province and the nation at large, following the joint mission to Bunia led by Dr Samuel Roger Kamba, Minister of Health, Mr. Patrick Muyaya Katembwe, Minister of Communication and Medias, and the visit of WHO Director-General Dr",
+      "url": "https://www.who.int/news/item/31-05-2026-joint-statement-by-the-government-of-the-democratic-republic-of-the-congo-and-who-concerning-the-outbreak-of-ebola-disease-caused-by-the-bundibugyo-virus",
+      "published": "Sun, 31 May 2026 21:49:21 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Experts convened by WHO advise on candidate treatments and vaccines for Ebola disease caused by Bundibugyo virus",
+      "summary": "Experts convened by WHO advise on candidate treatments and vaccines for Ebola disease caused by Bundibugyo virus. In response to the current outbreak of Ebola disease caused by Bundibugyo virus occurring in the Democratic Republic of the Congo, with cases also reported in Uganda, WHO convened several of its expert and advisory groups. These groups assessed potential vaccines and therapeutics for both prevention and treatment of Bundibugyo virus disease (BVD).",
+      "url": "https://www.who.int/news/item/28-05-2026-experts-convened-by-who-advise-on-candidate-treatments-and-vaccines-for-ebola-disease-caused-by-bundibugyo-virus",
+      "published": "Thu, 28 May 2026 19:10:18 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "wildfire",
+      "title": "Message by the WHO Director-General to the people of the Democratic Republic of the Congo",
+      "summary": "Message by the WHO Director-General to the people of the Democratic Republic of the Congo. To the people of DRC, especially to the people of Ituri&nbsp;  Jambo kwenu wakahaji wa Ituri&nbsp;  Mbote na bino, bato ya Ituri&nbsp;  My name is Tedros, and I am the Director-General of the World Health Organization (WHO). But today, I am not writing to you as an official. I am writing to you as someone who knows your region, who has walked your streets, and who cares deeply about what happens to you and your families.&nbsp;  I am writing because I want to be with you in these moments. And I want you t",
+      "url": "https://www.who.int/news/item/28-05-2026-message-by-the-who-director-general-to-the-people-of-the-democratic-republic-of-the-congo",
+      "published": "Thu, 28 May 2026 12:17:30 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "First meeting of the IHR Emergency Committee regarding the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo and Uganda 2026 – Temporary recommendations",
+      "summary": "First meeting of the IHR Emergency Committee regarding the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo and Uganda 2026 – Temporary recommendations. The Committee’s advice aligned with the determination by the WHO Director-General that the event constitutes a public health emergency of international concern (PHEIC), but does not meet the criteria for pandemic emergency. The DG, considering the advice of the Committee, he is hereby issuing the following temporary recommendations to all States Parties.",
+      "url": "https://www.who.int/news/item/22-05-2026-first-meeting-of-the-ihr-emergency-committee-regarding-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-and-uganda-2026-temporary-recommendations",
+      "published": "Fri, 22 May 2026 15:22:03 Z",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Kermadec Islands Region 21/07/2026 12:14 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Kermadec Islands Region 21/07/2026 12:14 UTC, [unknown].. On 7/21/2026 12:14:33 PM, an earthquake occurred in Kermadec Islands Region potentially affecting [unknown]. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1553193",
+      "published": "Tue, 21 Jul 2026 12:35:13 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Northern Mid-Atlantic Ridge 20/07/2026 21:28 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Northern Mid-Atlantic Ridge 20/07/2026 21:28 UTC, [unknown].. On 7/20/2026 9:28:30 PM, an earthquake occurred in Northern Mid-Atlantic Ridge potentially affecting [unknown]. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1553080",
+      "published": "Mon, 20 Jul 2026 21:47:37 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 20/07/2026 06:41 UTC, 10 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 20/07/2026 06:41 UTC, 10 thousand in MMI>=III.. On 7/20/2026 6:41:30 AM, an earthquake occurred in Canada potentially affecting 10 thousand in MMI>=III. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552972",
+      "published": "Mon, 20 Jul 2026 07:00:01 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Pacific-Antarctic Ridge 20/07/2026 05:38 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:10km) in Pacific-Antarctic Ridge 20/07/2026 05:38 UTC, [unknown].. On 7/20/2026 5:38:56 AM, an earthquake occurred in Pacific-Antarctic Ridge potentially affecting [unknown]. The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1553068",
+      "published": "Mon, 20 Jul 2026 20:58:06 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Latvia",
+      "summary": "Green flood alert in Latvia. On 20/07/2026, a flood started in Latvia, lasting until 21/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104037",
+      "published": "Wed, 22 Jul 2026 05:50:07 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 450 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:35km) in Mexico 19/07/2026 17:45 UTC, 450 thousand in MMI IV.. On 7/19/2026 5:45:16 PM, an earthquake occurred in Mexico potentially affecting 450 thousand in MMI IV. The earthquake had Magnitude 5.5M, Depth:35km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552874",
+      "published": "Sun, 19 Jul 2026 18:01:18 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone BERTHA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone BERTHA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 19/07/2026 to 22/07/2026, a Tropical Storm (maximum wind speed of 93 km/h) BERTHA-26 was active in Atlantic. The cyclone affects these countries: United States (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001290",
+      "published": "Sun, 19 Jul 2026 15:09:29 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone FAUSTO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone FAUSTO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 19/07/2026 to 23/07/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h) FAUSTO-26 was active in EastPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001289",
+      "published": "Sun, 19 Jul 2026 02:53:14 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 240 thousand (in MMI>=VII).",
+      "summary": "Orange earthquake (Magnitude 5.5M, Depth:10km) in Peru 19/07/2026 02:24 UTC, 240 thousand (in MMI>=VII).. On 7/19/2026 2:24:35 AM, an earthquake occurred in Peru potentially affecting 240 thousand (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1552752",
+      "published": "Sun, 19 Jul 2026 02:42:14 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Moldova",
+      "summary": "Green flood alert in Moldova. On 19/07/2026, a flood started in Moldova, lasting until 20/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104038",
+      "published": "Wed, 22 Jul 2026 05:50:18 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Afghanistan",
+      "summary": "Green flood alert in Afghanistan. On 19/07/2026, a flood started in Afghanistan, lasting until 21/07/2026 (last update). The flood caused 20 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104033",
+      "published": "Tue, 21 Jul 2026 09:29:40 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Bulgaria",
+      "summary": "Green flood alert in Bulgaria. On 19/07/2026, a flood started in Bulgaria, lasting until 21/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104036",
+      "published": "Wed, 22 Jul 2026 05:49:52 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Romania",
+      "summary": "Green flood alert in Romania. On 19/07/2026, a flood started in Romania, lasting until 21/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104039",
+      "published": "Wed, 22 Jul 2026 06:09:52 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Costa Rica",
+      "summary": "Green flood alert in Costa Rica. On 19/07/2026, a flood started in Costa Rica, lasting until 21/07/2026 (last update). The flood caused 0 deaths and 254 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104040",
+      "published": "Wed, 22 Jul 2026 07:59:18 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Peru",
+      "summary": "Green flood alert in Peru. On 19/07/2026, a flood started in Peru, lasting until 21/07/2026 (last update). The flood caused 0 deaths and 9 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104041",
+      "published": "Wed, 22 Jul 2026 07:59:26 GMT",
+      "collected_at": "2026-07-23T03:20:54.536333+00:00"
+    }
+  ]
+}
