@@ -473,23 +473,27 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ### 🤖 Gemma AI Assistant — Role-Based Copilots
 
-🧑 **Citizen AI Copilot** — Real-time safety guidance & evacuation recommendations
+**🧑 Citizen AI Copilot** — Real-time safety guidance & evacuation recommendations
 
 https://github.com/user-attachments/assets/6daacd3c-a2df-4b3f-971c-0ebf5a4bfdd3
 
-** Tourist AI Copilot** — Travel safety intelligence for visitors & tourists
+**🌏 Tourist AI Copilot** — Travel safety intelligence for visitors & tourists
 
 https://github.com/user-attachments/assets/bdf95853-40cc-4366-9b60-9afc1c1b0c83
 
-** Emergency Responder AI Copilot** — Tactical deployment & resource allocation intelligence
+**🚒 Emergency Responder AI Copilot** — Tactical deployment & resource allocation intelligence
 
 https://github.com/user-attachments/assets/0cf5a99a-d77d-4bff-8d68-99f1cee475a4
 
-** Government AI Copilot** — Strategic decision support & policy recommendations
+**🏛️ Government AI Copilot** — Strategic decision support & policy recommendations
 
 https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676
 
->  **Tip:** Click any badge above to view the video. Videos are stored in the [`demos/`](demos/) folder.
+
+### 🗺️ Live Webapp — Interactive Crisis Map & Dashboard Demo
+
+https://github.com/user-attachments/assets/dbd0d478-e8fa-45cb-96f4-60948c1eabf6
+
 
 ---
 
