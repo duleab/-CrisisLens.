@@ -471,9 +471,9 @@ CrisisLens directly contributes to **six UN Sustainable Development Goals**:
 
 ## 🎬 Demo Videos
 
-###  Gemma AI Assistant — Role-Based Copilots
+### 🤖 Gemma AI Assistant — Role-Based Copilots
 
-** Citizen AI Copilot ** — Real-time safety guidance & evacuation recommendations
+🧑 **Citizen AI Copilot** — Real-time safety guidance & evacuation recommendations
 
 https://github.com/user-attachments/assets/6daacd3c-a2df-4b3f-971c-0ebf5a4bfdd3
 
@@ -495,18 +495,22 @@ https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676
 
 ## 📊 Data Sources & Integration
 
-### Primary Sources
+### Primary Sources (12 Active)
 
 | Source | Type | Purpose | Update Frequency |
 |--------|------|---------|------------------|
-| BMKG | Official | Earthquakes, Weather | Real-time |
-| BNPB | Official | National Disasters | Hourly |
-| USGS | International | Global Earthquakes | Real-time |
-| NASA FIRMS | Satellite | Wildfires | 3 Hours |
-| ReliefWeb | Humanitarian | Disaster Reports | Daily |
-| Weather APIs | Commercial | Forecasts, Alerts | Hourly |
-| News APIs | Media | Breaking News | Real-time |
-| OpenStreetMap | Community | Geographic Data | Continuous |
+| 🌋 USGS | Official | Global earthquakes (M2.5+) | Real-time |
+| 🇮🇩 BMKG | Official | Indonesian earthquakes & weather | Real-time |
+| 🌐 GDACS | Official | UN multi-hazard alerts (floods, cyclones, volcanoes) | Hourly |
+| 🛰️ NASA EONET | Satellite | Wildfires, volcanic activity, storms | 3 Hours |
+| 🏥 WHO | Official | Disease outbreaks & public health emergencies | Daily |
+| 🇺🇳 UN News | Official | Asia-Pacific humanitarian situation reports | Daily |
+| 🤝 ReliefWeb | Humanitarian | OCHA disaster situation reports | Daily |
+| 🆘 OCHA | Official | Emergency coordination updates | Daily |
+| 🛡️ PreventionWeb | Official | Disaster risk reduction news | Daily |
+| 💧 FloodList | Media | Global flood monitoring & news | Real-time |
+| 🌍 GDELT | Aggregator | 65,000+ global news outlets (AI classified) | Real-time |
+| 🗞️ Google News | Aggregator | Breaking crisis news RSS (AI classified) | Real-time |
 
 ### Data Processing Pipeline
 1. **Collection:** Automated APIs and web scraping
@@ -521,40 +525,39 @@ https://github.com/user-attachments/assets/284a0fc0-d87e-46b2-ad7d-0af43eaf0676
 ## Technology Stack
 
 ### Frontend
-- **Development:** Streamlit (MVP), React/Next.js (Production)
-- **Maps:** Leaflet.js with OpenStreetMap
-- **Visualization:** Plotly, D3.js
-- **Mobile:** Progressive Web App (PWA)
+- **Framework:** React 18 + TypeScript + Vite
+- **Maps:** Leaflet.js via React-Leaflet (OpenStreetMap tiles)
+- **Styling:** Vanilla CSS with glassmorphism design system
+- **Icons:** Lucide React
+- **Build:** Vite 5 (served via `serve` in production Docker)
 
 ### Backend
-- **API Framework:** FastAPI with Python
-- **Authentication:** JWT with role-based access
-- **Real-time:** WebSockets for live updates
-- **Caching:** Redis for performance
+- **API Framework:** FastAPI (Python 3.12) with async SQLAlchemy
+- **AI/LLM:** Google Gemini API (via `google-genai` SDK)
+- **Scheduling:** APScheduler — auto-ingest every N minutes
+- **HTTP Client:** httpx (async) for all external API calls
 
 ### AI & ML
-- **Language Model:** Gemma 2/7B or Gemma 2/27B
-- **Framework:** LangChain/LangGraph for agent orchestration
-- **Vector Database:** FAISS or ChromaDB for RAG
-- **NLP:** Sentence Transformers for embeddings
+- **Language Model:** Gemini Flash (fast classification) + Gemini Pro (deep reasoning)
+- **Classification:** Structured JSON extraction via `classify_report()` — crisis type, severity, location, casualties, confidence
+- **Chat:** Role-aware multi-agent copilots (Citizen, Tourist, Responder, Government)
+- **Pipeline:** GDELT + Google News → Gemini AI → PostgreSQL
 
 ### Database & Storage
-- **Primary:** PostgreSQL for structured data
-- **Time-series:** InfluxDB for sensor data
-- **File Storage:** AWS S3 or Google Cloud Storage
-- **Backup:** Automated daily backups
+- **Primary:** PostgreSQL 16 (via Docker, managed with SQLAlchemy ORM)
+- **Events:** 2,000+ real crisis events stored and growing daily
+- **Deduplication:** `source_event_id` hash-based deduplication
 
 ### Infrastructure
-- **Development:** Docker containers
-- **Deployment:** Kubernetes on Google Cloud
-- **Monitoring:** Prometheus and Grafana
-- **CDN:** CloudFlare for global distribution
+- **Development & Production:** Docker Compose (3 containers: backend, frontend, postgres)
+- **CI/CD:** GitHub Actions — daily automated data collection & commit
+- **Port mapping:** Frontend :5173, Backend API :8081, Postgres :5432
 
 ### APIs & Integration
-- **Weather:** OpenWeatherMap API
-- **News:** NewsAPI, Google News API
-- **Geocoding:** Nominatim, Google Maps API
-- **Notifications:** FCM, Twilio, Telegram Bot API
+- **News:** GDELT 2.0 API (free, unlimited), Google News RSS
+- **Disasters:** USGS GeoJSON, BMKG JSON, GDACS RSS, NASA EONET API
+- **Health:** WHO RSS, UN News RSS, ReliefWeb RSS, OCHA
+- **Classification:** Google Gemini API (structured extraction)
 
 ---
 
@@ -849,10 +852,13 @@ CrisisLens represents the future of disaster response — where AI transforms sc
 
 | Field | Value |
 |-------|-------|
-| **Last Run** | 2026-07-23 |
-| **Events Detected** | 54 |
-| **Sources Active** | 5 (USGS, BMKG, ReliefWeb, WHO, GDACS) |
-| **Top Crisis Type** | earthquake (30 events) |
+| **Last Run** | 2026-07-27 |
+| **Total Events in DB** | 2,029+ |
+| **Events (Last 24h)** | 138 |
+| **Sources Active** | 12 (USGS, BMKG, GDACS, EONET, WHO, UN, ReliefWeb, OCHA, PreventionWeb, FloodList, GDELT, Google News) |
+| **AI Classified** | ✅ Gemini Flash (Google News + GDELT) |
+| **Top Crisis Type** | earthquake (90 events) |
+| **Auto-Ingest** | ✅ Running every N minutes via APScheduler |
 
-*🤖 Auto-updated daily by GitHub Actions — [View latest report](data/daily_report_2026-07-23.json)*
+*🤖 Auto-updated daily by GitHub Actions — [View latest report](data/daily_report_2026-07-27.json)*
 <!-- CRISISLENS_STATS_END -->
