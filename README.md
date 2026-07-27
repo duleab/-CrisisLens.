@@ -857,12 +857,9 @@ CrisisLens represents the future of disaster response — where AI transforms sc
 | Field | Value |
 |-------|-------|
 | **Last Run** | 2026-07-27 |
-| **Total Events in DB** | 2,029+ |
-| **Events (Last 24h)** | 138 |
-| **Sources Active** | 12 (USGS, BMKG, GDACS, EONET, WHO, UN, ReliefWeb, OCHA, PreventionWeb, FloodList, GDELT, Google News) |
-| **AI Classified** | ✅ Gemini Flash (Google News + GDELT) |
-| **Top Crisis Type** | earthquake (90 events) |
-| **Auto-Ingest** | ✅ Running every N minutes via APScheduler |
+| **Events Detected** | 38 |
+| **Sources Active** | 4 (USGS, BMKG, WHO, GDACS) |
+| **Top Crisis Type** | earthquake (20 events) |
 
 *🤖 Auto-updated daily by GitHub Actions — [View latest report](data/daily_report_2026-07-27.json)*
 <!-- CRISISLENS_STATS_END -->
