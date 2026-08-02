@@ -1,0 +1,342 @@
+{
+  "date": "2026-08-02",
+  "collected_at": "2026-08-02T08:13:00.724577+00:00",
+  "total_events": 32,
+  "by_source": {
+    "USGS": 13,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 10
+  },
+  "by_type": {
+    "earthquake": 21,
+    "other": 4,
+    "disease": 3,
+    "flood": 4
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 36 km SSW of Mendi, Papua New Guinea",
+      "summary": "M 4.9 - 36 km SSW of Mendi, Papua New Guinea. Time  2026-08-02 05:38:58 UTC  2026-08-02 05:38:58 UTC at epicenter  Location  6.471&deg;S 143.588&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thki",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 77 km SE of Atka, Alaska",
+      "summary": "M 4.8 - 77 km SE of Atka, Alaska. ShakeMap -  III     Time  2026-08-02 05:18:40 UTC  2026-08-02 05:18:40 UTC at epicenter  Location  51.658&deg;N 173.480&deg;W  Depth  44.29 km (27.52 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thkg",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 7 km SSW of Yumare, Venezuela",
+      "summary": "M 4.5 - 7 km SSW of Yumare, Venezuela. DYFI? -  IV     Time  2026-08-02 03:16:45 UTC  2026-08-02 03:16:45 UTC at epicenter  Location  10.533&deg;N 68.690&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thk4",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 64 km ENE of Noda, Japan",
+      "summary": "M 4.8 - 64 km ENE of Noda, Japan. Time  2026-08-02 00:45:40 UTC  2026-08-02 00:45:40 UTC at epicenter  Location  40.302&deg;N 142.532&deg;E  Depth  56.35 km (35.02 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thjm",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 112 km SW of Severo-Kuril’sk, Russia",
+      "summary": "M 5.2 - 112 km SW of Severo-Kuril’sk, Russia. Time  2026-08-02 00:13:38 UTC  2026-08-02 00:13:38 UTC at epicenter  Location  49.867&deg;N 155.171&deg;E  Depth  80.69 km (50.14 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thj5",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 83 km SSE of Atka, Alaska",
+      "summary": "M 4.9 - 83 km SSE of Atka, Alaska. ShakeMap -  III     Time  2026-08-01 23:07:03 UTC  2026-08-01 23:07:03 UTC at epicenter  Location  51.555&deg;N 173.564&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thii",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 188 km W of Abepura, Indonesia",
+      "summary": "M 4.5 - 188 km W of Abepura, Indonesia. Time  2026-08-01 21:26:07 UTC  2026-08-01 21:26:07 UTC at epicenter  Location  2.612&deg;S 138.939&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thi4",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 160 km SSW of Severo-Kuril’sk, Russia",
+      "summary": "M 5.2 - 160 km SSW of Severo-Kuril’sk, Russia. Time  2026-08-01 20:02:46 UTC  2026-08-01 20:02:46 UTC at epicenter  Location  49.324&deg;N 155.327&deg;E  Depth  49.72 km (30.90 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thhr",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 48 km ESE of Tsunō, Japan",
+      "summary": "M 5.2 - 48 km ESE of Tsunō, Japan. Time  2026-08-01 19:10:52 UTC  2026-08-01 19:10:52 UTC at epicenter  Location  32.008&deg;N 132.000&deg;E  Depth  26.23 km (16.30 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thhk",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 14 km WSW of Honmachi, Japan",
+      "summary": "M 4.6 - 14 km WSW of Honmachi, Japan. DYFI? -  III     Time  2026-08-01 16:07:21 UTC  2026-08-01 16:07:21 UTC at epicenter  Location  32.449&deg;N 130.460&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgz",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - south of the Fiji Islands",
+      "summary": "M 5.1 - south of the Fiji Islands. Time  2026-08-01 15:51:11 UTC  2026-08-01 15:51:11 UTC at epicenter  Location  24.394&deg;S 176.796&deg;W  Depth  69.75 km (43.34 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgx",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 3 km W of Matsubase, Japan",
+      "summary": "M 4.9 - 3 km W of Matsubase, Japan. Time  2026-08-01 12:47:23 UTC  2026-08-01 12:47:23 UTC at epicenter  Location  32.651&deg;N 130.629&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thgg",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - Tristan da Cunha region",
+      "summary": "M 5.1 - Tristan da Cunha region. Time  2026-08-01 11:07:20 UTC  2026-08-01 11:07:20 UTC at epicenter  Location  39.534&deg;S 15.961&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thg5",
+      "published": "2026-08-02",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M4.0 — Pusat gempa berada di darat 37 km Timur Laut Sigi",
+      "summary": "Magnitude 4.0, Depth 10 km, Location: Pusat gempa berada di darat 37 km Timur Laut Sigi. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "01 Agu 2026",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 4.0
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 01/08/2026 04:49 UTC, 10 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Canada 01/08/2026 04:49 UTC, 10 thousand in MMI>=III.. On 8/1/2026 4:49:01 AM, an earthquake occurred in Canada potentially affecting 10 thousand in MMI>=III. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1555461",
+      "published": "Sat, 01 Aug 2026 05:09:33 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:82.29km) in Japan 01/08/2026 02:48 UTC, 1.5 million in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:82.29km) in Japan 01/08/2026 02:48 UTC, 1.5 million in MMI IV.. On 8/1/2026 2:48:01 AM, an earthquake occurred in Japan potentially affecting 1.5 million in MMI IV. The earthquake had Magnitude 5.5M, Depth:82.29km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1555442",
+      "published": "Sat, 01 Aug 2026 03:02:30 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Poland",
+      "summary": "Green flood alert in Poland. On 31/07/2026, a flood started in Poland, lasting until 02/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104064",
+      "published": "Sun, 02 Aug 2026 07:33:52 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:154.355km) in Peru 31/07/2026 00:58 UTC, 210 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:154.355km) in Peru 31/07/2026 00:58 UTC, 210 thousand in MMI IV.. On 7/31/2026 12:58:44 AM, an earthquake occurred in Peru potentially affecting 210 thousand in MMI IV. The earthquake had Magnitude 5.6M, Depth:154.355km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1555237",
+      "published": "Fri, 31 Jul 2026 01:19:12 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:34.505km) in Micronesia 30/07/2026 17:55 UTC, 1 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:34.505km) in Micronesia 30/07/2026 17:55 UTC, 1 thousand in MMI>=III.. On 7/30/2026 5:55:59 PM, an earthquake occurred in Micronesia potentially affecting 1 thousand in MMI>=III. The earthquake had Magnitude 5.9M, Depth:34.505km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1555167",
+      "published": "Thu, 30 Jul 2026 18:12:14 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:10km) in Kermadec Islands Region 30/07/2026 05:08 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:10km) in Kermadec Islands Region 30/07/2026 05:08 UTC, [unknown].. On 7/30/2026 5:08:31 AM, an earthquake occurred in Kermadec Islands Region potentially affecting [unknown]. The earthquake had Magnitude 5.8M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1555036",
+      "published": "Thu, 30 Jul 2026 05:29:38 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:10km) in Kermadec Islands Region 29/07/2026 22:27 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:10km) in Kermadec Islands Region 29/07/2026 22:27 UTC, [unknown].. On 7/29/2026 10:27:57 PM, an earthquake occurred in Kermadec Islands Region potentially affecting [unknown]. The earthquake had Magnitude 5.9M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1554971",
+      "published": "Wed, 29 Jul 2026 22:44:57 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Pacific-Antarctic Ridge 29/07/2026 22:08 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Pacific-Antarctic Ridge 29/07/2026 22:08 UTC, [unknown].. On 7/29/2026 10:08:07 PM, an earthquake occurred in Pacific-Antarctic Ridge potentially affecting [unknown]. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1554970",
+      "published": "Wed, 29 Jul 2026 22:34:42 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Chile",
+      "summary": "Green flood alert in Chile. On 29/07/2026, a flood started in Chile, lasting until 29/07/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104063",
+      "published": "Fri, 31 Jul 2026 10:01:44 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Mexico",
+      "summary": "Green flood alert in Mexico. On 29/07/2026, a flood started in Mexico, lasting until 31/07/2026 (last update). The flood caused 0 deaths and 30 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104061",
+      "published": "Thu, 30 Jul 2026 11:01:01 GMT",
+      "collected_at": "2026-08-02T08:13:00.724577+00:00"
+    }
+  ]
+}
