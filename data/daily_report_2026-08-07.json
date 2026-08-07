@@ -1,0 +1,304 @@
+{
+  "date": "2026-08-07",
+  "collected_at": "2026-08-07T07:05:59.492348+00:00",
+  "total_events": 28,
+  "by_source": {
+    "USGS": 11,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 8
+  },
+  "by_type": {
+    "earthquake": 16,
+    "other": 4,
+    "disease": 3,
+    "flood": 2,
+    "storm": 2,
+    "volcano": 1
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 7 km NW of Cabacao, Philippines",
+      "summary": "M 5.0 - 7 km NW of Cabacao, Philippines. DYFI? -  IV     Time  2026-08-07 02:38:10 UTC  2026-08-07 02:38:10 UTC at epicenter  Location  13.386&deg;N 120.611&deg;E  Depth  90.20 km (56.05 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tivb",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 29 km S of Mendoza, Argentina",
+      "summary": "M 4.5 - 29 km S of Mendoza, Argentina. DYFI? -  IV     Time  2026-08-07 00:00:38 UTC  2026-08-07 00:00:38 UTC at epicenter  Location  33.153&deg;S 68.841&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tits",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 64 km NE of Mangapapa, New Zealand",
+      "summary": "M 4.9 - 64 km NE of Mangapapa, New Zealand. PAGER -  GREEN    ShakeMap -  IV     Time  2026-08-06 21:17:28 UTC  2026-08-06 21:17:28 UTC at epicenter  Location  38.231&deg;S 178.542&deg;E  Depth  22.79 km (14.16 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tiqe",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 149 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "summary": "M 4.6 - 149 km SE of Petropavlovsk-Kamchatsky, Russia. Time  2026-08-06 20:07:24 UTC  2026-08-06 20:07:24 UTC at epicenter  Location  52.072&deg;N 160.111&deg;E  Depth  40.73 km (25.31 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tipv",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.3 - 7 km SSW of Huayucachi, Peru",
+      "summary": "M 5.3 - 7 km SSW of Huayucachi, Peru. DYFI? -  VI     Time  2026-08-06 18:57:21 UTC  2026-08-06 18:57:21 UTC at epicenter  Location  12.195&deg;S 75.257&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tip9",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 148 km E of Miyako, Japan",
+      "summary": "M 4.6 - 148 km E of Miyako, Japan. Time  2026-08-06 17:50:40 UTC  2026-08-06 17:50:40 UTC at epicenter  Location  39.639&deg;N 143.670&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000timi",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - 145 km E of Yamada, Japan",
+      "summary": "M 5.4 - 145 km E of Yamada, Japan. PAGER -  GREEN    ShakeMap -  III     Time  2026-08-06 17:43:36 UTC  2026-08-06 17:43:36 UTC at epicenter  Location  39.583&deg;N 143.641&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000timf",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 195 km SE of Lorengau, Papua New Guinea",
+      "summary": "M 4.9 - 195 km SE of Lorengau, Papua New Guinea. Time  2026-08-06 16:01:59 UTC  2026-08-06 16:01:59 UTC at epicenter  Location  3.323&deg;S 148.477&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tikr",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 110 km W of Buala, Solomon Islands",
+      "summary": "M 5.1 - 110 km W of Buala, Solomon Islands. Time  2026-08-06 13:42:11 UTC  2026-08-06 13:42:11 UTC at epicenter  Location  8.003&deg;S 158.600&deg;E  Depth  54.35 km (33.77 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tik6",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 5 km ENE of Matsubase, Japan",
+      "summary": "M 4.6 - 5 km ENE of Matsubase, Japan. DYFI? -  IV     Time  2026-08-06 10:49:24 UTC  2026-08-06 10:49:24 UTC at epicenter  Location  32.661&deg;N 130.723&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tijg",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 128 km WSW of Port Orford, Oregon",
+      "summary": "M 4.9 - 128 km WSW of Port Orford, Oregon. DYFI? -  II     Time  2026-08-06 09:55:40 UTC  2026-08-06 09:55:40 UTC at epicenter  Location  42.408&deg;N 125.998&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tij5",
+      "published": "2026-08-07",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M3.5 — Pusat gempa berada di darat 17 km barat daya Kota Bogor",
+      "summary": "Magnitude 3.5, Depth 10 km, Location: Pusat gempa berada di darat 17 km barat daya Kota Bogor. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "07 Agu 2026",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 3.5
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone CHAN-HOM-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone CHAN-HOM-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 07/08/2026 to 07/08/2026, a Tropical Storm (maximum wind speed of 93 km/h) CHAN-HOM-26 was active in NWPacific. The cyclone affects these countries: Japan, Russian Federation (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001299",
+      "published": "Fri, 07 Aug 2026 02:37:14 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Philippines 05/08/2026 21:41 UTC, 880 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Philippines 05/08/2026 21:41 UTC, 880 thousand in MMI IV.. On 8/5/2026 9:41:28 PM, an earthquake occurred in Philippines potentially affecting 880 thousand in MMI IV. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1556391",
+      "published": "Wed, 05 Aug 2026 22:02:33 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "volcano",
+      "title": "Volcanic eruption is on going for Fuego in Guatemala",
+      "summary": "Volcanic eruption is on going for Fuego in Guatemala. Volcano Fuego is emitting ash clouds according to the regional VAAC. The aviation alert level is Green.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000145",
+      "published": "Wed, 05 Aug 2026 06:09:42 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.3M, Depth:226.084km) in South Of Kermadec Islands 05/08/2026 07:43 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 6.3M, Depth:226.084km) in South Of Kermadec Islands 05/08/2026 07:43 UTC, [unknown].. On 8/5/2026 7:43:27 AM, an earthquake occurred in South Of Kermadec Islands potentially affecting [unknown]. The earthquake had Magnitude 6.3M, Depth:226.084km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1556246",
+      "published": "Wed, 05 Aug 2026 08:04:51 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Orange earthquake (Magnitude 6.3M, Depth:10km) in Philippines 05/08/2026 04:14 UTC, 10 thousand (in MMI>=VII).",
+      "summary": "Orange earthquake (Magnitude 6.3M, Depth:10km) in Philippines 05/08/2026 04:14 UTC, 10 thousand (in MMI>=VII).. On 8/5/2026 4:14:06 AM, an earthquake occurred in Philippines potentially affecting 10 thousand (in MMI>=VII). The earthquake had Magnitude 6.3M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1556215",
+      "published": "Wed, 05 Aug 2026 04:30:21 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:35km) in Indonesia 04/08/2026 20:16 UTC, 4 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:35km) in Indonesia 04/08/2026 20:16 UTC, 4 thousand in MMI IV.. On 8/4/2026 8:16:37 PM, an earthquake occurred in Indonesia potentially affecting 4 thousand in MMI IV. The earthquake had Magnitude 5.7M, Depth:35km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1556149",
+      "published": "Tue, 04 Aug 2026 20:32:31 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone KUJIRA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0.874 million in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone KUJIRA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0.874 million in Tropical Storm).. From 04/08/2026 to 06/08/2026, a Tropical Depression (maximum wind speed of 65 km/h) KUJIRA-26 was active in NWPacific. The cyclone affects these countries: Philippines (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0.874 million in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001298",
+      "published": "Tue, 04 Aug 2026 22:23:42 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Afghanistan",
+      "summary": "Green flood alert in Afghanistan. On 03/08/2026, a flood started in Afghanistan, lasting until 05/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104077",
+      "published": "Fri, 07 Aug 2026 06:12:51 GMT",
+      "collected_at": "2026-08-07T07:05:59.492348+00:00"
+    }
+  ]
+}
