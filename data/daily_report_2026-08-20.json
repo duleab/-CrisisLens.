@@ -1,0 +1,443 @@
+{
+  "date": "2026-08-20",
+  "collected_at": "2026-08-20T06:36:15.076197+00:00",
+  "total_events": 42,
+  "by_source": {
+    "USGS": 19,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 14
+  },
+  "by_type": {
+    "earthquake": 31,
+    "other": 4,
+    "disease": 3,
+    "flood": 3,
+    "storm": 1
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 85 km S of Antofagasta, Chile",
+      "summary": "M 4.7 - 85 km S of Antofagasta, Chile. Time  2026-08-20 04:52:51 UTC  2026-08-20 04:52:51 UTC at epicenter  Location  24.419&deg;S 70.464&deg;W  Depth  35.28 km (21.92 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm25",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 71 km N of Ruteng, Indonesia",
+      "summary": "M 4.6 - 71 km N of Ruteng, Indonesia. Time  2026-08-20 04:33:23 UTC  2026-08-20 04:33:23 UTC at epicenter  Location  7.970&deg;S 120.392&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm22",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 26 km NNW of Ruteng, Indonesia",
+      "summary": "M 4.6 - 26 km NNW of Ruteng, Indonesia. Time  2026-08-20 04:23:57 UTC  2026-08-20 04:23:57 UTC at epicenter  Location  8.386&deg;S 120.395&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1y",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 81 km W of San Antonio de los Cobres, Argentina",
+      "summary": "M 4.7 - 81 km W of San Antonio de los Cobres, Argentina. Time  2026-08-20 03:09:06 UTC  2026-08-20 03:09:06 UTC at epicenter  Location  24.337&deg;S 67.115&deg;W  Depth  166.71 km (103.59 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1m",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 45 km NNE of Ruteng, Indonesia",
+      "summary": "M 4.7 - 45 km NNE of Ruteng, Indonesia. Time  2026-08-20 03:00:57 UTC  2026-08-20 03:00:57 UTC at epicenter  Location  8.255&deg;S 120.662&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1l",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.7 - 32 km NNE of Ruteng, Indonesia",
+      "summary": "M 5.7 - 32 km NNE of Ruteng, Indonesia. PAGER -  GREEN    ShakeMap -  VII    DYFI? -  II     Time  2026-08-20 02:46:59 UTC  2026-08-20 02:46:59 UTC at epicenter  Location  8.358&deg;S 120.610&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1j",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 87 km S of Isangel, Vanuatu",
+      "summary": "M 5.0 - 87 km S of Isangel, Vanuatu. Time  2026-08-20 00:20:24 UTC  2026-08-20 00:20:24 UTC at epicenter  Location  20.324&deg;S 169.151&deg;E  Depth  72.95 km (45.33 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm16",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 46 km NE of Ruteng, Indonesia",
+      "summary": "M 4.5 - 46 km NE of Ruteng, Indonesia. Time  2026-08-19 23:20:14 UTC  2026-08-19 23:20:14 UTC at epicenter  Location  8.273&deg;S 120.721&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm10",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.8 - 25 km NNE of Ruteng, Indonesia",
+      "summary": "M 5.8 - 25 km NNE of Ruteng, Indonesia. PAGER -  GREEN    ShakeMap -  VII    DYFI? -  IV     Time  2026-08-19 22:45:17 UTC  2026-08-19 22:45:17 UTC at epicenter  Location  8.392&deg;S 120.528&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0u",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 33 km N of Ruteng, Indonesia",
+      "summary": "M 5.2 - 33 km N of Ruteng, Indonesia. DYFI? -  I     Time  2026-08-19 22:28:08 UTC  2026-08-19 22:28:08 UTC at epicenter  Location  8.310&deg;S 120.472&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm0s",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 28 km NE of Niños Héroes, Mexico",
+      "summary": "M 4.6 - 28 km NE of Niños Héroes, Mexico. Time  2026-08-19 20:06:29 UTC  2026-08-19 20:06:29 UTC at epicenter  Location  17.605&deg;N 94.302&deg;W  Depth  178.28 km (110.78 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlzp",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - 215 km E of Levuka, Fiji",
+      "summary": "M 5.4 - 215 km E of Levuka, Fiji. PAGER -  GREEN    ShakeMap -  II     Time  2026-08-19 18:45:29 UTC  2026-08-19 18:45:29 UTC at epicenter  Location  17.805&deg;S 178.664&deg;W  Depth  556.75 km (345.95 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlz8",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - 134 km S of Severo-Kuril’sk, Russia",
+      "summary": "M 5.4 - 134 km S of Severo-Kuril’sk, Russia. PAGER -  GREEN    ShakeMap -  IV     Time  2026-08-19 18:07:17 UTC  2026-08-19 18:07:17 UTC at epicenter  Location  49.480&deg;N 155.863&deg;E  Depth  41.18 km (25.59 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlyv",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 74 km SE of Pondaguitan, Philippines",
+      "summary": "M 4.8 - 74 km SE of Pondaguitan, Philippines. Time  2026-08-19 17:19:34 UTC  2026-08-19 17:19:34 UTC at epicenter  Location  5.892&deg;N 126.664&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlyi",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.5 - 52 km NNE of Ruteng, Indonesia",
+      "summary": "M 5.5 - 52 km NNE of Ruteng, Indonesia. PAGER -  GREEN    ShakeMap -  VI    DYFI? -  III     Time  2026-08-19 16:17:38 UTC  2026-08-19 16:17:38 UTC at epicenter  Location  8.177&deg;S 120.664&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlxq",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - Banda Sea",
+      "summary": "M 4.9 - Banda Sea. Time  2026-08-19 14:32:22 UTC  2026-08-19 14:32:22 UTC at epicenter  Location  5.170&deg;S 125.536&deg;E  Depth  538.07 km (334.34 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlvn",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 18 km SSW of Balangonan, Philippines",
+      "summary": "M 4.8 - 18 km SSW of Balangonan, Philippines. DYFI? -  III     Time  2026-08-19 11:01:37 UTC  2026-08-19 11:01:37 UTC at epicenter  Location  5.428&deg;N 125.271&deg;E  Depth  84.48 km (52.50 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlun",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 80 km N of Ruteng, Indonesia",
+      "summary": "M 4.7 - 80 km N of Ruteng, Indonesia. Time  2026-08-19 10:44:59 UTC  2026-08-19 10:44:59 UTC at epicenter  Location  7.886&deg;S 120.444&deg;E  Depth  10.18 km (6.32 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlum",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 114 km E of Hihifo, Tonga",
+      "summary": "M 4.7 - 114 km E of Hihifo, Tonga. Time  2026-08-19 09:07:19 UTC  2026-08-19 09:07:19 UTC at epicenter  Location  15.917&deg;S 172.731&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tluh",
+      "published": "2026-08-20",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M3.7 — Pusat gempa berada di laut 43 km utara Ruteng-Manggarai",
+      "summary": "Magnitude 3.7, Depth 2 km, Location: Pusat gempa berada di laut 43 km utara Ruteng-Manggarai. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "20 Agu 2026",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 3.7
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Indonesia 20/08/2026 02:46 UTC, Few people affected (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:10km) in Indonesia 20/08/2026 02:46 UTC, Few people affected (in MMI>=VII).. On 8/20/2026 2:46:59 AM, an earthquake occurred in Indonesia potentially affecting Few people affected (in MMI>=VII). The earthquake had Magnitude 5.7M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1560491",
+      "published": "Thu, 20 Aug 2026 03:03:58 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:10km) in Indonesia 19/08/2026 22:45 UTC, 60 thousand in MMI VI.",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:10km) in Indonesia 19/08/2026 22:45 UTC, 60 thousand in MMI VI.. On 8/19/2026 10:45:17 PM, an earthquake occurred in Indonesia potentially affecting 60 thousand in MMI VI. The earthquake had Magnitude 5.8M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1560399",
+      "published": "Wed, 19 Aug 2026 22:59:58 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Indonesia 19/08/2026 16:17 UTC, 50 thousand in MMI V.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:10km) in Indonesia 19/08/2026 16:17 UTC, 50 thousand in MMI V.. On 8/19/2026 4:17:38 PM, an earthquake occurred in Indonesia potentially affecting 50 thousand in MMI V. The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1560289",
+      "published": "Wed, 19 Aug 2026 16:38:43 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:6km) in China 18/08/2026 21:36 UTC, 8 thousand in MMI VI.",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:6km) in China 18/08/2026 21:36 UTC, 8 thousand in MMI VI.. On 8/18/2026 9:36:29 PM, an earthquake occurred in China potentially affecting 8 thousand in MMI VI. The earthquake had Magnitude 5.9M, Depth:6km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1559992",
+      "published": "Tue, 18 Aug 2026 21:53:18 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone SAUDEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 18/08/2026 to 20/08/2026, a Tropical Storm (maximum wind speed of 222 km/h) SAUDEL-26 was active in NWPacific. The cyclone affects these countries: Northern Mariana Islands (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001305",
+      "published": "Tue, 18 Aug 2026 13:37:43 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Indonesia 18/08/2026 06:02 UTC, 3 thousand in MMI V.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Indonesia 18/08/2026 06:02 UTC, 3 thousand in MMI V.. On 8/18/2026 6:02:20 AM, an earthquake occurred in Indonesia potentially affecting 3 thousand in MMI V. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1559738",
+      "published": "Tue, 18 Aug 2026 06:26:05 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/08/2026 05:02 UTC, 310 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:10km) in Mexico 18/08/2026 05:02 UTC, 310 thousand in MMI IV.. On 8/18/2026 5:02:32 AM, an earthquake occurred in Mexico potentially affecting 310 thousand in MMI IV. The earthquake had Magnitude 5.7M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1559720",
+      "published": "Tue, 18 Aug 2026 05:20:59 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:54.741km) in Russian Federation 17/08/2026 12:38 UTC, 230 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:54.741km) in Russian Federation 17/08/2026 12:38 UTC, 230 thousand in MMI IV.. On 8/17/2026 12:38:04 PM, an earthquake occurred in Russian Federation potentially affecting 230 thousand in MMI IV. The earthquake had Magnitude 5.8M, Depth:54.741km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1559459",
+      "published": "Mon, 17 Aug 2026 12:58:53 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Mexico",
+      "summary": "Green flood alert in Mexico. On 17/08/2026, a flood started in Mexico, lasting until 18/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104099",
+      "published": "Tue, 18 Aug 2026 12:27:42 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Poland",
+      "summary": "Green flood alert in Poland. On 17/08/2026, a flood started in Poland, lasting until 19/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104102",
+      "published": "Wed, 19 Aug 2026 05:34:38 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:15.522km) in Indonesia 17/08/2026 00:46 UTC, 1.1 million in 100km.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:15.522km) in Indonesia 17/08/2026 00:46 UTC, 1.1 million in 100km.. On 8/17/2026 12:46:41 AM, an earthquake occurred in Indonesia potentially affecting 1.1 million in 100km. The earthquake had Magnitude 5.5M, Depth:15.522km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1559203",
+      "published": "Mon, 17 Aug 2026 01:00:14 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:147.71km) in Papua New Guinea 16/08/2026 10:59 UTC, 2.1 million in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:147.71km) in Papua New Guinea 16/08/2026 10:59 UTC, 2.1 million in MMI>=III.. On 8/16/2026 10:59:11 AM, an earthquake occurred in Papua New Guinea potentially affecting 2.1 million in MMI>=III. The earthquake had Magnitude 5.5M, Depth:147.71km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558930",
+      "published": "Sun, 16 Aug 2026 11:18:40 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Indonesia 16/08/2026 06:51 UTC, 480 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:10km) in Indonesia 16/08/2026 06:51 UTC, 480 thousand in MMI IV.. On 8/16/2026 6:51:47 AM, an earthquake occurred in Indonesia potentially affecting 480 thousand in MMI IV. The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558840",
+      "published": "Sun, 16 Aug 2026 07:12:40 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.1M, Depth:188.148km) in Vanuatu 16/08/2026 03:20 UTC, 5 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 6.1M, Depth:188.148km) in Vanuatu 16/08/2026 03:20 UTC, 5 thousand in MMI IV.. On 8/16/2026 3:20:24 AM, an earthquake occurred in Vanuatu potentially affecting 5 thousand in MMI IV. The earthquake had Magnitude 6.1M, Depth:188.148km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1558766",
+      "published": "Sun, 16 Aug 2026 03:39:13 GMT",
+      "collected_at": "2026-08-20T06:36:15.076197+00:00"
+    }
+  ]
+}
