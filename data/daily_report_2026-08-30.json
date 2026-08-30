@@ -1,0 +1,353 @@
+{
+  "date": "2026-08-30",
+  "collected_at": "2026-08-30T11:04:39.970012+00:00",
+  "total_events": 33,
+  "by_source": {
+    "USGS": 12,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 12
+  },
+  "by_type": {
+    "earthquake": 17,
+    "other": 4,
+    "disease": 3,
+    "flood": 4,
+    "storm": 5
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - south of the Fiji Islands",
+      "summary": "M 4.5 - south of the Fiji Islands. Time  2026-08-30 09:13:55 UTC  2026-08-30 09:13:55 UTC at epicenter  Location  23.414&deg;S 179.913&deg;W  Depth  532.70 km (331.00 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcy0",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.8 - Kermadec Islands, New Zealand",
+      "summary": "M 5.8 - Kermadec Islands, New Zealand. PAGER -  GREEN    ShakeMap -  IV     Time  2026-08-30 09:02:09 UTC  2026-08-30 09:02:09 UTC at epicenter  Location  30.146&deg;S 177.888&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcxn",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 76 km WNW of Bengkulu, Indonesia",
+      "summary": "M 4.9 - 76 km WNW of Bengkulu, Indonesia. DYFI? -  III     Time  2026-08-30 07:37:53 UTC  2026-08-30 07:37:53 UTC at epicenter  Location  3.466&deg;S 101.661&deg;E  Depth  78.21 km (48.60 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcxc",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 26 km WSW of Tocopilla, Chile",
+      "summary": "M 4.7 - 26 km WSW of Tocopilla, Chile. DYFI? -  III     Time  2026-08-30 05:19:51 UTC  2026-08-30 05:19:51 UTC at epicenter  Location  22.179&deg;S 70.439&deg;W  Depth  52.12 km (32.38 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwp",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - South Sandwich Islands region",
+      "summary": "M 5.1 - South Sandwich Islands region. Time  2026-08-30 03:55:28 UTC  2026-08-30 03:55:28 UTC at epicenter  Location  56.458&deg;S 27.003&deg;W  Depth  135.69 km (84.31 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwd",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 18 km SW of Urakawa, Japan",
+      "summary": "M 4.5 - 18 km SW of Urakawa, Japan. Time  2026-08-30 00:14:19 UTC  2026-08-30 00:14:19 UTC at epicenter  Location  42.042&deg;N 142.617&deg;E  Depth  63.63 km (39.53 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcvt",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 70 km ENE of San Pedro de Atacama, Chile",
+      "summary": "M 4.5 - 70 km ENE of San Pedro de Atacama, Chile. DYFI? -  I     Time  2026-08-29 23:26:17 UTC  2026-08-29 23:26:17 UTC at epicenter  Location  22.658&deg;S 67.575&deg;W  Depth  158.92 km (98.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcvp",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 13 km ENE of Himarë, Albania",
+      "summary": "M 4.8 - 13 km ENE of Himarë, Albania. DYFI? -  IV     Time  2026-08-29 22:35:22 UTC  2026-08-29 22:35:22 UTC at epicenter  Location  40.154&deg;N 19.882&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcvf",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 58 km ESE of Koshima, Japan",
+      "summary": "M 4.8 - 58 km ESE of Koshima, Japan. Time  2026-08-29 21:00:19 UTC  2026-08-29 21:00:19 UTC at epicenter  Location  29.993&deg;N 131.078&deg;E  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcv5",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 16 km ENE of Hasaki, Japan",
+      "summary": "M 4.7 - 16 km ENE of Hasaki, Japan. DYFI? -  IV     Time  2026-08-29 15:17:06 UTC  2026-08-29 15:17:06 UTC at epicenter  Location  35.803&deg;N 140.994&deg;E  Depth  34.78 km (21.61 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcu2",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 184 km SE of Perryville, Alaska",
+      "summary": "M 4.8 - 184 km SE of Perryville, Alaska. ShakeMap -  II     Time  2026-08-29 15:16:55 UTC  2026-08-29 15:16:55 UTC at epicenter  Location  54.821&deg;N 156.951&deg;W  Depth  5.00 km (3.11 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rcluqc",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 25 km W of Émponas, Greece",
+      "summary": "M 4.5 - 25 km W of Émponas, Greece. Time  2026-08-29 12:32:52 UTC  2026-08-29 12:32:52 UTC at epicenter  Location  36.218&deg;N 27.573&deg;E  Depth  14.34 km (8.91 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tctp",
+      "published": "2026-08-30",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M4.8 — Pusat gempa berada di laut 82 km barat Bengkulu Utara",
+      "summary": "Magnitude 4.8, Depth 23 km, Location: Pusat gempa berada di laut 82 km barat Bengkulu Utara. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "30 Agu 2026",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 4.8
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:35km) in Kermadec Islands, New Zealand 30/08/2026 09:02 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:35km) in Kermadec Islands, New Zealand 30/08/2026 09:02 UTC, [unknown].. On 8/30/2026 9:02:09 AM, an earthquake occurred in Kermadec Islands, New Zealand potentially affecting [unknown]. The earthquake had Magnitude 5.8M, Depth:35km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562607",
+      "published": "Sun, 30 Aug 2026 09:23:14 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Orange earthquake (Magnitude 5M, Depth:10km) in China 28/08/2026 05:13 UTC, 15.8 million in 100km.",
+      "summary": "Orange earthquake (Magnitude 5M, Depth:10km) in China 28/08/2026 05:13 UTC, 15.8 million in 100km.. On 8/28/2026 5:13:35 AM, an earthquake occurred in China potentially affecting 15.8 million in 100km. The earthquake had Magnitude 5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562260",
+      "published": "Fri, 28 Aug 2026 05:32:14 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6M, Depth:10km) in Yemen 27/08/2026 21:07 UTC, 40 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 6M, Depth:10km) in Yemen 27/08/2026 21:07 UTC, 40 thousand in MMI IV.. On 8/27/2026 9:07:38 PM, an earthquake occurred in Yemen potentially affecting 40 thousand in MMI IV. The earthquake had Magnitude 6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562205",
+      "published": "Thu, 27 Aug 2026 21:24:19 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone KARINA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone KARINA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 27/08/2026 to 30/08/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h) KARINA-26 was active in EastPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001314",
+      "published": "Thu, 27 Aug 2026 21:20:03 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone LOWELL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone LOWELL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 27/08/2026 to 30/08/2026, a Tropical Storm (maximum wind speed of 176 km/h) LOWELL-26 was active in EastPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001315",
+      "published": "Thu, 27 Aug 2026 21:21:11 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone DOLLY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone DOLLY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 27/08/2026 to 28/08/2026, a Tropical Storm (maximum wind speed of 65 km/h) DOLLY-26 was active in Atlantic. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001313",
+      "published": "Thu, 27 Aug 2026 15:17:00 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in New Zealand",
+      "summary": "Green flood alert in New Zealand. On 27/08/2026, a flood started in New Zealand, lasting until 29/08/2026 (last update). The flood caused 0 deaths and 45 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104126",
+      "published": "Sat, 29 Aug 2026 05:59:01 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Ireland",
+      "summary": "Green flood alert in Ireland. On 27/08/2026, a flood started in Ireland, lasting until 29/08/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104127",
+      "published": "Sat, 29 Aug 2026 06:39:05 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone ETAU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone ETAU-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 27/08/2026 to 30/08/2026, a Tropical Depression (maximum wind speed of 83 km/h) ETAU-26 was active in NWPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001312",
+      "published": "Thu, 27 Aug 2026 03:02:18 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:16.05km) in Japan 26/08/2026 19:21 UTC, 100 thousand in MMI III.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:16.05km) in Japan 26/08/2026 19:21 UTC, 100 thousand in MMI III.. On 8/26/2026 7:21:42 PM, an earthquake occurred in Japan potentially affecting 100 thousand in MMI III. The earthquake had Magnitude 5.6M, Depth:16.05km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1561972",
+      "published": "Wed, 26 Aug 2026 19:39:59 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone BANG-LANG-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone BANG-LANG-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 26/08/2026 to 30/08/2026, a Tropical Storm (maximum wind speed of 139 km/h) BANG-LANG-26 was active in NWPacific. The cyclone affects these countries: United States Minor Outlying Islands (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001311",
+      "published": "Wed, 26 Aug 2026 08:33:16 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Orange flood alert in Nepal",
+      "summary": "Orange flood alert in Nepal. On 26/08/2026, a flood started in Nepal, lasting until 28/08/2026 (last update). The flood caused 527 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104124",
+      "published": "Fri, 28 Aug 2026 06:29:07 GMT",
+      "collected_at": "2026-08-30T11:04:39.970012+00:00"
+    }
+  ]
+}
