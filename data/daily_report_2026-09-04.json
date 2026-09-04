@@ -1,0 +1,484 @@
+{
+  "date": "2026-09-04",
+  "collected_at": "2026-09-04T10:23:41.760704+00:00",
+  "total_events": 46,
+  "by_source": {
+    "USGS": 22,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 15
+  },
+  "by_type": {
+    "earthquake": 31,
+    "other": 4,
+    "disease": 3,
+    "flood": 4,
+    "volcano": 1,
+    "storm": 3
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - South Sandwich Islands region",
+      "summary": "M 5.0 - South Sandwich Islands region. Time  2026-09-04 06:45:54 UTC  2026-09-04 06:45:54 UTC at epicenter  Location  56.154&deg;S 26.163&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8r",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 28 km S of Cilacap, Indonesia",
+      "summary": "M 5.2 - 28 km S of Cilacap, Indonesia. DYFI? -  IV     Time  2026-09-04 05:04:54 UTC  2026-09-04 05:04:54 UTC at epicenter  Location  7.987&deg;S 109.041&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 236 km ESE of Attu Station, Alaska",
+      "summary": "M 5.0 - 236 km ESE of Attu Station, Alaska. ShakeMap -  III          Time  2026-09-04 02:28:38 UTC  2026-09-04 02:28:38 UTC at epicenter  Location  51.956&deg;N 176.348&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te7l",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 29 km WSW of Salamanca, Chile",
+      "summary": "M 4.8 - 29 km WSW of Salamanca, Chile. DYFI? -  II     Time  2026-09-03 21:18:21 UTC  2026-09-03 21:18:21 UTC at epicenter  Location  31.897&deg;S 71.240&deg;W  Depth  81.85 km (50.86 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te5e",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 98 km W of Gorontalo, Indonesia",
+      "summary": "M 4.9 - 98 km W of Gorontalo, Indonesia. Time  2026-09-03 21:05:15 UTC  2026-09-03 21:05:15 UTC at epicenter  Location  0.526&deg;N 122.178&deg;E  Depth  111.18 km (69.08 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te55",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 57 km N of Ende, Indonesia",
+      "summary": "M 4.8 - 57 km N of Ende, Indonesia. Time  2026-09-03 21:00:10 UTC  2026-09-03 21:00:10 UTC at epicenter  Location  8.321&deg;S 121.666&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te51",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.5 - 100 km S of Nikolski, Alaska",
+      "summary": "M 5.5 - 100 km S of Nikolski, Alaska. PAGER -  GREEN    ShakeMap -  III     Time  2026-09-03 20:21:15 UTC  2026-09-03 20:21:15 UTC at epicenter  Location  52.051&deg;N 169.139&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te4b",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.3 - 104 km SSW of Nikolski, Alaska",
+      "summary": "M 5.3 - 104 km SSW of Nikolski, Alaska. ShakeMap -  III     Time  2026-09-03 18:45:39 UTC  2026-09-03 18:45:39 UTC at epicenter  Location  52.030&deg;N 169.222&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2m",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - Fiji region",
+      "summary": "M 5.0 - Fiji region. Time  2026-09-03 18:31:04 UTC  2026-09-03 18:31:04 UTC at epicenter  Location  18.766&deg;S 177.457&deg;W  Depth  619.05 km (384.66 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2i",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 271 km SSE of Dunhuang, China",
+      "summary": "M 5.2 - 271 km SSE of Dunhuang, China. Time  2026-09-03 17:04:40 UTC  2026-09-03 17:04:40 UTC at epicenter  Location  37.796&deg;N 95.467&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te21",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 11 km N of Jordán, Colombia",
+      "summary": "M 4.5 - 11 km N of Jordán, Colombia. Time  2026-09-03 16:58:46 UTC  2026-09-03 16:58:46 UTC at epicenter  Location  6.839&deg;N 73.098&deg;W  Depth  144.68 km (89.90 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 81 km SSW of Nikolski, Alaska",
+      "summary": "M 4.8 - 81 km SSW of Nikolski, Alaska. ShakeMap -  III     Time  2026-09-03 16:11:25 UTC  2026-09-03 16:11:25 UTC at epicenter  Location  52.289&deg;N 169.419&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te09",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 78 km SSW of Nikolski, Alaska",
+      "summary": "M 4.5 - 78 km SSW of Nikolski, Alaska. ShakeMap -  II     Time  2026-09-03 15:42:01 UTC  2026-09-03 15:42:01 UTC at epicenter  Location  52.284&deg;N 169.287&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te02",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - Owen Fracture Zone region",
+      "summary": "M 5.1 - Owen Fracture Zone region. Time  2026-09-03 14:11:31 UTC  2026-09-03 14:11:31 UTC at epicenter  Location  14.461&deg;N 56.451&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdzk",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 65 km S of Isangel, Vanuatu",
+      "summary": "M 4.8 - 65 km S of Isangel, Vanuatu. Time  2026-09-03 13:47:10 UTC  2026-09-03 13:47:10 UTC at epicenter  Location  20.137&deg;S 169.306&deg;E  Depth  112.71 km (70.03 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdz8",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 100 km SSW of Nikolski, Alaska",
+      "summary": "M 5.2 - 100 km SSW of Nikolski, Alaska. ShakeMap -  III          Time  2026-09-03 13:03:18 UTC  2026-09-03 13:03:18 UTC at epicenter  Location  52.056&deg;N 169.199&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdys",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 90 km SSW of Nikolski, Alaska",
+      "summary": "M 4.9 - 90 km SSW of Nikolski, Alaska. ShakeMap -  III    DYFI? -  II     Time  2026-09-03 12:39:34 UTC  2026-09-03 12:39:34 UTC at epicenter  Location  52.253&deg;N 169.579&deg;W  Depth  44.44 km (27.62 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdyi",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - 21 km WNW of Jiangyou, China",
+      "summary": "M 5.4 - 21 km WNW of Jiangyou, China. PAGER -  YELLOW    ShakeMap -  VI    DYFI? -  III     Time  2026-09-03 11:39:41 UTC  2026-09-03 11:39:41 UTC at epicenter  Location  31.846&deg;N 104.507&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw6",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 81 km SW of Nikolski, Alaska",
+      "summary": "M 4.9 - 81 km SW of Nikolski, Alaska. ShakeMap -  III     Time  2026-09-03 11:39:41 UTC  2026-09-03 11:39:41 UTC at epicenter  Location  52.346&deg;N 169.561&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw5",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 12 km E of Venustiano Carranza (Peña Blanca), Mexico",
+      "summary": "M 4.8 - 12 km E of Venustiano Carranza (Peña Blanca), Mexico. Time  2026-09-03 11:33:52 UTC  2026-09-03 11:33:52 UTC at epicenter  Location  17.654&deg;N 94.634&deg;W  Depth  158.98 km (98.79 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdw2",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 97 km SSW of Nikolski, Alaska",
+      "summary": "M 5.2 - 97 km SSW of Nikolski, Alaska. ShakeMap -  III     Time  2026-09-03 11:24:55 UTC  2026-09-03 11:24:55 UTC at epicenter  Location  52.132&deg;N 169.418&deg;W  Depth  45.17 km (28.07 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdy7",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 6.3 - 84 km SSW of Nikolski, Alaska",
+      "summary": "M 6.3 - 84 km SSW of Nikolski, Alaska. PAGER -  GREEN    ShakeMap -  IV    DYFI? -  V          Time  2026-09-03 11:17:24 UTC  2026-09-03 11:17:24 UTC at epicenter  Location  52.258&deg;N 169.409&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdvt",
+      "published": "2026-09-04",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M5.4 — Pusat gempa berada di laut 77 km tenggara Cilacap",
+      "summary": "Magnitude 5.4, Depth 10 km, Location: Pusat gempa berada di laut 77 km tenggara Cilacap. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "04 Sep 2026",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 5.4
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in United States 03/09/2026 20:21 UTC, Few people affected in MMI III.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:10km) in United States 03/09/2026 20:21 UTC, Few people affected in MMI III.. On 9/3/2026 8:21:15 PM, an earthquake occurred in United States potentially affecting Few people affected in MMI III. The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563451",
+      "published": "Thu, 03 Sep 2026 20:28:39 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.3M, Depth:35km) in United States 03/09/2026 11:17 UTC, 4 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 6.3M, Depth:35km) in United States 03/09/2026 11:17 UTC, 4 thousand in MMI>=III.. On 9/3/2026 11:17:24 AM, an earthquake occurred in United States potentially affecting 4 thousand in MMI>=III. The earthquake had Magnitude 6.3M, Depth:35km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563341",
+      "published": "Thu, 03 Sep 2026 11:23:39 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.2M, Depth:125.905km) in South Sandwich Islands Region 02/09/2026 23:46 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 6.2M, Depth:125.905km) in South Sandwich Islands Region 02/09/2026 23:46 UTC, [unknown].. On 9/2/2026 11:46:57 PM, an earthquake occurred in South Sandwich Islands Region potentially affecting [unknown]. The earthquake had Magnitude 6.2M, Depth:125.905km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563254",
+      "published": "Thu, 03 Sep 2026 00:02:32 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "volcano",
+      "title": "Volcanic eruption is on going for Sinabung in Indonesia",
+      "summary": "Volcanic eruption is on going for Sinabung in Indonesia. Volcano Sinabung is emitting ash clouds according to the regional VAAC. The aviation alert level is Green.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000147",
+      "published": "Thu, 03 Sep 2026 07:56:56 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:10km) in Southern East Pacific Rise 02/09/2026 12:35 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:10km) in Southern East Pacific Rise 02/09/2026 12:35 UTC, [unknown].. On 9/2/2026 12:35:56 PM, an earthquake occurred in Southern East Pacific Rise potentially affecting [unknown]. The earthquake had Magnitude 5.9M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
+      "published": "Wed, 02 Sep 2026 12:55:32 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Mexico 02/09/2026 12:28 UTC, 550 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Mexico 02/09/2026 12:28 UTC, 550 thousand in MMI IV.. On 9/2/2026 12:28:31 PM, an earthquake occurred in Mexico potentially affecting 550 thousand in MMI IV. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563163",
+      "published": "Wed, 02 Sep 2026 12:49:34 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:64.644km) in Indonesia 02/09/2026 00:04 UTC, 400 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:64.644km) in Indonesia 02/09/2026 00:04 UTC, 400 thousand in MMI IV.. On 9/2/2026 12:04:54 AM, an earthquake occurred in Indonesia potentially affecting 400 thousand in MMI IV. The earthquake had Magnitude 5.6M, Depth:64.644km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563052",
+      "published": "Wed, 02 Sep 2026 00:18:15 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone MARIE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone MARIE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 01/09/2026 to 04/09/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 167 km/h) MARIE-26 was active in EastPacific. The cyclone affects these countries: Mexico (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317",
+      "published": "Tue, 01 Sep 2026 09:24:37 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Indonesia 01/09/2026 08:22 UTC, 8 thousand in MMI VI.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Indonesia 01/09/2026 08:22 UTC, 8 thousand in MMI VI.. On 9/1/2026 8:22:20 AM, an earthquake occurred in Indonesia potentially affecting 8 thousand in MMI VI. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562918",
+      "published": "Tue, 01 Sep 2026 08:39:52 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone KROVANH-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone KROVANH-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 01/09/2026 to 04/09/2026, a Tropical Storm (maximum wind speed of 74 km/h) KROVANH-26 was active in NWPacific. The cyclone affects these countries: Japan (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318",
+      "published": "Tue, 01 Sep 2026 09:28:20 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Lithuania",
+      "summary": "Green flood alert in Lithuania. On 01/09/2026, a flood started in Lithuania, lasting until 02/09/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104138",
+      "published": "Thu, 03 Sep 2026 09:07:43 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone EDOUARD-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone EDOUARD-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 31/08/2026 to 03/09/2026, a Tropical Depression (maximum wind speed of 83 km/h) EDOUARD-26 was active in Atlantic. The cyclone affects these countries: United States (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001316",
+      "published": "Mon, 31 Aug 2026 21:18:21 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Indonesia 31/08/2026 08:03 UTC, 9 thousand in MMI VI.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:10km) in Indonesia 31/08/2026 08:03 UTC, 9 thousand in MMI VI.. On 8/31/2026 8:03:28 AM, an earthquake occurred in Indonesia potentially affecting 9 thousand in MMI VI. The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739",
+      "published": "Mon, 31 Aug 2026 08:18:53 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Austria",
+      "summary": "Green flood alert in Austria. On 31/08/2026, a flood started in Austria, lasting until 01/09/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104137",
+      "published": "Thu, 03 Sep 2026 08:12:14 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Pakistan",
+      "summary": "Green flood alert in Pakistan. On 31/08/2026, a flood started in Pakistan, lasting until 02/09/2026 (last update). The flood caused 5 deaths and 60 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104136",
+      "published": "Thu, 03 Sep 2026 07:31:02 GMT",
+      "collected_at": "2026-09-04T10:23:41.760704+00:00"
+    }
+  ]
+}
