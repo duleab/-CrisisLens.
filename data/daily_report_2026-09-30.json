@@ -1,0 +1,444 @@
+{
+  "date": "2026-09-30",
+  "collected_at": "2026-09-30T11:47:02.667559+00:00",
+  "total_events": 42,
+  "by_source": {
+    "USGS": 19,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 14
+  },
+  "by_type": {
+    "earthquake": 23,
+    "other": 4,
+    "disease": 3,
+    "flood": 7,
+    "storm": 4,
+    "volcano": 1
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 27 km N of Kupang, Indonesia",
+      "summary": "M 5.0 - 27 km N of Kupang, Indonesia. DYFI? -  III     Time  2026-09-30 10:58:50 UTC  2026-09-30 10:58:50 UTC at epicenter  Location  9.924&deg;S 123.646&deg;E  Depth  19.37 km (12.03 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyjb",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 121 km S of Kokopo, Papua New Guinea",
+      "summary": "M 5.1 - 121 km S of Kokopo, Papua New Guinea. Time  2026-09-30 08:15:17 UTC  2026-09-30 08:15:17 UTC at epicenter  Location  5.435&deg;S 152.133&deg;E  Depth  28.03 km (17.41 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyit",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - Balleny Islands region",
+      "summary": "M 5.2 - Balleny Islands region. Time  2026-09-30 07:07:16 UTC  2026-09-30 07:07:16 UTC at epicenter  Location  63.562&deg;S 171.414&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyik",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 83 km NE of Tadine, New Caledonia",
+      "summary": "M 5.0 - 83 km NE of Tadine, New Caledonia. Time  2026-09-30 06:50:03 UTC  2026-09-30 06:50:03 UTC at epicenter  Location  20.988&deg;S 168.424&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyid",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 3 km W of Thívai, Greece",
+      "summary": "M 4.6 - 3 km W of Thívai, Greece. Time  2026-09-30 05:20:59 UTC  2026-09-30 05:20:59 UTC at epicenter  Location  38.328&deg;N 23.280&deg;E  Depth  9.83 km (6.11 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhn",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.6 - 74 km S of Yonakuni, Japan",
+      "summary": "M 5.6 - 74 km S of Yonakuni, Japan. PAGER -  GREEN    ShakeMap -  IV    DYFI? -  IV     Time  2026-09-30 05:00:24 UTC  2026-09-30 05:00:24 UTC at epicenter  Location  23.803&deg;N 122.915&deg;E  Depth  10.79 km (6.71 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhk",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - Balleny Islands region",
+      "summary": "M 5.4 - Balleny Islands region. PAGER -  GREEN    ShakeMap -  I     Time  2026-09-30 04:48:06 UTC  2026-09-30 04:48:06 UTC at epicenter  Location  63.009&deg;S 169.216&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhi",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 112 km SSW of Banda Aceh, Indonesia",
+      "summary": "M 4.5 - 112 km SSW of Banda Aceh, Indonesia. Time  2026-09-30 02:35:50 UTC  2026-09-30 02:35:50 UTC at epicenter  Location  4.649&deg;N 94.852&deg;E  Depth  33.87 km (21.05 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyh0",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 104 km SSE of Sarangani, Philippines",
+      "summary": "M 4.5 - 104 km SSE of Sarangani, Philippines. Time  2026-09-30 02:30:44 UTC  2026-09-30 02:30:44 UTC at epicenter  Location  4.502&deg;N 125.747&deg;E  Depth  156.85 km (97.46 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygz",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 18 km SW of Tayaman, Philippines",
+      "summary": "M 4.8 - 18 km SW of Tayaman, Philippines. DYFI? -  III     Time  2026-09-30 01:34:05 UTC  2026-09-30 01:34:05 UTC at epicenter  Location  13.092&deg;N 120.473&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygs",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 75 km NE of Tadine, New Caledonia",
+      "summary": "M 4.8 - 75 km NE of Tadine, New Caledonia. Time  2026-09-30 01:17:47 UTC  2026-09-30 01:17:47 UTC at epicenter  Location  21.009&deg;S 168.328&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygq",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 15 km SW of San Antonio, Colombia",
+      "summary": "M 4.5 - 15 km SW of San Antonio, Colombia. Time  2026-09-29 21:50:29 UTC  2026-09-29 21:50:29 UTC at epicenter  Location  3.831&deg;N 75.591&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyfk",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 49 km N of Dicabisagan, Philippines",
+      "summary": "M 4.7 - 49 km N of Dicabisagan, Philippines. Time  2026-09-29 20:45:50 UTC  2026-09-29 20:45:50 UTC at epicenter  Location  17.527&deg;N 122.414&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyf0",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 44 km NNE of Fangale’ounga, Tonga",
+      "summary": "M 4.8 - 44 km NNE of Fangale’ounga, Tonga. Time  2026-09-29 16:12:56 UTC  2026-09-29 16:12:56 UTC at epicenter  Location  19.371&deg;S 174.182&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tycv",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - West Chile Rise",
+      "summary": "M 4.6 - West Chile Rise. Time  2026-09-29 15:31:18 UTC  2026-09-29 15:31:18 UTC at epicenter  Location  40.937&deg;S 91.415&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tycz",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - South Sandwich Islands region",
+      "summary": "M 4.9 - South Sandwich Islands region. Time  2026-09-29 15:17:18 UTC  2026-09-29 15:17:18 UTC at epicenter  Location  58.739&deg;S 26.007&deg;W  Depth  114.79 km (71.32 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyck",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 58 km NW of Pante Makasar, Timor Leste",
+      "summary": "M 5.0 - 58 km NW of Pante Makasar, Timor Leste. Time  2026-09-29 14:14:06 UTC  2026-09-29 14:14:06 UTC at epicenter  Location  8.783&deg;S 124.050&deg;E  Depth  157.80 km (98.05 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.6 - southern Mid-Atlantic Ridge",
+      "summary": "M 5.6 - southern Mid-Atlantic Ridge. PAGER -  GREEN    ShakeMap -  I     Time  2026-09-29 13:06:10 UTC  2026-09-29 13:06:10 UTC at epicenter  Location  35.204&deg;S 16.186&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc3",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - 99 km SSE of Pangai, Tonga",
+      "summary": "M 5.4 - 99 km SSE of Pangai, Tonga. PAGER -  GREEN    ShakeMap -  IV    DYFI? -  I     Time  2026-09-29 12:40:35 UTC  2026-09-29 12:40:35 UTC at epicenter  Location  20.677&deg;S 174.081&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc1",
+      "published": "2026-09-30",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M4.7 — Pusat gempa berada di laut 26 km Barat Kab. Kupang",
+      "summary": "Magnitude 4.7, Depth 10 km, Location: Pusat gempa berada di laut 26 km Barat Kab. Kupang. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "30 Sep 2026",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 4.7
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Thailand",
+      "summary": "Green flood alert in Thailand. On 05/10/2026, a flood started in Thailand, lasting until 07/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104169",
+      "published": "Wed, 30 Sep 2026 11:41:50 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Mexico",
+      "summary": "Green flood alert in Mexico. On 05/10/2026, a flood started in Mexico, lasting until 07/10/2026 (last update). The flood caused 0 deaths and 51 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104191",
+      "published": "Sat, 26 Sep 2026 06:33:31 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10.792km) in Japan 30/09/2026 05:00 UTC, 2 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10.792km) in Japan 30/09/2026 05:00 UTC, 2 thousand in MMI>=III.. On 9/30/2026 5:00:24 AM, an earthquake occurred in Japan potentially affecting 2 thousand in MMI>=III. The earthquake had Magnitude 5.6M, Depth:10.792km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1568726",
+      "published": "Wed, 30 Sep 2026 05:17:00 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone TWENTYSIX-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone TWENTYSIX-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 30/09/2026 to 30/09/2026, a Tropical Depression (maximum wind speed of 204 km/h) TWENTYSIX-26 was active in NWPacific. The cyclone affects these countries: Northern Mariana Islands (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001332",
+      "published": "Wed, 30 Sep 2026 02:12:11 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone NINETEEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone NINETEEN-E-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 29/09/2026 to 30/09/2026, a Tropical Depression (maximum wind speed of 56 km/h) NINETEEN-E-26 was active in EastPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001331",
+      "published": "Tue, 29 Sep 2026 15:15:39 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:10km) in Southern Mid-Atlantic Ridge 29/09/2026 13:06 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:10km) in Southern Mid-Atlantic Ridge 29/09/2026 13:06 UTC, [unknown].. On 9/29/2026 1:06:10 PM, an earthquake occurred in Southern Mid-Atlantic Ridge potentially affecting [unknown]. The earthquake had Magnitude 5.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1568614",
+      "published": "Tue, 29 Sep 2026 13:41:39 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in France",
+      "summary": "Green flood alert in France. On 29/09/2026, a flood started in France, lasting until 01/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104202",
+      "published": "Wed, 30 Sep 2026 10:55:11 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone HANNA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone HANNA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 28/09/2026 to 30/09/2026, a Tropical Storm (maximum wind speed of 74 km/h) HANNA-26 was active in Atlantic. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001330",
+      "published": "Mon, 28 Sep 2026 15:26:52 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Spain",
+      "summary": "Green flood alert in Spain. On 28/09/2026, a flood started in Spain, lasting until 30/09/2026 (last update). The flood caused 0 deaths and 16 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104199",
+      "published": "Wed, 30 Sep 2026 04:56:11 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "volcano",
+      "title": "Volcanic eruption is on going for Etna in Italy",
+      "summary": "Volcanic eruption is on going for Etna in Italy. Volcano Etna is emitting ash clouds according to the regional VAAC. The aviation alert level is Green.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000150",
+      "published": "Mon, 28 Sep 2026 06:12:10 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone RACHEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone RACHEL-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 27/09/2026 to 30/09/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h) RACHEL-26 was active in EastPacific. The cyclone affects these countries: Mexico (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001329",
+      "published": "Sun, 27 Sep 2026 09:24:05 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Ecuador",
+      "summary": "Green flood alert in Ecuador. On 27/09/2026, a flood started in Ecuador, lasting until 29/09/2026 (last update). The flood caused 0 deaths and 400 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104201",
+      "published": "Wed, 30 Sep 2026 05:34:23 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:69.51km) in Papua New Guinea 26/09/2026 14:08 UTC, 170 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:69.51km) in Papua New Guinea 26/09/2026 14:08 UTC, 170 thousand in MMI IV.. On 9/26/2026 2:08:18 PM, an earthquake occurred in Papua New Guinea potentially affecting 170 thousand in MMI IV. The earthquake had Magnitude 5.6M, Depth:69.51km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1568187",
+      "published": "Sat, 26 Sep 2026 14:26:39 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Colombia",
+      "summary": "Green flood alert in Colombia. On 26/09/2026, a flood started in Colombia, lasting until 28/09/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104200",
+      "published": "Wed, 30 Sep 2026 05:14:50 GMT",
+      "collected_at": "2026-09-30T11:47:02.667559+00:00"
+    }
+  ]
+}
