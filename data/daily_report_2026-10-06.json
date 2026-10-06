@@ -1,0 +1,394 @@
+{
+  "date": "2026-10-06",
+  "collected_at": "2026-10-06T12:36:48.005044+00:00",
+  "total_events": 37,
+  "by_source": {
+    "USGS": 13,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 15
+  },
+  "by_type": {
+    "earthquake": 16,
+    "other": 4,
+    "disease": 3,
+    "flood": 11,
+    "storm": 2,
+    "wildfire": 1
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 55 km ESE of Kokopo, Papua New Guinea",
+      "summary": "M 4.9 - 55 km ESE of Kokopo, Papua New Guinea. Time  2026-10-06 08:45:26 UTC  2026-10-06 08:45:26 UTC at epicenter  Location  4.477&deg;S 152.752&deg;E  Depth  20.64 km (12.83 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzvn",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 60 km WNW of Colchani, Bolivia",
+      "summary": "M 4.5 - 60 km WNW of Colchani, Bolivia. Time  2026-10-06 06:54:10 UTC  2026-10-06 06:54:10 UTC at epicenter  Location  20.009&deg;S 67.421&deg;W  Depth  191.74 km (119.14 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzva",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 36 km WNW of Ollagüe, Chile",
+      "summary": "M 4.7 - 36 km WNW of Ollagüe, Chile. Time  2026-10-06 06:16:33 UTC  2026-10-06 06:16:33 UTC at epicenter  Location  21.159&deg;S 68.603&deg;W  Depth  122.01 km (75.81 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzv6",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - State of Yap, Federated States of Micronesia",
+      "summary": "M 4.9 - State of Yap, Federated States of Micronesia. Time  2026-10-06 04:40:28 UTC  2026-10-06 04:40:28 UTC at epicenter  Location  6.782&deg;N 144.407&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzus",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - Izu Islands, Japan region",
+      "summary": "M 4.6 - Izu Islands, Japan region. Time  2026-10-06 04:28:36 UTC  2026-10-06 04:28:36 UTC at epicenter  Location  29.020&deg;N 142.845&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzuq",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 86 km N of Ruteng, Indonesia",
+      "summary": "M 4.8 - 86 km N of Ruteng, Indonesia. Time  2026-10-06 03:42:43 UTC  2026-10-06 03:42:43 UTC at epicenter  Location  7.832&deg;S 120.393&deg;E  Depth  8.65 km (5.38 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzuj",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 31 km S of Tezpur, India",
+      "summary": "M 4.6 - 31 km S of Tezpur, India. DYFI? -  III     Time  2026-10-05 22:53:42 UTC  2026-10-05 22:53:42 UTC at epicenter  Location  26.354&deg;N 92.836&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzth",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 146 km WNW of Panguna, Papua New Guinea",
+      "summary": "M 4.8 - 146 km WNW of Panguna, Papua New Guinea. Time  2026-10-05 22:48:53 UTC  2026-10-05 22:48:53 UTC at epicenter  Location  5.795&deg;S 154.268&deg;E  Depth  142.49 km (88.54 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tztg",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 39 km SW of Tambolaka, Indonesia",
+      "summary": "M 4.5 - 39 km SW of Tambolaka, Indonesia. Time  2026-10-05 21:38:05 UTC  2026-10-05 21:38:05 UTC at epicenter  Location  9.669&deg;S 118.973&deg;E  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzss",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - south of the Fiji Islands",
+      "summary": "M 5.0 - south of the Fiji Islands. Time  2026-10-05 20:22:59 UTC  2026-10-05 20:22:59 UTC at epicenter  Location  24.424&deg;S 179.811&deg;E  Depth  518.64 km (322.27 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzsc",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 12 km ENE of Metahāra, Ethiopia",
+      "summary": "M 4.6 - 12 km ENE of Metahāra, Ethiopia. Time  2026-10-05 19:47:55 UTC  2026-10-05 19:47:55 UTC at epicenter  Location  8.961&deg;N 40.009&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzry",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 105 km WNW of Höfn, Iceland",
+      "summary": "M 4.7 - 105 km WNW of Höfn, Iceland. Time  2026-10-05 17:28:24 UTC  2026-10-05 17:28:24 UTC at epicenter  Location  64.509&deg;N 17.312&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzpq",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 75 km NNE of Yonakuni, Japan",
+      "summary": "M 4.7 - 75 km NNE of Yonakuni, Japan. Time  2026-10-05 13:30:45 UTC  2026-10-05 13:30:45 UTC at epicenter  Location  25.104&deg;N 123.270&deg;E  Depth  156.22 km (97.07 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tznu",
+      "published": "2026-10-06",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M4.1 — Pusat gempa berada di laut 15 km selatan Kodi - Sumba Barat Daya",
+      "summary": "Magnitude 4.1, Depth 26 km, Location: Pusat gempa berada di laut 15 km selatan Kodi - Sumba Barat Daya. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "06 Okt 2026",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 4.1
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Thailand",
+      "summary": "Green flood alert in Thailand. On 05/10/2026, a flood started in Thailand, lasting until 07/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104169",
+      "published": "Tue, 06 Oct 2026 11:28:15 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Mexico",
+      "summary": "Green flood alert in Mexico. On 05/10/2026, a flood started in Mexico, lasting until 07/10/2026 (last update). The flood caused 0 deaths and 51 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104191",
+      "published": "Sat, 26 Sep 2026 06:33:31 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone KOGUMA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone KOGUMA-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 05/10/2026 to 06/10/2026, a Tropical Storm (maximum wind speed of 204 km/h) KOGUMA-26 was active in NWPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001333",
+      "published": "Mon, 05 Oct 2026 02:11:52 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:45.951km) in Indonesia 03/10/2026 22:55 UTC, 130 thousand in MMI V.",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:45.951km) in Indonesia 03/10/2026 22:55 UTC, 130 thousand in MMI V.. On 10/3/2026 10:55:55 PM, an earthquake occurred in Indonesia potentially affecting 130 thousand in MMI V. The earthquake had Magnitude 5.9M, Depth:45.951km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1569326",
+      "published": "Sat, 03 Oct 2026 23:14:32 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Guatemala",
+      "summary": "Green flood alert in Guatemala. On 03/10/2026, a flood started in Guatemala, lasting until 05/10/2026 (last update). The flood caused 0 deaths and 20 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104213",
+      "published": "Tue, 06 Oct 2026 06:14:44 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:29.477km) in Russia 02/10/2026 16:34 UTC, Few people affected in MMI III.",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:29.477km) in Russia 02/10/2026 16:34 UTC, Few people affected in MMI III.. On 10/2/2026 4:34:41 PM, an earthquake occurred in Russia potentially affecting Few people affected in MMI III. The earthquake had Magnitude 5.8M, Depth:29.477km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1569129",
+      "published": "Fri, 02 Oct 2026 16:56:41 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Honduras",
+      "summary": "Green flood alert in Honduras. On 02/10/2026, a flood started in Honduras, lasting until 04/10/2026 (last update). The flood caused 0 deaths and 32 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104209",
+      "published": "Mon, 05 Oct 2026 05:54:37 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Nicaragua",
+      "summary": "Green flood alert in Nicaragua. On 02/10/2026, a flood started in Nicaragua, lasting until 04/10/2026 (last update). The flood caused 0 deaths and 1 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104210",
+      "published": "Mon, 05 Oct 2026 06:14:36 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Malaysia",
+      "summary": "Green flood alert in Malaysia. On 01/10/2026, a flood started in Malaysia, lasting until 03/10/2026 (last update). The flood caused 0 deaths and 199 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104207",
+      "published": "Sat, 03 Oct 2026 06:54:19 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Iceland",
+      "summary": "Green flood alert in Iceland. On 30/09/2026, a flood started in Iceland, lasting until 02/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104211",
+      "published": "Mon, 05 Oct 2026 06:53:25 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone CHOI-WAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone CHOI-WAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 30/09/2026 to 06/10/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h) CHOI-WAN-26 was active in NWPacific. The cyclone affects these countries: Guam, Northern Mariana Islands, Russian Federation, United States (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001332",
+      "published": "Wed, 30 Sep 2026 02:12:11 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in France",
+      "summary": "Green flood alert in France. On 29/09/2026, a flood started in France, lasting until 05/10/2026 (last update). The flood caused 0 deaths and 128 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104202",
+      "published": "Tue, 06 Oct 2026 11:33:50 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Portugal",
+      "summary": "Green flood alert in Portugal. On 29/09/2026, a flood started in Portugal, lasting until 04/10/2026 (last update). The flood caused 0 deaths and 1 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104212",
+      "published": "Mon, 05 Oct 2026 06:53:33 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "wildfire",
+      "title": "Green forest fire notification in Indonesia",
+      "summary": "Green forest fire notification in Indonesia. On 29/09/2026, a forest fire started in Indonesia,  until 05/10/2026.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032557",
+      "published": "Sun, 04 Oct 2026 19:02:00 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Spain",
+      "summary": "Green flood alert in Spain. On 28/09/2026, a flood started in Spain, lasting until 05/10/2026 (last update). The flood caused 1 deaths and 1339 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104199",
+      "published": "Wed, 30 Sep 2026 04:56:11 GMT",
+      "collected_at": "2026-10-06T12:36:48.005044+00:00"
+    }
+  ]
+}
