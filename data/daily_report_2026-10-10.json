@@ -1,0 +1,704 @@
+{
+  "date": "2026-10-10",
+  "collected_at": "2026-10-10T11:45:45.541013+00:00",
+  "total_events": 68,
+  "by_source": {
+    "USGS": 40,
+    "BMKG": 1,
+    "WHO": 8,
+    "GDACS": 19
+  },
+  "by_type": {
+    "earthquake": 52,
+    "other": 4,
+    "disease": 3,
+    "flood": 6,
+    "volcano": 1,
+    "storm": 2
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 4 km NE of Río Grande, Panama",
+      "summary": "M 4.8 - 4 km NE of Río Grande, Panama. Time  2026-10-10 10:35:11 UTC  2026-10-10 10:35:11 UTC at epicenter  Location  7.746&deg;N 81.309&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1e5",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 61 km N of Hihifo, Tonga",
+      "summary": "M 4.5 - 61 km N of Hihifo, Tonga. Time  2026-10-10 08:38:50 UTC  2026-10-10 08:38:50 UTC at epicenter  Location  15.397&deg;S 173.782&deg;W  Depth  79.42 km (49.35 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dm",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 6 km SSE of Llano de Piedra, Panama",
+      "summary": "M 4.6 - 6 km SSE of Llano de Piedra, Panama. Time  2026-10-10 07:13:30 UTC  2026-10-10 07:13:30 UTC at epicenter  Location  7.618&deg;N 80.535&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dc",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 10 km SE of Pedasí, Panama",
+      "summary": "M 4.5 - 10 km SE of Pedasí, Panama. Time  2026-10-10 06:47:49 UTC  2026-10-10 06:47:49 UTC at epicenter  Location  7.456&deg;N 79.961&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1db",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 26 km SSE of Pedasí, Panama",
+      "summary": "M 4.9 - 26 km SSE of Pedasí, Panama. Time  2026-10-10 06:30:03 UTC  2026-10-10 06:30:03 UTC at epicenter  Location  7.300&deg;N 79.969&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d7",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 26 km S of Pedasí, Panama",
+      "summary": "M 4.7 - 26 km S of Pedasí, Panama. Time  2026-10-10 06:27:09 UTC  2026-10-10 06:27:09 UTC at epicenter  Location  7.297&deg;N 79.983&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d5",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 10 km SSW of Cañas, Panama",
+      "summary": "M 4.9 - 10 km SSW of Cañas, Panama. DYFI? -  III     Time  2026-10-10 06:18:55 UTC  2026-10-10 06:18:55 UTC at epicenter  Location  7.366&deg;N 80.317&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d2",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 25 km SSE of Pedasí, Panama",
+      "summary": "M 4.5 - 25 km SSE of Pedasí, Panama. Time  2026-10-10 06:16:32 UTC  2026-10-10 06:16:32 UTC at epicenter  Location  7.317&deg;N 79.948&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d1",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 6 km WSW of Filadelfia, Colombia",
+      "summary": "M 4.5 - 6 km WSW of Filadelfia, Colombia. Time  2026-10-10 05:45:59 UTC  2026-10-10 05:45:59 UTC at epicenter  Location  5.267&deg;N 75.613&deg;W  Depth  115.14 km (71.55 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cx",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 141 km E of Bitung, Indonesia",
+      "summary": "M 5.0 - 141 km E of Bitung, Indonesia. Time  2026-10-10 05:32:01 UTC  2026-10-10 05:32:01 UTC at epicenter  Location  1.625&deg;N 126.389&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 9 km WNW of Flores, Panama",
+      "summary": "M 4.5 - 9 km WNW of Flores, Panama. DYFI? -  III     Time  2026-10-10 04:33:03 UTC  2026-10-10 04:33:03 UTC at epicenter  Location  7.524&deg;N 80.479&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ck",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 6.0 - 7 km N of La Tronosa, Panama",
+      "summary": "M 6.0 - 7 km N of La Tronosa, Panama. PAGER -  YELLOW    ShakeMap -  VIII    DYFI? -  VI     Time  2026-10-10 04:14:01 UTC  2026-10-10 04:14:01 UTC at epicenter  Location  7.507&deg;N 80.599&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.3 - 41 km NNE of Yigo Village, Guam",
+      "summary": "M 5.3 - 41 km NNE of Yigo Village, Guam. DYFI? -  IV     Time  2026-10-10 03:58:18 UTC  2026-10-10 03:58:18 UTC at epicenter  Location  13.859&deg;N 145.089&deg;E  Depth  111.58 km (69.34 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cd",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 8 km N of La Tronosa, Panama",
+      "summary": "M 4.7 - 8 km N of La Tronosa, Panama. DYFI? -  I     Time  2026-10-10 03:56:17 UTC  2026-10-10 03:56:17 UTC at epicenter  Location  7.514&deg;N 80.585&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cb",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 18 km SSE of Río Grande, Panama",
+      "summary": "M 4.5 - 18 km SSE of Río Grande, Panama. DYFI? -  III     Time  2026-10-10 02:43:38 UTC  2026-10-10 02:43:38 UTC at epicenter  Location  7.575&deg;N 81.249&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bw",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 1 km NNE of Tonosí, Panama",
+      "summary": "M 5.1 - 1 km NNE of Tonosí, Panama. Time  2026-10-10 02:26:32 UTC  2026-10-10 02:26:32 UTC at epicenter  Location  7.418&deg;N 80.435&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bu",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 133 km WNW of Ternate, Indonesia",
+      "summary": "M 5.1 - 133 km WNW of Ternate, Indonesia. Time  2026-10-10 02:00:42 UTC  2026-10-10 02:00:42 UTC at epicenter  Location  1.416&deg;N 126.360&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bs",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 10 km S of Río Grande, Panama",
+      "summary": "M 4.6 - 10 km S of Río Grande, Panama. Time  2026-10-10 01:35:47 UTC  2026-10-10 01:35:47 UTC at epicenter  Location  7.627&deg;N 81.324&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bp",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 10 km N of La Tronosa, Panama",
+      "summary": "M 4.7 - 10 km N of La Tronosa, Panama. DYFI? -  III     Time  2026-10-10 01:11:47 UTC  2026-10-10 01:11:47 UTC at epicenter  Location  7.530&deg;N 80.586&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bl",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 9 km NNE of La Tronosa, Panama",
+      "summary": "M 4.6 - 9 km NNE of La Tronosa, Panama. DYFI? -  I     Time  2026-10-10 00:51:48 UTC  2026-10-10 00:51:48 UTC at epicenter  Location  7.516&deg;N 80.557&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bj",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 85 km ENE of Tadine, New Caledonia",
+      "summary": "M 4.7 - 85 km ENE of Tadine, New Caledonia. Time  2026-10-10 00:38:58 UTC  2026-10-10 00:38:58 UTC at epicenter  Location  21.263&deg;S 168.651&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bh",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 5 km SW of Cañas, Panama",
+      "summary": "M 4.8 - 5 km SW of Cañas, Panama. Time  2026-10-10 00:03:04 UTC  2026-10-10 00:03:04 UTC at epicenter  Location  7.405&deg;N 80.296&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b5",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 14 km W of Río Grande, Panama",
+      "summary": "M 4.7 - 14 km W of Río Grande, Panama. Time  2026-10-09 23:57:38 UTC  2026-10-09 23:57:38 UTC at epicenter  Location  7.738&deg;N 81.460&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b4",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 45 km SSE of Pedasí, Panama",
+      "summary": "M 4.5 - 45 km SSE of Pedasí, Panama. DYFI? -  III     Time  2026-10-09 23:54:22 UTC  2026-10-09 23:54:22 UTC at epicenter  Location  7.144&deg;N 79.890&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b3",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 9 km SW of Río Grande, Panama",
+      "summary": "M 4.9 - 9 km SW of Río Grande, Panama. DYFI? -  III     Time  2026-10-09 23:23:13 UTC  2026-10-09 23:23:13 UTC at epicenter  Location  7.665&deg;N 81.401&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1az",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - 9 km SSE of Los Asientos, Panama",
+      "summary": "M 5.4 - 9 km SSE of Los Asientos, Panama. PAGER -  GREEN    ShakeMap -  VII    DYFI? -  V     Time  2026-10-09 23:12:37 UTC  2026-10-09 23:12:37 UTC at epicenter  Location  7.437&deg;N 80.097&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ay",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 8 km ESE of La Tronosa, Panama",
+      "summary": "M 5.0 - 8 km ESE of La Tronosa, Panama. Time  2026-10-09 23:10:02 UTC  2026-10-09 23:10:02 UTC at epicenter  Location  7.396&deg;N 80.528&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ax",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 4 km NNE of Río Grande, Panama",
+      "summary": "M 4.6 - 4 km NNE of Río Grande, Panama. DYFI? -  II     Time  2026-10-09 21:47:49 UTC  2026-10-09 21:47:49 UTC at epicenter  Location  7.755&deg;N 81.319&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ai",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 96 km NE of Ozernovskiy, Russia",
+      "summary": "M 4.6 - 96 km NE of Ozernovskiy, Russia. Time  2026-10-09 21:19:16 UTC  2026-10-09 21:19:16 UTC at epicenter  Location  52.044&deg;N 157.583&deg;E  Depth  78.28 km (48.64 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ah",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 13 km W of Río Grande, Panama",
+      "summary": "M 4.9 - 13 km W of Río Grande, Panama. Time  2026-10-09 21:05:25 UTC  2026-10-09 21:05:25 UTC at epicenter  Location  7.730&deg;N 81.452&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1a9",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 16 km SSW of Calidonia, Panama",
+      "summary": "M 4.9 - 16 km SSW of Calidonia, Panama. Time  2026-10-09 20:54:56 UTC  2026-10-09 20:54:56 UTC at epicenter  Location  7.835&deg;N 81.467&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1a6",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 13 km W of Río Grande, Panama",
+      "summary": "M 5.0 - 13 km W of Río Grande, Panama. Time  2026-10-09 20:42:08 UTC  2026-10-09 20:42:08 UTC at epicenter  Location  7.725&deg;N 81.459&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1aa",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 8 km SSE of Leones Arriba, Panama",
+      "summary": "M 4.9 - 8 km SSE of Leones Arriba, Panama. Time  2026-10-09 20:41:04 UTC  2026-10-09 20:41:04 UTC at epicenter  Location  7.677&deg;N 81.092&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1a5",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 6.6 - 14 km W of Río Grande, Panama",
+      "summary": "M 6.6 - 14 km W of Río Grande, Panama. PAGER -  YELLOW    ShakeMap -  VIII    DYFI? -  VII          Time  2026-10-09 20:25:39 UTC  2026-10-09 20:25:39 UTC at epicenter  Location  7.718&deg;N 81.469&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 6 km NE of La Tronosa, Panama",
+      "summary": "M 5.0 - 6 km NE of La Tronosa, Panama. Time  2026-10-09 20:21:37 UTC  2026-10-09 20:21:37 UTC at epicenter  Location  7.473&deg;N 80.549&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19t",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 12 km SSW of Tebario, Panama",
+      "summary": "M 4.9 - 12 km SSW of Tebario, Panama. Time  2026-10-09 20:20:23 UTC  2026-10-09 20:20:23 UTC at epicenter  Location  7.617&deg;N 81.027&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19s",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 121 km S of Kokopo, Papua New Guinea",
+      "summary": "M 4.7 - 121 km S of Kokopo, Papua New Guinea. Time  2026-10-09 20:20:09 UTC  2026-10-09 20:20:09 UTC at epicenter  Location  5.431&deg;S 152.110&deg;E  Depth  50.54 km (31.40 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19v",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 11 km SE of Río Grande, Panama",
+      "summary": "M 5.2 - 11 km SE of Río Grande, Panama. DYFI? -  II     Time  2026-10-09 19:48:55 UTC  2026-10-09 19:48:55 UTC at epicenter  Location  7.642&deg;N 81.268&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19h",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 2 km N of Los Asientos, Panama",
+      "summary": "M 4.8 - 2 km N of Los Asientos, Panama. Time  2026-10-09 19:45:58 UTC  2026-10-09 19:45:58 UTC at epicenter  Location  7.545&deg;N 80.134&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19i",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 5 km N of Oria Arriba, Panama",
+      "summary": "M 4.5 - 5 km N of Oria Arriba, Panama. Time  2026-10-09 19:42:50 UTC  2026-10-09 19:42:50 UTC at epicenter  Location  7.555&deg;N 80.215&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19e",
+      "published": "2026-10-10",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M2.4 — Pusat gempa berada di darat 12 km barat Kendari",
+      "summary": "Magnitude 2.4, Depth 3 km, Location: Pusat gempa berada di darat 12 km barat Kendari. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "09 Okt 2026",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 2.4
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Spain's Secretary of State for Health discusses health priorities with WHO",
+      "summary": "Spain's Secretary of State for Health discusses health priorities with WHO. WHO welcomed Mr Javier Padilla Bern&aacute;ldez, Spain&rsquo;s Secretary of State for Health and his delegation on 23 and 24 April 2024 to discuss joint global health priorities. Amongst others, Spain's focus is on universal health coverage and health systems strengthening; pandemic response and emergency medical teams; organ and tissue transplantation; malaria and other tropical diseases; and polio.  During the visit, participants focused on plans and on-going work across a number of areas, including WHO&rsquo;s Trans",
+      "url": "https://www.who.int/news/item/25-04-2024-spain-s-secretary-of-state-for-health-discusses-joint-global-health-priorities-with-who",
+      "published": "Thu, 25 Apr 2024 08:39:54 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6M, Depth:10km) in Panama 10/10/2026 04:14 UTC, 4 thousand (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 6M, Depth:10km) in Panama 10/10/2026 04:14 UTC, 4 thousand (in MMI>=VII).. On 10/10/2026 4:14:01 AM, an earthquake occurred in Panama potentially affecting 4 thousand (in MMI>=VII). The earthquake had Magnitude 6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570467",
+      "published": "Sat, 10 Oct 2026 04:32:21 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.6M, Depth:10km) in Panama 09/10/2026 20:25 UTC, 10 thousand (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 6.6M, Depth:10km) in Panama 09/10/2026 20:25 UTC, 10 thousand (in MMI>=VII).. On 10/9/2026 8:25:39 PM, an earthquake occurred in Panama potentially affecting 10 thousand (in MMI>=VII). The earthquake had Magnitude 6.6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570370",
+      "published": "Fri, 09 Oct 2026 20:32:32 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:10km) in Panama 09/10/2026 18:37 UTC, 5 thousand (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:10km) in Panama 09/10/2026 18:37 UTC, 5 thousand (in MMI>=VII).. On 10/9/2026 6:37:46 PM, an earthquake occurred in Panama potentially affecting 5 thousand (in MMI>=VII). The earthquake had Magnitude 5.8M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570350",
+      "published": "Fri, 09 Oct 2026 18:49:51 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in Panama 09/10/2026 18:22 UTC, Few people affected (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:10km) in Panama 09/10/2026 18:22 UTC, Few people affected (in MMI>=VII).. On 10/9/2026 6:22:15 PM, an earthquake occurred in Panama potentially affecting Few people affected (in MMI>=VII). The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570346",
+      "published": "Fri, 09 Oct 2026 18:37:39 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Orange earthquake (Magnitude 7.7M, Depth:12.647km) in Panama 09/10/2026 17:56 UTC, 590 thousand (in MMI>=VII).",
+      "summary": "Orange earthquake (Magnitude 7.7M, Depth:12.647km) in Panama 09/10/2026 17:56 UTC, 590 thousand (in MMI>=VII).. On 10/9/2026 5:56:06 PM, an earthquake occurred in Panama potentially affecting 590 thousand (in MMI>=VII). The earthquake had Magnitude 7.7M, Depth:12.647km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570339",
+      "published": "Fri, 09 Oct 2026 18:04:04 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:10km) in West Of Macquarie Island 09/10/2026 14:49 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:10km) in West Of Macquarie Island 09/10/2026 14:49 UTC, [unknown].. On 10/9/2026 2:49:41 PM, an earthquake occurred in West Of Macquarie Island potentially affecting [unknown]. The earthquake had Magnitude 5.9M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570318",
+      "published": "Fri, 09 Oct 2026 15:09:14 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "volcano",
+      "title": "Volcanic eruption is on going for Taal in Philippines",
+      "summary": "Volcanic eruption is on going for Taal in Philippines. Volcano Taal is emitting ash clouds according to the regional VAAC. The aviation alert level is Orange.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=VO&eventid=1000151",
+      "published": "Thu, 08 Oct 2026 13:00:44 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Orange earthquake (Magnitude 6.3M, Depth:10km) in Vanuatu 08/10/2026 09:00 UTC, 10 thousand (in MMI>=VII).",
+      "summary": "Orange earthquake (Magnitude 6.3M, Depth:10km) in Vanuatu 08/10/2026 09:00 UTC, 10 thousand (in MMI>=VII).. On 10/8/2026 9:00:07 AM, an earthquake occurred in Vanuatu potentially affecting 10 thousand (in MMI>=VII). The earthquake had Magnitude 6.3M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570077",
+      "published": "Thu, 08 Oct 2026 09:09:40 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:52.054km) in Philippines 08/10/2026 08:07 UTC, 80 thousand in MMI V.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:52.054km) in Philippines 08/10/2026 08:07 UTC, 80 thousand in MMI V.. On 10/8/2026 8:07:59 AM, an earthquake occurred in Philippines potentially affecting 80 thousand in MMI V. The earthquake had Magnitude 5.5M, Depth:52.054km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570075",
+      "published": "Thu, 08 Oct 2026 08:27:59 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:10km) in West Of Macquarie Island 08/10/2026 06:46 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:10km) in West Of Macquarie Island 08/10/2026 06:46 UTC, [unknown].. On 10/8/2026 6:46:47 AM, an earthquake occurred in West Of Macquarie Island potentially affecting [unknown]. The earthquake had Magnitude 5.5M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570064",
+      "published": "Thu, 08 Oct 2026 07:04:38 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Italy",
+      "summary": "Green flood alert in Italy. On 08/10/2026, a flood started in Italy, lasting until 10/10/2026 (last update). The flood caused 0 deaths and 4 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220",
+      "published": "Sat, 10 Oct 2026 07:04:44 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Slovenia",
+      "summary": "Green flood alert in Slovenia. On 08/10/2026, a flood started in Slovenia, lasting until 10/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104221",
+      "published": "Sat, 10 Oct 2026 07:26:12 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Red notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.937 million .",
+      "summary": "Red notification for tropical cyclone SIMON-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.937 million .. From 07/10/2026 to 10/10/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h) SIMON-26 was active in EastPacific. The cyclone affects these countries: Mexico (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0.937 million .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001335",
+      "published": "Wed, 07 Oct 2026 15:33:28 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Venezuela",
+      "summary": "Green flood alert in Venezuela. On 07/10/2026, a flood started in Venezuela, lasting until 09/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104219",
+      "published": "Sat, 10 Oct 2026 06:25:31 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Orange notification for tropical cyclone ISAIAS-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.567 million .",
+      "summary": "Orange notification for tropical cyclone ISAIAS-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.567 million .. From 06/10/2026 to 10/10/2026, a Tropical Depression (maximum wind speed of 194 km/h) ISAIAS-26 was active in Atlantic. The cyclone affects these countries: United States (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0.567 million .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001334",
+      "published": "Tue, 06 Oct 2026 21:01:35 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:88.2km) in United States 06/10/2026 18:34 UTC, 70 thousand in MMI III.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:88.2km) in United States 06/10/2026 18:34 UTC, 70 thousand in MMI III.. On 10/6/2026 6:34:37 PM, an earthquake occurred in United States potentially affecting 70 thousand in MMI III. The earthquake had Magnitude 5.6M, Depth:88.2km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1569807",
+      "published": "Tue, 06 Oct 2026 18:35:52 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:29km) in Russia 06/10/2026 16:48 UTC, Few people affected in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:29km) in Russia 06/10/2026 16:48 UTC, Few people affected in MMI>=III.. On 10/6/2026 4:48:22 PM, an earthquake occurred in Russia potentially affecting Few people affected in MMI>=III. The earthquake had Magnitude 5.8M, Depth:29km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1569799",
+      "published": "Tue, 06 Oct 2026 17:10:20 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Chile",
+      "summary": "Green flood alert in Chile. On 06/10/2026, a flood started in Chile, lasting until 08/10/2026 (last update). The flood caused 1 deaths and 100 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104217",
+      "published": "Fri, 09 Oct 2026 06:06:46 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Argentina",
+      "summary": "Green flood alert in Argentina. On 06/10/2026, a flood started in Argentina, lasting until 08/10/2026 (last update). The flood caused 0 deaths and 31 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104218",
+      "published": "Sat, 10 Oct 2026 06:07:17 GMT",
+      "collected_at": "2026-10-10T11:45:45.541013+00:00"
+    }
+  ]
+}
