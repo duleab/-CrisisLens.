@@ -1,0 +1,483 @@
+{
+  "date": "2026-10-16",
+  "collected_at": "2026-10-16T10:31:15.885758+00:00",
+  "total_events": 46,
+  "by_source": {
+    "USGS": 13,
+    "BMKG": 1,
+    "WHO": 15,
+    "GDACS": 17
+  },
+  "by_type": {
+    "earthquake": 25,
+    "other": 5,
+    "disease": 6,
+    "flood": 6,
+    "storm": 4
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 31 km ENE of Kinablangan, Philippines",
+      "summary": "M 4.9 - 31 km ENE of Kinablangan, Philippines. Time  2026-10-16 09:13:44 UTC  2026-10-16 09:13:44 UTC at epicenter  Location  7.839&deg;N 126.799&deg;E  Depth  73.71 km (45.80 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2p2",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - southern East Pacific Rise",
+      "summary": "M 4.8 - southern East Pacific Rise. Time  2026-10-16 09:04:28 UTC  2026-10-16 09:04:28 UTC at epicenter  Location  55.239&deg;S 126.496&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2p5",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico",
+      "summary": "M 4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico. Time  2026-10-16 04:42:40 UTC  2026-10-16 04:42:40 UTC at epicenter  Location  13.934&deg;N 92.862&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2n4",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
+      "summary": "M 6.9 - 76 km NE of Ozernovskiy, Russia. PAGER -  GREEN    ShakeMap -  VI    DYFI? -  V     Time  2026-10-16 03:35:31 UTC  2026-10-16 03:35:31 UTC at epicenter  Location  51.985&deg;N 157.270&deg;E  Depth  135.00 km (83.89 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 44 km SSE of Champerico, Guatemala",
+      "summary": "M 4.5 - 44 km SSE of Champerico, Guatemala. Time  2026-10-15 20:39:25 UTC  2026-10-15 20:39:25 UTC at epicenter  Location  13.901&deg;N 91.818&deg;W  Depth  59.49 km (36.96 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2kz",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 22 km W of Tamarindo, Costa Rica",
+      "summary": "M 4.5 - 22 km W of Tamarindo, Costa Rica. DYFI? -  I     Time  2026-10-15 15:40:38 UTC  2026-10-15 15:40:38 UTC at epicenter  Location  10.303&deg;N 86.049&deg;W  Depth  22.78 km (14.16 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2i9",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 198 km SSE of Vilyuchinsk, Russia",
+      "summary": "M 4.9 - 198 km SSE of Vilyuchinsk, Russia. Time  2026-10-15 14:59:52 UTC  2026-10-15 14:59:52 UTC at epicenter  Location  51.380&deg;N 159.847&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2i2",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 9 km SSE of Los Asientos, Panama",
+      "summary": "M 4.5 - 9 km SSE of Los Asientos, Panama. DYFI? -  V     Time  2026-10-15 13:31:37 UTC  2026-10-15 13:31:37 UTC at epicenter  Location  7.445&deg;N 80.089&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ht",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 107 km NNE of Hihifo, Tonga",
+      "summary": "M 5.2 - 107 km NNE of Hihifo, Tonga. DYFI? -  II     Time  2026-10-15 13:29:31 UTC  2026-10-15 13:29:31 UTC at epicenter  Location  15.043&deg;S 173.444&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2hv",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 114 km SSW of Nikolski, Alaska",
+      "summary": "M 4.7 - 114 km SSW of Nikolski, Alaska. ShakeMap -  II     Time  2026-10-15 13:16:26 UTC  2026-10-15 13:16:26 UTC at epicenter  Location  52.002&deg;N 169.576&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2hr",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 157 km W of Sola, Vanuatu",
+      "summary": "M 5.2 - 157 km W of Sola, Vanuatu. Time  2026-10-15 13:06:51 UTC  2026-10-15 13:06:51 UTC at epicenter  Location  13.888&deg;S 166.092&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2hp",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - off the coast of Ecuador",
+      "summary": "M 4.8 - off the coast of Ecuador. Time  2026-10-15 11:16:43 UTC  2026-10-15 11:16:43 UTC at epicenter  Location  0.751&deg;N 85.429&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2gd",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska",
+      "summary": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska. ShakeMap -  VII    DYFI? -  V     Time  2026-10-15 11:07:01 UTC  2026-10-15 11:07:01 UTC at epicenter  Location  64.220&deg;N 152.746&deg;W  Depth  4.50 km (2.80 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb",
+      "published": "2026-10-16",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M2.5 — Pusat gempa berada di darat 21 km Barat Daya Kota Bogor",
+      "summary": "Magnitude 2.5, Depth 9 km, Location: Pusat gempa berada di darat 21 km Barat Daya Kota Bogor. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "16 Okt 2026",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 2.5
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health",
+      "summary": "WHO Director-General visits Jordan to recognize strong collaboration on health system delivery, emergency relief and advancing mental health. The Director-General of the World Health Organization, Dr Tedros Adhanom Ghebreyesus, today concluded the first day of his two-day State visit to the Hashemite Kingdom of Jordan, underscoring the strong partnership between WHO and Jordan across the areas of universal health coverage (UHC), mental health and humanitarian health action.",
+      "url": "https://www.who.int/news/item/25-02-2026-who-director-general-visits-jordan-to-recognize-strong-collaboration-on-health-system-delivery--emergency-relief-and-advancing-mental-health",
+      "published": "Wed, 25 Feb 2026 18:06:55 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO calls for action to uphold right to health amidst inaction, injustice and crises",
+      "summary": "WHO calls for action to uphold right to health amidst inaction, injustice and crises. To mark World Health Day (7 April), the World Health Organization (WHO) is running the &ldquo;My health, my right&rdquo; campaign to champion  the right to health of everyone, everywhere.    The campaign advocates for ensuring universal access to quality health services, education, and information, as well as safe drinking water, clean air, good nutrition, quality housing, decent working and environmental conditions, and freedom from discrimination.   All around the world, the core challenges consistently com",
+      "url": "https://www.who.int/news/item/05-04-2024-who-calls-for-action-to-uphold-right-to-health-amidst-inaction--injustice-and-crises",
+      "published": "Fri, 05 Apr 2024 16:47:03 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Digital payments to health workers boost retention, motivation, and impact",
+      "summary": "Digital payments to health workers boost retention, motivation, and impact. An immunization worker gets set up to receive her wages on her mobile wallet in the Democratic Republic of the Congo. Credit:&nbsp;  WHO    Campaigns in Africa to stop polio and other diseases have a more stable, better-motivated workforce thanks to WHO&rsquo;s collaboration with countries and partners to pay frontline health workers through their mobile phones instead of in cash.  &ldquo;Over 80 percent of workers are saying they prefer the digital payments,&rdquo; said Ahmed Hamani Djibo, head of WHO&rsquo;s Digital ",
+      "url": "https://www.who.int/news/item/09-02-2024-digital-payments-to-health-workers-boost-retention--motivation--and-impact",
+      "published": "Fri, 09 Feb 2024 11:34:25 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "France signs agreements to support WHO's work",
+      "summary": "France signs agreements to support WHO's work. &copy;WHO/Chris B.    Geneva &ndash; His Excellency J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and Dr Tedros Adhanom Ghebreyesus, WHO Director-General, today signed several funding agreements totaling &euro; 25.5 million to support critical health priorities.  The agreements include &euro; 4.5 million of funding for the Core Voluntary Contribution Account (CVCA) of WHO; these are fully flexible funds which allow WHO to allocate resources to key priorities outlined in its General Programme of ",
+      "url": "https://www.who.int/news/item/08-12-2023-08-12-2023-france-signs-agreements-to-support-who-s-work",
+      "published": "Fri, 08 Dec 2023 09:37:34 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Germany reaffirms its commitment to WHO and key health priorities",
+      "summary": "Germany reaffirms its commitment to WHO and key health priorities. Mr Ingo Behnel, Ambassador Dr Katharina Stasch, Dr Gesa Miehe-Nordmeyer and Dr Catharina Boehme. &copy;WHO/Lindsay Mackenzie    In a meeting on 3 November, Germany reaffirmed its support for WHO as the Organization takes on wide-ranging global health challenges and advocated prompt action to establish a pandemic accord &ndash; an international agreement that would pave the way for better collaboration on emergencies, science and research.  A German delegation that included Dr Katharina Stasch, UN Ambassador in Geneva; Ingo Behn",
+      "url": "https://www.who.int/news/item/08-11-2023-germany-reaffirms-its-commitment-to-who-and-key-health-priorities",
+      "published": "Mon, 13 Nov 2023 17:13:03 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "A leading flexible contributor, the Netherlands renews its multiannual allocation to WHO",
+      "summary": "A leading flexible contributor, the Netherlands renews its multiannual allocation to WHO. The Netherlands reaffirmed its position as a key supporter and strategic partner of WHO and a leading donor of flexible and predictable resources to WHO. In picture: WHO Director-General Dr Tedros and Dutch Minister of Health, Welfare and Sport Ernst Kuipers. &copy;WHO    The Netherlands strengthened its longstanding engagement with WHO on Monday with the renewal of the multiannual contribution of the Dutch Ministry of Health, Welfare and Sport to WHO for &euro;13.34 million for 2024&ndash;2028 and for &e",
+      "url": "https://www.who.int/news/item/06-11-2023-a-leading-flexible-contributor--the-netherlands-renews-its-multiannual-allocation-to-who",
+      "published": "Mon, 06 Nov 2023 12:46:23 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "Top donor Germany signs major contribution to WHO for health emergencies; signs host agreement for WHO pandemic hub",
+      "summary": "Top donor Germany signs major contribution to WHO for health emergencies; signs host agreement for WHO pandemic hub. Germany deepened its longstanding engagement with WHO on Thursday with two new agreements: one to contribute a further &euro;40 million to WHO&rsquo;s work in health emergencies, and a second to host the Berlin-based WHO Hub for Pandemic and Epidemic Intelligence.  With the new contribution, Germany has provided &euro;53.5 million so far this year to support WHO&rsquo;s response to more than 50 active health emergencies.  &ldquo;This is important because climate disasters, confl",
+      "url": "https://www.who.int/news/item/28-09-2023-top-donor-germany-signs-major-contribution-to-who-for-health-emergencies--signs-host-agreement-for-who-pandemic-hub",
+      "published": "Thu, 28 Sep 2023 17:03:41 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "OCHA and WHO annual consultation",
+      "summary": "OCHA and WHO annual consultation. Geneva, 21 June - Representatives of WHO and the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) focused their annual financial and management review meeting on strengthening their 18-year partnership to prevent and respond to humanitarian crises.  Both agencies provided updates: WHO on its emergency operations and the WHO  Global Health Appeal , and OCHA on its funding mechanisms for emergencies and strategic priorities. Discussions also touched on the urgency of early data sharing in disease outbreaks and the role of innovation in e",
+      "url": "https://www.who.int/news/item/21-06-2023-ocha-and-who-annual-consultation",
+      "published": "Tue, 27 Jun 2023 08:24:13 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "WHO sends health supplies to reach 400 000 people impacted by the earthquakes in Türkiye and the Syrian Arab Republic",
+      "summary": "WHO sends health supplies to reach 400 000 people impacted by the earthquakes in Türkiye and the Syrian Arab Republic. In response to the devastating earthquakes impacting\nT&uuml;rkiye and the Syrian Arab Republic, the World Health Organization delivered\n72 metric tons of trauma and emergency surgery supplies, including\ntreatments,&nbsp; to both countries to support ongoing response efforts. &nbsp;  A first\ncharter flight departed to T&uuml;rkiye on 9 February carrying 37 metric tons of\nlife-saving supplies, and a second flight is scheduled to deliver 35 metric\ntons of supplies to the Syrian A",
+      "url": "https://www.who.int/news/item/10-02-2023-who-sends-health-supplies-to-reach-400-000-people-impacted-by-the-earthquakes-in-t-rkiye-and-the-syrian-arab-republic",
+      "published": "Fri, 10 Feb 2023 12:00:48 Z",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone ONE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone ONE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 16/10/2026 to 16/10/2026, a Tropical Storm (maximum wind speed of 120 km/h) ONE-26 was active in SEPacific. The cyclone affects these countries: Cook Islands, French Polynesia (vulnerability High). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001339",
+      "published": "Fri, 16 Oct 2026 07:39:18 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.9M, Depth:143.176km) in Russia 16/10/2026 03:35 UTC, 10 thousand in MMI>=V.",
+      "summary": "Green earthquake (Magnitude 6.9M, Depth:143.176km) in Russia 16/10/2026 03:35 UTC, 10 thousand in MMI>=V.. On 10/16/2026 3:35:32 AM, an earthquake occurred in Russia potentially affecting 10 thousand in MMI>=V. The earthquake had Magnitude 6.9M, Depth:143.176km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1571917",
+      "published": "Fri, 16 Oct 2026 03:48:39 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.6M, Depth:1km) in United States 15/10/2026 11:07 UTC, 9 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.6M, Depth:1km) in United States 15/10/2026 11:07 UTC, 9 thousand in MMI>=III.. On 10/15/2026 11:07:01 AM, an earthquake occurred in United States potentially affecting 9 thousand in MMI>=III. The earthquake had Magnitude 5.6M, Depth:1km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1571732",
+      "published": "Thu, 15 Oct 2026 11:09:18 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Orange notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.175 million .",
+      "summary": "Orange notification for tropical cyclone CHAMPI-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.175 million .. From 14/10/2026 to 16/10/2026, a Tropical Storm (maximum wind speed of 241 km/h) CHAMPI-26 was active in NWPacific. The cyclone affects these countries: Guam (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0.175 million .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001338",
+      "published": "Wed, 14 Oct 2026 14:31:53 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:585.07km) in Fiji 14/10/2026 10:49 UTC, Few people affected in 100km.",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:585.07km) in Fiji 14/10/2026 10:49 UTC, Few people affected in 100km.. On 10/14/2026 10:49:47 AM, an earthquake occurred in Fiji potentially affecting Few people affected in 100km. The earthquake had Magnitude 5.9M, Depth:585.07km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1571524",
+      "published": "Wed, 14 Oct 2026 11:07:18 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6M, Depth:20.842km) in Papua New Guinea 13/10/2026 18:45 UTC, 4 thousand in MMI V.",
+      "summary": "Green earthquake (Magnitude 6M, Depth:20.842km) in Papua New Guinea 13/10/2026 18:45 UTC, 4 thousand in MMI V.. On 10/13/2026 6:45:03 PM, an earthquake occurred in Papua New Guinea potentially affecting 4 thousand in MMI V. The earthquake had Magnitude 6M, Depth:20.842km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1571367",
+      "published": "Tue, 13 Oct 2026 19:02:33 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone TRUDY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone TRUDY-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 13/10/2026 to 16/10/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h) TRUDY-26 was active in EastPacific. The cyclone affects these countries: México (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001337",
+      "published": "Tue, 13 Oct 2026 15:15:58 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.8M, Depth:10km) in Central Mid-Atlantic Ridge 13/10/2026 12:23 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 6.8M, Depth:10km) in Central Mid-Atlantic Ridge 13/10/2026 12:23 UTC, [unknown].. On 10/13/2026 12:23:07 PM, an earthquake occurred in Central Mid-Atlantic Ridge potentially affecting [unknown]. The earthquake had Magnitude 6.8M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1571305",
+      "published": "Tue, 13 Oct 2026 12:38:56 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.7M, Depth:10km) in Central Mid-Atlantic Ridge 13/10/2026 05:44 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 6.7M, Depth:10km) in Central Mid-Atlantic Ridge 13/10/2026 05:44 UTC, [unknown].. On 10/13/2026 5:44:46 AM, an earthquake occurred in Central Mid-Atlantic Ridge potentially affecting [unknown]. The earthquake had Magnitude 6.7M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1571248",
+      "published": "Tue, 13 Oct 2026 06:05:42 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Libya",
+      "summary": "Green flood alert in Libya. On 13/10/2026, a flood started in Libya, lasting until 15/10/2026 (last update). The flood caused 2 deaths and 5 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104231",
+      "published": "Wed, 14 Oct 2026 11:00:25 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.1M, Depth:10km) in Panama 12/10/2026 23:20 UTC, 1 thousand (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 6.1M, Depth:10km) in Panama 12/10/2026 23:20 UTC, 1 thousand (in MMI>=VII).. On 10/12/2026 11:20:36 PM, an earthquake occurred in Panama potentially affecting 1 thousand (in MMI>=VII). The earthquake had Magnitude 6.1M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1571161",
+      "published": "Mon, 12 Oct 2026 23:34:20 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:195.212km) in Tonga 12/10/2026 04:38 UTC, No people affected in 100km.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:195.212km) in Tonga 12/10/2026 04:38 UTC, No people affected in 100km.. On 10/12/2026 4:38:12 AM, an earthquake occurred in Tonga potentially affecting No people affected in 100km. The earthquake had Magnitude 5.5M, Depth:195.212km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1570970",
+      "published": "Mon, 12 Oct 2026 04:54:58 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Syria",
+      "summary": "Green flood alert in Syria. On 12/10/2026, a flood started in Syria, lasting until 14/10/2026 (last update). The flood caused 2 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104233",
+      "published": "Thu, 15 Oct 2026 07:59:52 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Türkiye",
+      "summary": "Green flood alert in Türkiye. On 12/10/2026, a flood started in Türkiye, lasting until 16/10/2026 (last update). The flood caused 2 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104230",
+      "published": "Wed, 14 Oct 2026 08:42:33 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone TWENTYEIGHT-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone TWENTYEIGHT-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 12/10/2026 to 15/10/2026, a Tropical Depression (maximum wind speed of 56 km/h) TWENTYEIGHT-26 was active in NWPacific. The cyclone affects these countries: [unknown] (vulnerability [unknown]). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001336",
+      "published": "Mon, 12 Oct 2026 02:43:29 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Nepal",
+      "summary": "Green flood alert in Nepal. On 11/10/2026, a flood started in Nepal, lasting until 13/10/2026 (last update). The flood caused 0 deaths and 50 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104225",
+      "published": "Mon, 12 Oct 2026 05:56:07 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Jordan",
+      "summary": "Green flood alert in Jordan. On 10/10/2026, a flood started in Jordan, lasting until 12/10/2026 (last update). The flood caused 1 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104232",
+      "published": "Thu, 15 Oct 2026 07:59:43 GMT",
+      "collected_at": "2026-10-16T10:31:15.885758+00:00"
+    }
+  ]
+}
