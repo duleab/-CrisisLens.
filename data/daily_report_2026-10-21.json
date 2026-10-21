@@ -1,0 +1,482 @@
+{
+  "date": "2026-10-21",
+  "collected_at": "2026-10-21T11:01:22.371459+00:00",
+  "total_events": 46,
+  "by_source": {
+    "USGS": 17,
+    "BMKG": 1,
+    "WHO": 17,
+    "GDACS": 11
+  },
+  "by_type": {
+    "earthquake": 25,
+    "disease": 10,
+    "flood": 7,
+    "other": 4
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 68 km NE of Cabatuan, Philippines",
+      "summary": "M 5.2 - 68 km NE of Cabatuan, Philippines. Time  2026-10-21 08:37:41 UTC  2026-10-21 08:37:41 UTC at epicenter  Location  13.030&deg;N 125.590&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3t6",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 164 km NE of Lospalos, Timor Leste",
+      "summary": "M 5.1 - 164 km NE of Lospalos, Timor Leste. DYFI? -  II     Time  2026-10-21 07:44:16 UTC  2026-10-21 07:44:16 UTC at epicenter  Location  7.562&deg;S 128.136&deg;E  Depth  122.69 km (76.23 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3t4",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 173 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.7 - 173 km NW of Port-Olry, Vanuatu. Time  2026-10-21 04:23:28 UTC  2026-10-21 04:23:28 UTC at epicenter  Location  14.035&deg;S 165.833&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3sj",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - south of Panama",
+      "summary": "M 5.0 - south of Panama. Time  2026-10-21 01:20:02 UTC  2026-10-21 01:20:02 UTC at epicenter  Location  4.599&deg;N 82.703&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rr",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 2 km N of Honchō, Japan",
+      "summary": "M 4.5 - 2 km N of Honchō, Japan. DYFI? -  III     Time  2026-10-21 01:04:29 UTC  2026-10-21 01:04:29 UTC at epicenter  Location  35.725&deg;N 139.984&deg;E  Depth  90.27 km (56.09 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rn",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - south of the Fiji Islands",
+      "summary": "M 4.9 - south of the Fiji Islands. Time  2026-10-20 23:24:27 UTC  2026-10-20 23:24:27 UTC at epicenter  Location  25.502&deg;S 179.592&deg;E  Depth  529.78 km (329.19 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r3",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 115 km NNE of Barishal, Pakistan",
+      "summary": "M 4.6 - 115 km NNE of Barishal, Pakistan. Time  2026-10-20 23:16:43 UTC  2026-10-20 23:16:43 UTC at epicenter  Location  37.301&deg;N 75.121&deg;E  Depth  65.60 km (40.76 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r1",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 187 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.9 - 187 km NW of Port-Olry, Vanuatu. Time  2026-10-20 20:03:26 UTC  2026-10-20 20:03:26 UTC at epicenter  Location  14.048&deg;S 165.660&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3pq",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - Kuril Islands",
+      "summary": "M 4.7 - Kuril Islands. Time  2026-10-20 19:53:59 UTC  2026-10-20 19:53:59 UTC at epicenter  Location  46.220&deg;N 152.915&deg;E  Depth  28.75 km (17.86 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3pm",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 39 km W of Mosteiros, Portugal",
+      "summary": "M 5.1 - 39 km W of Mosteiros, Portugal. DYFI? -  V     Time  2026-10-20 18:07:18 UTC  2026-10-20 18:07:18 UTC at epicenter  Location  37.958&deg;N 26.259&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3p1",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 215 km S of Burica, Panama",
+      "summary": "M 4.5 - 215 km S of Burica, Panama. Time  2026-10-20 17:18:36 UTC  2026-10-20 17:18:36 UTC at epicenter  Location  6.093&deg;N 82.662&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nn",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.4 - 192 km S of Burica, Panama",
+      "summary": "M 5.4 - 192 km S of Burica, Panama. Time  2026-10-20 17:05:48 UTC  2026-10-20 17:05:48 UTC at epicenter  Location  6.323&deg;N 82.569&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nl",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - south of the Fiji Islands",
+      "summary": "M 4.8 - south of the Fiji Islands. Time  2026-10-20 16:29:43 UTC  2026-10-20 16:29:43 UTC at epicenter  Location  24.180&deg;S 177.010&deg;W  Depth  109.55 km (68.07 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nd",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 21 km SW of Meulaboh, Indonesia",
+      "summary": "M 5.0 - 21 km SW of Meulaboh, Indonesia. Time  2026-10-20 16:29:38 UTC  2026-10-20 16:29:38 UTC at epicenter  Location  4.001&deg;N 95.993&deg;E  Depth  75.88 km (47.15 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nc",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 111 km S of Kokopo, Papua New Guinea",
+      "summary": "M 4.5 - 111 km S of Kokopo, Papua New Guinea. Time  2026-10-20 14:20:49 UTC  2026-10-20 14:20:49 UTC at epicenter  Location  5.346&deg;S 152.145&deg;E  Depth  57.37 km (35.65 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3m7",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 142 km SSW of Abepura, Indonesia",
+      "summary": "M 4.5 - 142 km SSW of Abepura, Indonesia. Time  2026-10-20 13:27:24 UTC  2026-10-20 13:27:24 UTC at epicenter  Location  3.713&deg;S 139.999&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lx",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 184 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.9 - 184 km NW of Port-Olry, Vanuatu. Time  2026-10-20 11:40:10 UTC  2026-10-20 11:40:10 UTC at epicenter  Location  13.991&deg;S 165.746&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3li",
+      "published": "2026-10-21",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M5.1 — 62 km TimurLaut MALUKUBRTDAYA",
+      "summary": "Magnitude 5.1, Depth 96 km, Location: 62 km TimurLaut MALUKUBRTDAYA. Potential: Tidak berpotensi tsunami",
+      "url": "https://www.bmkg.go.id",
+      "published": "21 Okt 2026",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 5.1
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "New WHO technical package to help countries improve health data for COVID-19 response and beyond",
+      "summary": "New WHO technical package to help countries improve health data for COVID-19 response and beyond. Today, as part of its commitment to strengthening health information systems and improving health[1], especially in the context of the COVID-19 pandemic, WHO announced a new approach to improving access to life-saving data: the  SCORE for Health Data Technical Package.  The COVID-19 pandemic has highlighted the urgent need for timely and reliable data to drive strategic health action. Too many countries still lack both the infrastructure to routinely gather health data and the analytical capacity ",
+      "url": "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response",
+      "published": "Sat, 10 Oct 2026 07:49:45 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO calls for action to uphold right to health amidst inaction, injustice and crises",
+      "summary": "WHO calls for action to uphold right to health amidst inaction, injustice and crises. To mark World Health Day (7 April), the World Health Organization (WHO) is running the &ldquo;My health, my right&rdquo; campaign to champion  the right to health of everyone, everywhere.    The campaign advocates for ensuring universal access to quality health services, education, and information, as well as safe drinking water, clean air, good nutrition, quality housing, decent working and environmental conditions, and freedom from discrimination.   All around the world, the core challenges consistently com",
+      "url": "https://www.who.int/news/item/05-04-2024-who-calls-for-action-to-uphold-right-to-health-amidst-inaction--injustice-and-crises",
+      "published": "Fri, 05 Apr 2024 16:47:03 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Digital payments to health workers boost retention, motivation, and impact",
+      "summary": "Digital payments to health workers boost retention, motivation, and impact. An immunization worker gets set up to receive her wages on her mobile wallet in the Democratic Republic of the Congo. Credit:&nbsp;  WHO    Campaigns in Africa to stop polio and other diseases have a more stable, better-motivated workforce thanks to WHO&rsquo;s collaboration with countries and partners to pay frontline health workers through their mobile phones instead of in cash.  &ldquo;Over 80 percent of workers are saying they prefer the digital payments,&rdquo; said Ahmed Hamani Djibo, head of WHO&rsquo;s Digital ",
+      "url": "https://www.who.int/news/item/09-02-2024-digital-payments-to-health-workers-boost-retention--motivation--and-impact",
+      "published": "Fri, 09 Feb 2024 11:34:25 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "France signs agreements to support WHO's work",
+      "summary": "France signs agreements to support WHO's work. &copy;WHO/Chris B.    Geneva &ndash; His Excellency J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and Dr Tedros Adhanom Ghebreyesus, WHO Director-General, today signed several funding agreements totaling &euro; 25.5 million to support critical health priorities.  The agreements include &euro; 4.5 million of funding for the Core Voluntary Contribution Account (CVCA) of WHO; these are fully flexible funds which allow WHO to allocate resources to key priorities outlined in its General Programme of ",
+      "url": "https://www.who.int/news/item/08-12-2023-08-12-2023-france-signs-agreements-to-support-who-s-work",
+      "published": "Fri, 08 Dec 2023 09:37:34 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "A leading flexible contributor, the Netherlands renews its multiannual allocation to WHO",
+      "summary": "A leading flexible contributor, the Netherlands renews its multiannual allocation to WHO. The Netherlands reaffirmed its position as a key supporter and strategic partner of WHO and a leading donor of flexible and predictable resources to WHO. In picture: WHO Director-General Dr Tedros and Dutch Minister of Health, Welfare and Sport Ernst Kuipers. &copy;WHO    The Netherlands strengthened its longstanding engagement with WHO on Monday with the renewal of the multiannual contribution of the Dutch Ministry of Health, Welfare and Sport to WHO for &euro;13.34 million for 2024&ndash;2028 and for &e",
+      "url": "https://www.who.int/news/item/06-11-2023-a-leading-flexible-contributor--the-netherlands-renews-its-multiannual-allocation-to-who",
+      "published": "Mon, 06 Nov 2023 12:46:23 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "OCHA and WHO annual consultation",
+      "summary": "OCHA and WHO annual consultation. Geneva, 21 June - Representatives of WHO and the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) focused their annual financial and management review meeting on strengthening their 18-year partnership to prevent and respond to humanitarian crises.  Both agencies provided updates: WHO on its emergency operations and the WHO  Global Health Appeal , and OCHA on its funding mechanisms for emergencies and strategic priorities. Discussions also touched on the urgency of early data sharing in disease outbreaks and the role of innovation in e",
+      "url": "https://www.who.int/news/item/21-06-2023-ocha-and-who-annual-consultation",
+      "published": "Tue, 27 Jun 2023 08:24:13 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "WHO sends health supplies to reach 400 000 people impacted by the earthquakes in Türkiye and the Syrian Arab Republic",
+      "summary": "WHO sends health supplies to reach 400 000 people impacted by the earthquakes in Türkiye and the Syrian Arab Republic. In response to the devastating earthquakes impacting\nT&uuml;rkiye and the Syrian Arab Republic, the World Health Organization delivered\n72 metric tons of trauma and emergency surgery supplies, including\ntreatments,&nbsp; to both countries to support ongoing response efforts. &nbsp;  A first\ncharter flight departed to T&uuml;rkiye on 9 February carrying 37 metric tons of\nlife-saving supplies, and a second flight is scheduled to deliver 35 metric\ntons of supplies to the Syrian A",
+      "url": "https://www.who.int/news/item/10-02-2023-who-sends-health-supplies-to-reach-400-000-people-impacted-by-the-earthquakes-in-t-rkiye-and-the-syrian-arab-republic",
+      "published": "Fri, 10 Feb 2023 12:00:48 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Partnerships for global health: \n\nQatar and WHO convene first Strategic Dialogue",
+      "summary": "Partnerships for global health: \n\nQatar and WHO convene first Strategic Dialogue. On 15 November 2021, the State of Qatar and WHO convened their first Strategic Dialogue, building on their strong partnership and their commitment to work jointly in addressing global health challenges. The overall objective of the meeting was to create a platform to facilitate regular dialogue with WHO leadership and technical experts on WHO programmes and policies. This event also provided an opportunity to review the key areas supported by Qatar and explore new areas of collaboration including the impact of CO",
+      "url": "https://www.who.int/news/item/15-11-2021-partnerships-for-global-health-qatar-and-who-convene-first-strategic-dialogue",
+      "published": "Tue, 16 Nov 2021 16:53:45 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Health – A Political Choice: Solidarity, Science and Solutions",
+      "summary": "Health – A Political Choice: Solidarity, Science and Solutions. Ending the COVID-19 pandemic is among the world&rsquo;s most pressing priorities.   The challenges we have all faced since the beginning of the outbreak have put health centre stage, highlighting the urgent need to invest resources and effort in strengthening health systems, addressing health inequities, and embracing innovation to find solutions to old and new problems.   We will only find a way out of this crisis through science, finding solutions and by working together, in solidarity.   In this new book, key leading figures in",
+      "url": "https://www.who.int/news/item/27-10-2021-health-a-political-choice-solidarity-science-and-solutions",
+      "published": "Wed, 27 Oct 2021 09:52:29 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO reports progress in the fight against tobacco epidemic",
+      "summary": "WHO reports progress in the fight against tobacco epidemic. Many countries are making progress in the fight against tobacco, but a new World Health Organization report shows some are not addressing emerging nicotine and tobacco products and failing to regulate them.        Increased adoption of WHO-recommended tobacco control measures  More than four times as many people are now covered by at least one WHO-recommended &nbsp;tobacco control measure as compared with 2007. The six MPOWER measures are monitoring tobacco use and preventive measures; protecting people from tobacco smoke;\n    offerin",
+      "url": "https://www.who.int/news/item/27-07-2021-who-reports-progress-in-the-fight-against-tobacco-epidemic",
+      "published": "Mon, 26 Jul 2021 12:57:42 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO and Switzerland launch global BioHub for pathogen storage, sharing and analysis",
+      "summary": "WHO and Switzerland launch global BioHub for pathogen storage, sharing and analysis. The World Health Organization (WHO) and the Swiss Confederation today signed a Memorandum of Understanding to launch the first WHO BioHub Facility as part of the WHO BioHub System, which was announced in November 2020. This facility will enhance the rapid sharing of viruses and other pathogens between laboratories and partners globally.     Based in Spiez, Switzerland, the facility will serve as a centre for the safe receipt, sequencing, storage and preparation of biological materials for distribution to other",
+      "url": "https://www.who.int/news/item/24-05-2021-who-and-switzerland-launch-global-biohub-for-pathogen-storage-sharing-and-analysis",
+      "published": "Mon, 24 May 2021 09:22:43 Z",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.3M, Depth:16km) in Vanuatu Islands 20/10/2026 04:20 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 6.3M, Depth:16km) in Vanuatu Islands 20/10/2026 04:20 UTC, [unknown].. On 10/20/2026 4:20:38 AM, an earthquake occurred in Vanuatu Islands potentially affecting [unknown]. The earthquake had Magnitude 6.3M, Depth:16km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1572693",
+      "published": "Tue, 20 Oct 2026 04:31:52 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Vanuatu Islands 19/10/2026 18:55 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:10km) in Vanuatu Islands 19/10/2026 18:55 UTC, [unknown].. On 10/19/2026 6:55:37 PM, an earthquake occurred in Vanuatu Islands potentially affecting [unknown]. The earthquake had Magnitude 5.7M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1572622",
+      "published": "Mon, 19 Oct 2026 19:16:41 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Vanuatu Islands 19/10/2026 18:52 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:10km) in Vanuatu Islands 19/10/2026 18:52 UTC, [unknown].. On 10/19/2026 6:52:36 PM, an earthquake occurred in Vanuatu Islands potentially affecting [unknown]. The earthquake had Magnitude 5.7M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1572618",
+      "published": "Mon, 19 Oct 2026 19:11:39 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6M, Depth:10km) in Vanuatu 19/10/2026 07:49 UTC, 2 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 6M, Depth:10km) in Vanuatu 19/10/2026 07:49 UTC, 2 thousand in MMI>=III.. On 10/19/2026 7:49:04 AM, an earthquake occurred in Vanuatu potentially affecting 2 thousand in MMI>=III. The earthquake had Magnitude 6M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1572503",
+      "published": "Mon, 19 Oct 2026 08:09:51 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Ukraine",
+      "summary": "Green flood alert in Ukraine. On 19/10/2026, a flood started in Ukraine, lasting until 21/10/2026 (last update). The flood caused 0 deaths and 5 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104242",
+      "published": "Wed, 21 Oct 2026 09:53:08 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in France",
+      "summary": "Green flood alert in France. On 19/10/2026, a flood started in France, lasting until 22/10/2026 (last update). The flood caused 1 deaths and 69 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104243",
+      "published": "Wed, 21 Oct 2026 09:54:34 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in South Korea",
+      "summary": "Green flood alert in South Korea. On 18/10/2026, a flood started in South Korea, lasting until 20/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104240",
+      "published": "Tue, 20 Oct 2026 14:35:13 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Thailand",
+      "summary": "Green flood alert in Thailand. On 18/10/2026, a flood started in Thailand, lasting until 20/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104241",
+      "published": "Tue, 20 Oct 2026 14:35:25 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Guatemala",
+      "summary": "Green flood alert in Guatemala. On 18/10/2026, a flood started in Guatemala, lasting until 20/10/2026 (last update). The flood caused 0 deaths and 1 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104244",
+      "published": "Wed, 21 Oct 2026 10:52:49 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Pakistan 17/10/2026 05:06 UTC, 2 thousand (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:10km) in Pakistan 17/10/2026 05:06 UTC, 2 thousand (in MMI>=VII).. On 10/17/2026 5:06:57 AM, an earthquake occurred in Pakistan potentially affecting 2 thousand (in MMI>=VII). The earthquake had Magnitude 5.7M, Depth:10km.",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1572122",
+      "published": "Sat, 17 Oct 2026 05:26:57 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Spain",
+      "summary": "Green flood alert in Spain. On 17/10/2026, a flood started in Spain, lasting until 20/10/2026 (last update). The flood caused 1 deaths and 2002 displaced .",
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104235",
+      "published": "Mon, 19 Oct 2026 06:04:30 GMT",
+      "collected_at": "2026-10-21T11:01:22.371459+00:00"
+    }
+  ]
+}
