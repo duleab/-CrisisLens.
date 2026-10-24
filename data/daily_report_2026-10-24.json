@@ -1,0 +1,763 @@
+{
+  "date": "2026-10-24",
+  "collected_at": "2026-10-24T10:07:28.624761+00:00",
+  "total_events": 74,
+  "by_source": {
+    "USGS": 40,
+    "BMKG": 1,
+    "WHO": 21,
+    "GDACS": 12
+  },
+  "by_type": {
+    "earthquake": 53,
+    "disease": 13,
+    "flood": 1,
+    "other": 5,
+    "storm": 2
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 169 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.9 - 169 km NW of Port-Olry, Vanuatu. Time  2026-10-24 09:38:49 UTC  2026-10-24 09:38:49 UTC at epicenter  Location  14.135&deg;S 165.805&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lr",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 219 km WNW of Port-Olry, Vanuatu",
+      "summary": "M 5.0 - 219 km WNW of Port-Olry, Vanuatu. Time  2026-10-24 09:07:00 UTC  2026-10-24 09:07:00 UTC at epicenter  Location  14.106&deg;S 165.276&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lp",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.9 - 196 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.9 - 196 km NW of Port-Olry, Vanuatu. PAGER -  GREEN    ShakeMap -  IV     Time  2026-10-24 08:56:28 UTC  2026-10-24 08:56:28 UTC at epicenter  Location  13.942&deg;S 165.647&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lm",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 187 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.7 - 187 km NW of Port-Olry, Vanuatu. Time  2026-10-24 08:45:55 UTC  2026-10-24 08:45:55 UTC at epicenter  Location  13.987&deg;S 165.711&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ll",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.3 - 223 km ENE of Nagqu, China",
+      "summary": "M 5.3 - 223 km ENE of Nagqu, China. Time  2026-10-24 08:39:53 UTC  2026-10-24 08:39:53 UTC at epicenter  Location  32.563&deg;N 94.048&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lg",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 81 km SSE of Akutan, Alaska",
+      "summary": "M 4.5 - 81 km SSE of Akutan, Alaska. ShakeMap -  III    DYFI? -  III     Time  2026-10-24 08:33:48 UTC  2026-10-24 08:33:48 UTC at epicenter  Location  53.519&deg;N 165.096&deg;W  Depth  35.00 km (21.75 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ld",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 41 km SSE of Kax, China",
+      "summary": "M 4.9 - 41 km SSE of Kax, China. Time  2026-10-24 08:29:20 UTC  2026-10-24 08:29:20 UTC at epicenter  Location  43.314&deg;N 82.108&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lb",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 209 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.1 - 209 km NW of Port-Olry, Vanuatu. Time  2026-10-24 08:28:02 UTC  2026-10-24 08:28:02 UTC at epicenter  Location  13.797&deg;S 165.609&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lc",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 218 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.1 - 218 km NW of Port-Olry, Vanuatu. Time  2026-10-24 08:22:46 UTC  2026-10-24 08:22:46 UTC at epicenter  Location  13.833&deg;S 165.466&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4l9",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 222 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.7 - 222 km NW of Port-Olry, Vanuatu. Time  2026-10-24 08:20:01 UTC  2026-10-24 08:20:01 UTC at epicenter  Location  13.805&deg;S 165.447&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4l8",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 195 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.7 - 195 km NW of Port-Olry, Vanuatu. Time  2026-10-24 06:58:03 UTC  2026-10-24 06:58:03 UTC at epicenter  Location  13.853&deg;S 165.727&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4kw",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 219 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.0 - 219 km NW of Port-Olry, Vanuatu. Time  2026-10-24 06:52:04 UTC  2026-10-24 06:52:04 UTC at epicenter  Location  13.878&deg;S 165.424&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ku",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.5 - 55 km NNE of Port-Olry, Vanuatu",
+      "summary": "M 5.5 - 55 km NNE of Port-Olry, Vanuatu. PAGER -  GREEN    ShakeMap -  III     Time  2026-10-24 06:43:09 UTC  2026-10-24 06:43:09 UTC at epicenter  Location  14.592&deg;S 167.306&deg;E  Depth  194.63 km (120.94 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4kq",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 206 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.6 - 206 km NW of Port-Olry, Vanuatu. Time  2026-10-24 06:20:56 UTC  2026-10-24 06:20:56 UTC at epicenter  Location  13.823&deg;S 165.621&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4kt",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.3 - 174 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.3 - 174 km NW of Port-Olry, Vanuatu. Time  2026-10-24 06:04:16 UTC  2026-10-24 06:04:16 UTC at epicenter  Location  14.128&deg;S 165.754&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4kj",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 175 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.5 - 175 km NW of Port-Olry, Vanuatu. Time  2026-10-24 05:37:46 UTC  2026-10-24 05:37:46 UTC at epicenter  Location  14.051&deg;S 165.805&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4kh",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 184 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.5 - 184 km NW of Port-Olry, Vanuatu. Time  2026-10-24 05:35:54 UTC  2026-10-24 05:35:54 UTC at epicenter  Location  13.979&deg;S 165.748&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ke",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.8 - 182 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.8 - 182 km NW of Port-Olry, Vanuatu. PAGER -  GREEN    ShakeMap -  IV     Time  2026-10-24 05:23:40 UTC  2026-10-24 05:23:40 UTC at epicenter  Location  14.083&deg;S 165.698&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4k6",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 219 km WNW of Port-Olry, Vanuatu",
+      "summary": "M 4.8 - 219 km WNW of Port-Olry, Vanuatu. Time  2026-10-24 05:10:34 UTC  2026-10-24 05:10:34 UTC at epicenter  Location  14.005&deg;S 165.337&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4k5",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 217 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.1 - 217 km NW of Port-Olry, Vanuatu. Time  2026-10-24 04:49:21 UTC  2026-10-24 04:49:21 UTC at epicenter  Location  13.852&deg;S 165.467&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4k1",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 161 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.0 - 161 km NW of Port-Olry, Vanuatu. Time  2026-10-24 04:44:45 UTC  2026-10-24 04:44:45 UTC at epicenter  Location  14.165&deg;S 165.874&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4k2",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.3 - 216 km W of Sola, Vanuatu",
+      "summary": "M 5.3 - 216 km W of Sola, Vanuatu. Time  2026-10-24 04:19:38 UTC  2026-10-24 04:19:38 UTC at epicenter  Location  13.733&deg;S 165.551&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jy",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.8 - 203 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.8 - 203 km NW of Port-Olry, Vanuatu. PAGER -  GREEN    ShakeMap -  I     Time  2026-10-24 04:12:05 UTC  2026-10-24 04:12:05 UTC at epicenter  Location  13.902&deg;S 165.597&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jw",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.7 - 205 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.7 - 205 km NW of Port-Olry, Vanuatu. PAGER -  GREEN    ShakeMap -  I     Time  2026-10-24 04:05:36 UTC  2026-10-24 04:05:36 UTC at epicenter  Location  13.908&deg;S 165.563&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ju",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 186 km WNW of Port-Olry, Vanuatu",
+      "summary": "M 4.9 - 186 km WNW of Port-Olry, Vanuatu. Time  2026-10-24 03:51:35 UTC  2026-10-24 03:51:35 UTC at epicenter  Location  14.122&deg;S 165.625&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jr",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.2 - 202 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.2 - 202 km NW of Port-Olry, Vanuatu. Time  2026-10-24 03:17:55 UTC  2026-10-24 03:17:55 UTC at epicenter  Location  13.881&deg;S 165.616&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jl",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 170 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.1 - 170 km NW of Port-Olry, Vanuatu. Time  2026-10-24 03:08:45 UTC  2026-10-24 03:08:45 UTC at epicenter  Location  14.121&deg;S 165.805&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ji",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 6.3 - 170 km NW of Port-Olry, Vanuatu",
+      "summary": "M 6.3 - 170 km NW of Port-Olry, Vanuatu. PAGER -  GREEN    ShakeMap -  IV     Time  2026-10-24 02:35:57 UTC  2026-10-24 02:35:57 UTC at epicenter  Location  14.042&deg;S 165.867&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jb",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 6.9 - 197 km WNW of Port-Olry, Vanuatu",
+      "summary": "M 6.9 - 197 km WNW of Port-Olry, Vanuatu. PAGER -  GREEN    ShakeMap -  V    DYFI? -  V          Time  2026-10-24 02:31:28 UTC  2026-10-24 02:31:28 UTC at epicenter  Location  14.056&deg;S 165.546&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4j2",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 195 km NW of Port-Olry, Vanuatu",
+      "summary": "M 4.5 - 195 km NW of Port-Olry, Vanuatu. Time  2026-10-24 00:27:44 UTC  2026-10-24 00:27:44 UTC at epicenter  Location  13.987&deg;S 165.618&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ib",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 209 km ENE of Nagqu, China",
+      "summary": "M 4.9 - 209 km ENE of Nagqu, China. Time  2026-10-24 00:07:56 UTC  2026-10-24 00:07:56 UTC at epicenter  Location  32.527&deg;N 93.900&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4i8",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 115 km NE of Norsup, Vanuatu",
+      "summary": "M 4.9 - 115 km NE of Norsup, Vanuatu. Time  2026-10-23 22:42:51 UTC  2026-10-23 22:42:51 UTC at epicenter  Location  15.433&deg;S 168.252&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4hr",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 6 km ENE of Starobachaty, Russia",
+      "summary": "M 4.8 - 6 km ENE of Starobachaty, Russia. Time  2026-10-23 22:24:16 UTC  2026-10-23 22:24:16 UTC at epicenter  Location  54.267&deg;N 86.295&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4hi",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 203 km NW of Port-Olry, Vanuatu",
+      "summary": "M 5.1 - 203 km NW of Port-Olry, Vanuatu. Time  2026-10-23 22:05:10 UTC  2026-10-23 22:05:10 UTC at epicenter  Location  13.876&deg;S 165.617&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4h7",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 73 km ENE of Kinablangan, Philippines",
+      "summary": "M 4.6 - 73 km ENE of Kinablangan, Philippines. Time  2026-10-23 21:41:04 UTC  2026-10-23 21:41:04 UTC at epicenter  Location  7.916&deg;N 127.181&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4h0",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 35 km ESE of Hualien City, Taiwan",
+      "summary": "M 4.9 - 35 km ESE of Hualien City, Taiwan. Time  2026-10-23 20:48:16 UTC  2026-10-23 20:48:16 UTC at epicenter  Location  23.853&deg;N 121.929&deg;E  Depth  13.82 km (8.59 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4gm",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 209 km ENE of Nagqu, China",
+      "summary": "M 4.8 - 209 km ENE of Nagqu, China. Time  2026-10-23 20:37:41 UTC  2026-10-23 20:37:41 UTC at epicenter  Location  32.469&deg;N 93.943&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4gj",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 91 km ESE of Tuensang, India",
+      "summary": "M 4.6 - 91 km ESE of Tuensang, India. Time  2026-10-23 17:06:25 UTC  2026-10-23 17:06:25 UTC at epicenter  Location  25.930&deg;N 95.655&deg;E  Depth  116.70 km (72.52 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4f5",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 72 km ENE of Noda, Japan",
+      "summary": "M 5.1 - 72 km ENE of Noda, Japan. DYFI? -  III     Time  2026-10-23 16:07:51 UTC  2026-10-23 16:07:51 UTC at epicenter  Location  40.416&deg;N 142.572&deg;E  Depth  38.14 km (23.70 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4e2",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 52 km WNW of Malfa, Italy",
+      "summary": "M 4.7 - 52 km WNW of Malfa, Italy. Time  2026-10-23 15:32:13 UTC  2026-10-23 15:32:13 UTC at epicenter  Location  38.814&deg;N 14.307&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dx",
+      "published": "2026-10-24",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M5.2 — Pusat gempa berada di darat 6 km BaratLaut Lebong",
+      "summary": "Magnitude 5.2, Depth 120 km, Location: Pusat gempa berada di darat 6 km BaratLaut Lebong. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "22 Okt 2026",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 5.2
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "New WHO technical package to help countries improve health data for COVID-19 response and beyond",
+      "summary": "New WHO technical package to help countries improve health data for COVID-19 response and beyond. Today, as part of its commitment to strengthening health information systems and improving health[1], especially in the context of the COVID-19 pandemic, WHO announced a new approach to improving access to life-saving data: the  SCORE for Health Data Technical Package.  The COVID-19 pandemic has highlighted the urgent need for timely and reliable data to drive strategic health action. Too many countries still lack both the infrastructure to routinely gather health data and the analytical capacity ",
+      "url": "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response",
+      "published": "Sat, 10 Oct 2026 07:49:45 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa",
+      "summary": "African Union and World Health Organization renew strategic partnership to drive impact and strengthen health systems in Africa. The World Health Organization (WHO) and the African Union (AU) Commission renewed their longstanding strategic partnership today with the signing of an updated Memorandum of Understanding (MoU) on the sidelines of the 78th World Health Assembly in Geneva. This renewed agreement reaffirms the joint commitment to advancing health security, universal health coverage, and sustainable development across the African continent at a time of unprecedented financial challenges",
+      "url": "https://www.who.int/news/item/24-05-2025-world-health-organization-and-african-union-renew-strategic-partnership-to-drive-impact-and-strengthen-health-systems-in-africa",
+      "published": "Sat, 24 May 2025 17:47:21 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Signing ceremony for contribution agreements between WHO and France",
+      "summary": "Signing ceremony for contribution agreements between WHO and France. Geneva 17 October 2024 &ndash; This afternoon, His Excellency Mr J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and WHO Director-General Dr Tedros Adhanom Ghebreyesus met in the WHO headquarters for the signing of seven contribution agreements.     The contribution totalling &euro;24 million comes through the Ministry of Europe &amp; Foreign Affairs. It fits in the France&ndash;WHO Framework Agreement for 2020 to 2025, which provides both a strategic framework for engagement",
+      "url": "https://www.who.int/news/item/17-10-2024-signing-ceremony-for-contribution-agreements-between-who-and-france",
+      "published": "Thu, 17 Oct 2024 12:01:38 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "flood",
+      "title": "WHO and the Netherlands renew their partnership on climate change and health",
+      "summary": "WHO and the Netherlands renew their partnership on climate change and health. The World Health Organization (WHO) and the Kingdom of the Netherlands have renewed their strategic partnership in addressing the growing impacts of climate change on global health.  The Netherlands is providing a new allocation of &euro;500 000 for 2024 to WHO, reinforcing its commitment to climate resilience and sustainable healthcare systems worldwide. This allocation supports WHO&rsquo;s ongoing efforts to strengthen the Alliance for Transformative Action on Climate and Health Secretariat and advance climate chan",
+      "url": "https://www.who.int/news/item/10-10-2024-who-and-the-netherlands-renew-their-partnership-on-climate-change-and-health",
+      "published": "Thu, 10 Oct 2024 07:47:50 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "India commits US$ 85 million to WHO Global Traditional Medicine Centre",
+      "summary": "India commits US$ 85 million to WHO Global Traditional Medicine Centre. The WHO-India donor agreement is part of a US$ 250 million investment from India in support of the establishment of the WHO Global Centre of Traditional Medicine in 2022, which includes financial support for the workplan of the Centre, interim premises and a new building. This support will scale up WHO’s capacities on traditional medicine across technical divisions and regions in the spirit of global collaboration and solidarity. Part of this substantial contribution from the Government of India will also be included in WH",
+      "url": "https://www.who.int/news/item/31-07-2024-india-commits-usd-85-million-to-who-global-traditional-medicine-centre",
+      "published": "Wed, 31 Jul 2024 05:00:27 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly",
+      "summary": "Governments agree to continue their steady progress on proposed pandemic agreement ahead of the World Health Assembly. Governments of the world today agreed to continue working on a proposed pandemic agreement, and to further refine the draft, ahead of the Seventy-seventh World Health Assembly that starts 27 May 2024.   Governments meeting at the World Health Organization headquarters in Geneva agreed to resume hybrid and in-person discussions over coming weeks to advance work on critical issues, including around a proposed new global system for pathogen access and benefits sharing (i.e. life-",
+      "url": "https://www.who.int/news/item/10-05-2024-governments-agree-to-continue-their-steady-progress-on-proposed-pandemic-agreement-ahead-of-the-world-health-assembly",
+      "published": "Fri, 10 May 2024 19:15:31 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership",
+      "summary": "Enhancing Global Health and Well-Being: WHO and the Netherlands strengthen their Partnership. WHO and Netherlands Strategic Dialogue in The Hague, Netherlands 10 April 2024. Credit: Michel Mees Photography    The WHO and the Netherlands convened in The Hague on 10 April 2024, to discuss joint priorities and alignment between the Dutch Global Health Strategy and WHO&rsquo;s key strategic goals, marking a new milestone in their longstanding partnership.  Rooted in the Netherlands' unwavering commitment to global health, human rights, and universal access to comprehensive health services, the col",
+      "url": "https://www.who.int/news/item/12-04-2024-enhancing-global-health-and-well-being--who-and-the-netherlands-strengthen-their-partnership",
+      "published": "Fri, 12 Apr 2024 13:57:53 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO calls for action to uphold right to health amidst inaction, injustice and crises",
+      "summary": "WHO calls for action to uphold right to health amidst inaction, injustice and crises. To mark World Health Day (7 April), the World Health Organization (WHO) is running the &ldquo;My health, my right&rdquo; campaign to champion  the right to health of everyone, everywhere.    The campaign advocates for ensuring universal access to quality health services, education, and information, as well as safe drinking water, clean air, good nutrition, quality housing, decent working and environmental conditions, and freedom from discrimination.   All around the world, the core challenges consistently com",
+      "url": "https://www.who.int/news/item/05-04-2024-who-calls-for-action-to-uphold-right-to-health-amidst-inaction--injustice-and-crises",
+      "published": "Fri, 05 Apr 2024 16:47:03 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Digital payments to health workers boost retention, motivation, and impact",
+      "summary": "Digital payments to health workers boost retention, motivation, and impact. An immunization worker gets set up to receive her wages on her mobile wallet in the Democratic Republic of the Congo. Credit:&nbsp;  WHO    Campaigns in Africa to stop polio and other diseases have a more stable, better-motivated workforce thanks to WHO&rsquo;s collaboration with countries and partners to pay frontline health workers through their mobile phones instead of in cash.  &ldquo;Over 80 percent of workers are saying they prefer the digital payments,&rdquo; said Ahmed Hamani Djibo, head of WHO&rsquo;s Digital ",
+      "url": "https://www.who.int/news/item/09-02-2024-digital-payments-to-health-workers-boost-retention--motivation--and-impact",
+      "published": "Fri, 09 Feb 2024 11:34:25 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "France signs agreements to support WHO's work",
+      "summary": "France signs agreements to support WHO's work. &copy;WHO/Chris B.    Geneva &ndash; His Excellency J&eacute;r&ocirc;me Bonnafont, Permanent Representative of France to the United Nations in Geneva, and Dr Tedros Adhanom Ghebreyesus, WHO Director-General, today signed several funding agreements totaling &euro; 25.5 million to support critical health priorities.  The agreements include &euro; 4.5 million of funding for the Core Voluntary Contribution Account (CVCA) of WHO; these are fully flexible funds which allow WHO to allocate resources to key priorities outlined in its General Programme of ",
+      "url": "https://www.who.int/news/item/08-12-2023-08-12-2023-france-signs-agreements-to-support-who-s-work",
+      "published": "Fri, 08 Dec 2023 09:37:34 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "A leading flexible contributor, the Netherlands renews its multiannual allocation to WHO",
+      "summary": "A leading flexible contributor, the Netherlands renews its multiannual allocation to WHO. The Netherlands reaffirmed its position as a key supporter and strategic partner of WHO and a leading donor of flexible and predictable resources to WHO. In picture: WHO Director-General Dr Tedros and Dutch Minister of Health, Welfare and Sport Ernst Kuipers. &copy;WHO    The Netherlands strengthened its longstanding engagement with WHO on Monday with the renewal of the multiannual contribution of the Dutch Ministry of Health, Welfare and Sport to WHO for &euro;13.34 million for 2024&ndash;2028 and for &e",
+      "url": "https://www.who.int/news/item/06-11-2023-a-leading-flexible-contributor--the-netherlands-renews-its-multiannual-allocation-to-who",
+      "published": "Mon, 06 Nov 2023 12:46:23 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "OCHA and WHO annual consultation",
+      "summary": "OCHA and WHO annual consultation. Geneva, 21 June - Representatives of WHO and the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) focused their annual financial and management review meeting on strengthening their 18-year partnership to prevent and respond to humanitarian crises.  Both agencies provided updates: WHO on its emergency operations and the WHO  Global Health Appeal , and OCHA on its funding mechanisms for emergencies and strategic priorities. Discussions also touched on the urgency of early data sharing in disease outbreaks and the role of innovation in e",
+      "url": "https://www.who.int/news/item/21-06-2023-ocha-and-who-annual-consultation",
+      "published": "Tue, 27 Jun 2023 08:24:13 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "WHO sends health supplies to reach 400 000 people impacted by the earthquakes in Türkiye and the Syrian Arab Republic",
+      "summary": "WHO sends health supplies to reach 400 000 people impacted by the earthquakes in Türkiye and the Syrian Arab Republic. In response to the devastating earthquakes impacting\nT&uuml;rkiye and the Syrian Arab Republic, the World Health Organization delivered\n72 metric tons of trauma and emergency surgery supplies, including\ntreatments,&nbsp; to both countries to support ongoing response efforts. &nbsp;  A first\ncharter flight departed to T&uuml;rkiye on 9 February carrying 37 metric tons of\nlife-saving supplies, and a second flight is scheduled to deliver 35 metric\ntons of supplies to the Syrian A",
+      "url": "https://www.who.int/news/item/10-02-2023-who-sends-health-supplies-to-reach-400-000-people-impacted-by-the-earthquakes-in-t-rkiye-and-the-syrian-arab-republic",
+      "published": "Fri, 10 Feb 2023 12:00:48 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "COVID-19 disrupting mental health services in most countries, WHO survey",
+      "summary": "COVID-19 disrupting mental health services in most countries, WHO survey. The COVID-19 pandemic has disrupted or halted critical mental health services in 93% of countries worldwide while the demand for mental health is increasing, according to a new WHO survey. The survey of 130 countries provides the first global data showing\n    the devastating impact of COVID-19 on access to mental health services and underscores the urgent need for increased funding.   The survey was published ahead of WHO&rsquo;s  Big Event for Mental Health  &nbsp;̶&nbsp; a global online advocacy event on 10 October tha",
+      "url": "https://www.who.int/news/item/05-10-2020-covid-19-disrupting-mental-health-services-in-most-countries-who-survey",
+      "published": "Tue, 06 Oct 2020 16:42:38 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries",
+      "summary": "Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries. A full access package includes WHO policy guidance on the use of antigen-based rapid diagnostic tests, manufacturer volume guarantees for low and middle-income countries,&nbsp; catalytic funding to assist governments to deploy the tests and an initial US$50 million procurement fund    Several rapid, point-of-care antigen tests are being assessed by WHO for Emergency Use Listing (EUL)    Agreements between the Bill &amp; Melinda Gates Foundation and test manufacturers ",
+      "url": "https://www.who.int/news/item/28-09-2020-global-partnership-to-make-available-120-million-affordable-quality-covid-19-rapid-tests-for-low--and-middle-income-countries",
+      "published": "Mon, 28 Sep 2020 18:37:30 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "In WHO global pulse survey, 90% of countries report disruptions to essential health services since COVID-19 pandemic",
+      "summary": "In WHO global pulse survey, 90% of countries report disruptions to essential health services since COVID-19 pandemic. WHO to roll out learning and monitoring tools to improve service provision during pandemic   The World Health Organization (WHO) today published a first indicative  survey on the impact of COVID-19 on health systems  based on 105 countries&rsquo; reports. Data collected from five regions over the period from March\n    to June 2020 illustrate that almost every country (90%) experienced disruption to its health services, with low- and middle-income countries reporting the greates",
+      "url": "https://www.who.int/news/item/31-08-2020-in-who-global-pulse-survey-90-of-countries-report-disruptions-to-essential-health-services-since-covid-19-pandemic",
+      "published": "Mon, 31 Aug 2020 10:00:25 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "172 countries and multiple candidate vaccines engaged in COVID-19 vaccine Global Access Facility",
+      "summary": "172 countries and multiple candidate vaccines engaged in COVID-19 vaccine Global Access Facility. Nine CEPI-supported candidate vaccines are part of the COVAX initiative, with a further nine candidates under evaluation, and procurement conversations on-going with additional producers not currently receiving research and development (R&amp;D) funding through COVAX &ndash; giving COVAX the largest and most diverse COVID-19 vaccine portfolio in the world     80 potentially self-financing countries have submitted non-binding expressions of interest to the Gavi-coordinated COVAX Facility, joining 9",
+      "url": "https://www.who.int/news/item/24-08-2020-172-countries-and-multiple-candidate-vaccines-engaged-in-covid-19-vaccine-global-access-facility",
+      "published": "Mon, 24 Aug 2020 16:44:16 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Global polio eradication initiative applauds WHO African region for wild polio-free certification",
+      "summary": "Global polio eradication initiative applauds WHO African region for wild polio-free certification. Today, the Africa Regional Certification Commission certified the WHO African Region as wild polio-free after four years without a case. With this historic milestone, five of the six WHO regions &ndash; representing over 90% of the world&rsquo;s population\n    &ndash; are now free of the wild poliovirus, moving the world closer to achieving global polio eradication.   Only two countries worldwide continue to see wild poliovirus transmission: Pakistan and Afghanistan.   The Global Polio Eradicatio",
+      "url": "https://www.who.int/news/item/25-08-2020-global-polio-eradication-initiative-applauds-who-african-region-for-wild-polio-free-certification",
+      "published": "Mon, 24 Aug 2020 12:56:01 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "World Humanitarian Day 2020: A tribute to aid workers on the front lines",
+      "summary": "World Humanitarian Day 2020: A tribute to aid workers on the front lines. Amid a global pandemic, unprecedented needs and growing insecurity, aid workers and health-care responders are staying and delivering to the world&rsquo;s most vulnerable people.      Last year was the most violent on record for humanitarians, with 483 attacked, 125 killed, 234 wounded and 124 kidnapped. The UN condemns all attacks on humanitarians.      OCHA and partners present the inspiring stories of humanitarian #RealLifeHeroes who are stepping up to meet the challenges.   Today, World Humanitarian Day, the world ho",
+      "url": "https://www.who.int/news/item/19-08-2020-world-humanitarian-day-2020-a-tribute-to-aid-workers-on-the-front-lines",
+      "published": "Wed, 19 Aug 2020 07:55:05 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Plane carrying WHO trauma and surgical supplies arrives in Beirut, Lebanon",
+      "summary": "Plane carrying WHO trauma and surgical supplies arrives in Beirut, Lebanon. A plane carrying 20 tonnes of WHO health supplies has landed in Beirut, Lebanon, to support the treatment of patients injured by the massive blast that occurred in the city on 4 August. The supplies will cover 1000 trauma interventions and 1000 surgical interventions for people suffering from injuries and burns resulting from the blast.  The shipment was airlifted from WHO&rsquo;s logistics hub in Dubai earlier this afternoon using a plane donated by the Government of the United Arab Emirates, a key WHO partner in heal",
+      "url": "https://www.who.int/news/item/05-08-2020-plane-carrying-who-trauma-and-surgical-supplies-arrives-in-beirut-lebanon",
+      "published": "Fri, 07 Aug 2020 14:38:20 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "COVID-19 Emergency Committee highlights need for response efforts over long term",
+      "summary": "COVID-19 Emergency Committee highlights need for response efforts over long term. The Emergency Committee on COVID-19, convened by the WHO Director-General under the International Health Regulations (2005) (IHR), held its fourth meeting on 31 July. In its statement following the meeting, published today, it expressed &ldquo;appreciation for WHO and partners&rsquo; COVID-19 pandemic response efforts, and highlighted the anticipated lengthy duration of this COVID-19 pandemic, noting the importance of sustained community, national, regional, and global response efforts.&rdquo;&nbsp;&nbsp;   After",
+      "url": "https://www.who.int/news/item/01-08-2020-covid-19-emergency-committee-highlights-need-for-response-efforts-over-long-term",
+      "published": "Sat, 01 Aug 2020 14:47:25 Z",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.9M, Depth:10km) in Vanuatu 24/10/2026 08:56 UTC, Few people affected in MMI III.",
+      "summary": "Green earthquake (Magnitude 5.9M, Depth:10km) in Vanuatu 24/10/2026 08:56 UTC, Few people affected in MMI III.. On 10/24/2026 8:56:28 AM, an earthquake occurred in Vanuatu potentially affecting Few people affected in MMI III. The earthquake had Magnitude 5.9M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573578",
+      "published": "Sat, 24 Oct 2026 09:07:44 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:194.632km) in Vanuatu 24/10/2026 06:43 UTC, 60 thousand in MMI III.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:194.632km) in Vanuatu 24/10/2026 06:43 UTC, 60 thousand in MMI III.. On 10/24/2026 6:43:09 AM, an earthquake occurred in Vanuatu potentially affecting 60 thousand in MMI III. The earthquake had Magnitude 5.5M, Depth:194.632km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573554",
+      "published": "Sat, 24 Oct 2026 07:03:44 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:10km) in Vanuatu 24/10/2026 05:23 UTC, 2 thousand in MMI>=III.",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:10km) in Vanuatu 24/10/2026 05:23 UTC, 2 thousand in MMI>=III.. On 10/24/2026 5:23:40 AM, an earthquake occurred in Vanuatu potentially affecting 2 thousand in MMI>=III. The earthquake had Magnitude 5.8M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573536",
+      "published": "Sat, 24 Oct 2026 05:42:23 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:10km) in Vanuatu Islands 24/10/2026 04:12 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:10km) in Vanuatu Islands 24/10/2026 04:12 UTC, [unknown].. On 10/24/2026 4:12:05 AM, an earthquake occurred in Vanuatu Islands potentially affecting [unknown]. The earthquake had Magnitude 5.8M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573528",
+      "published": "Sat, 24 Oct 2026 04:26:14 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Vanuatu Islands 24/10/2026 04:05 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:10km) in Vanuatu Islands 24/10/2026 04:05 UTC, [unknown].. On 10/24/2026 4:05:36 AM, an earthquake occurred in Vanuatu Islands potentially affecting [unknown]. The earthquake had Magnitude 5.7M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573526",
+      "published": "Sat, 24 Oct 2026 04:20:01 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.3M, Depth:10km) in Vanuatu 24/10/2026 02:35 UTC, 4 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 6.3M, Depth:10km) in Vanuatu 24/10/2026 02:35 UTC, 4 thousand in MMI IV.. On 10/24/2026 2:35:57 AM, an earthquake occurred in Vanuatu potentially affecting 4 thousand in MMI IV. The earthquake had Magnitude 6.3M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573517",
+      "published": "Sat, 24 Oct 2026 02:59:44 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.9M, Depth:10km) in Vanuatu 24/10/2026 02:31 UTC, 40 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 6.9M, Depth:10km) in Vanuatu 24/10/2026 02:31 UTC, 40 thousand in MMI IV.. On 10/24/2026 2:31:28 AM, an earthquake occurred in Vanuatu potentially affecting 40 thousand in MMI IV. The earthquake had Magnitude 6.9M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573515",
+      "published": "Sat, 24 Oct 2026 02:40:23 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:10km) in Italy 23/10/2026 10:19 UTC, 40 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:10km) in Italy 23/10/2026 10:19 UTC, 40 thousand in MMI IV.. On 10/23/2026 10:19:16 AM, an earthquake occurred in Italy potentially affecting 40 thousand in MMI IV. The earthquake had Magnitude 5.7M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573344",
+      "published": "Fri, 23 Oct 2026 10:34:39 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Red earthquake (Magnitude 7M, Depth:18km) in China 22/10/2026 14:33 UTC, 10 thousand (in MMI>=VII).",
+      "summary": "Red earthquake (Magnitude 7M, Depth:18km) in China 22/10/2026 14:33 UTC, 10 thousand (in MMI>=VII).. On 10/22/2026 2:33:40 PM, an earthquake occurred in China potentially affecting 10 thousand (in MMI>=VII). The earthquake had Magnitude 7M, Depth:18km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
+      "published": "Thu, 22 Oct 2026 14:54:15 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone JOSEPHINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (7.514 million in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone JOSEPHINE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (7.514 million in Tropical Storm).. From 21/10/2026 to 22/10/2026, a Tropical Storm (maximum wind speed of 120 km/h) JOSEPHINE-26 was active in Atlantic. The cyclone affects these countries: United States, Canada, Saint Pierre and Miquelon (vulnerability Low). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (7.514 million in tropical storm).",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001342",
+      "published": "Wed, 21 Oct 2026 21:08:24 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "storm",
+      "title": "Green notification for tropical cyclone VANCE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).",
+      "summary": "Green notification for tropical cyclone VANCE-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0  (0 in Tropical Storm).. From 21/10/2026 to 23/10/2026, a Tropical Storm (maximum wind speed of 194 km/h) VANCE-26 was active in EastPacific. The cyclone affects these countries: México (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0  (0 in tropical storm).",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001341",
+      "published": "Wed, 21 Oct 2026 14:51:54 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.3M, Depth:16km) in Vanuatu Islands 20/10/2026 04:20 UTC, [unknown].",
+      "summary": "Green earthquake (Magnitude 6.3M, Depth:16km) in Vanuatu Islands 20/10/2026 04:20 UTC, [unknown].. On 10/20/2026 4:20:38 AM, an earthquake occurred in Vanuatu Islands potentially affecting [unknown]. The earthquake had Magnitude 6.3M, Depth:16km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1572693",
+      "published": "Tue, 20 Oct 2026 04:31:52 GMT",
+      "collected_at": "2026-10-24T10:07:28.624761+00:00"
+    }
+  ]
+}
