@@ -1,0 +1,462 @@
+{
+  "date": "2026-11-13",
+  "collected_at": "2026-11-13T13:47:28.890046+00:00",
+  "total_events": 44,
+  "by_source": {
+    "USGS": 14,
+    "BMKG": 1,
+    "WHO": 24,
+    "GDACS": 5
+  },
+  "by_type": {
+    "earthquake": 20,
+    "disease": 18,
+    "other": 5,
+    "flood": 1
+  },
+  "events": [
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.8 - 59 km WSW of Houma, Tonga",
+      "summary": "M 4.8 - 59 km WSW of Houma, Tonga. Time  2026-11-13 11:18:12 UTC  2026-11-13 11:18:12 UTC at epicenter  Location  21.304&deg;S 175.854&deg;W  Depth  162.78 km (101.15 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txzd",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - southeast of the Loyalty Islands",
+      "summary": "M 4.9 - southeast of the Loyalty Islands. Time  2026-11-13 09:55:45 UTC  2026-11-13 09:55:45 UTC at epicenter  Location  22.373&deg;S 173.449&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txz3",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 84 km E of Barcelona, Philippines",
+      "summary": "M 4.6 - 84 km E of Barcelona, Philippines. Time  2026-11-13 09:40:47 UTC  2026-11-13 09:40:47 UTC at epicenter  Location  8.214&deg;N 127.204&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txz0",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 18 km WNW of Río Grande, Panama",
+      "summary": "M 4.6 - 18 km WNW of Río Grande, Panama. Time  2026-11-13 08:01:57 UTC  2026-11-13 08:01:57 UTC at epicenter  Location  7.782&deg;N 81.494&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txyr",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.7 - 27 km NNE of Labuan Lombok, Indonesia",
+      "summary": "M 4.7 - 27 km NNE of Labuan Lombok, Indonesia. DYFI? -  II     Time  2026-11-13 04:49:33 UTC  2026-11-13 04:49:33 UTC at epicenter  Location  8.262&deg;S 116.751&deg;E  Depth  9.63 km (5.98 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txy5",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - Pagan region, Northern Mariana Islands",
+      "summary": "M 4.9 - Pagan region, Northern Mariana Islands. Time  2026-11-13 02:55:03 UTC  2026-11-13 02:55:03 UTC at epicenter  Location  18.893&deg;N 145.603&deg;E  Depth  219.57 km (136.44 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxy",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 278 km E of Levuka, Fiji",
+      "summary": "M 4.5 - 278 km E of Levuka, Fiji. Time  2026-11-13 02:26:23 UTC  2026-11-13 02:26:23 UTC at epicenter  Location  17.944&deg;S 178.052&deg;W  Depth  527.13 km (327.55 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxv",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.0 - 85 km W of Mwene-Ditu, Democratic Republic of the Congo",
+      "summary": "M 5.0 - 85 km W of Mwene-Ditu, Democratic Republic of the Congo. Time  2026-11-13 01:12:46 UTC  2026-11-13 01:12:46 UTC at epicenter  Location  6.939&deg;S 22.680&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxl",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - 39 km S of Moíres, Greece",
+      "summary": "M 5.1 - 39 km S of Moíres, Greece. DYFI? -  IV     Time  2026-11-13 00:05:04 UTC  2026-11-13 00:05:04 UTC at epicenter  Location  34.697&deg;N 24.880&deg;E  Depth  43.36 km (26.94 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txx9",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.8 - 148 km NW of Kavieng, Papua New Guinea",
+      "summary": "M 5.8 - 148 km NW of Kavieng, Papua New Guinea. PAGER -  GREEN    ShakeMap -  VII     Time  2026-11-12 22:04:06 UTC  2026-11-12 22:04:06 UTC at epicenter  Location  1.588&deg;S 149.888&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.6 - 117 km S of Akureyri, Iceland",
+      "summary": "M 4.6 - 117 km S of Akureyri, Iceland. DYFI? -  I     Time  2026-11-12 21:53:42 UTC  2026-11-12 21:53:42 UTC at epicenter  Location  64.650&deg;N 17.605&deg;W  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwi",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 5.1 - western Indian-Antarctic Ridge",
+      "summary": "M 5.1 - western Indian-Antarctic Ridge. Time  2026-11-12 21:09:14 UTC  2026-11-12 21:09:14 UTC at epicenter  Location  51.427&deg;S 139.591&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txw9",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.9 - 41 km N of Weining, China",
+      "summary": "M 4.9 - 41 km N of Weining, China. Time  2026-11-12 20:03:14 UTC  2026-11-12 20:03:14 UTC at epicenter  Location  27.224&deg;N 104.191&deg;E  Depth  10.00 km (6.21 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txvw",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "USGS",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "M 4.5 - 115 km ESE of Bitung, Indonesia",
+      "summary": "M 4.5 - 115 km ESE of Bitung, Indonesia. Time  2026-11-12 14:58:32 UTC  2026-11-12 14:58:32 UTC at epicenter  Location  1.122&deg;N 126.113&deg;E  Depth  39.20 km (24.36 mi)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txtd",
+      "published": "2026-11-13",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "BMKG",
+      "trust_score": 1.0,
+      "crisis_type": "earthquake",
+      "title": "Gempa M4.1 — Pusat gempa berada di laut 24 km selatan Enggano",
+      "summary": "Magnitude 4.1, Depth 24 km, Location: Pusat gempa berada di laut 24 km selatan Enggano. Potential: Gempa ini dirasakan untuk diteruskan pada masyarakat",
+      "url": "https://www.bmkg.go.id",
+      "published": "13 Nov 2026",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00",
+      "latitude": null,
+      "longitude": null,
+      "magnitude": 4.1
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "New WHO technical package to help countries improve health data for COVID-19 response and beyond",
+      "summary": "New WHO technical package to help countries improve health data for COVID-19 response and beyond. Today, as part of its commitment to strengthening health information systems and improving health[1], especially in the context of the COVID-19 pandemic, WHO announced a new approach to improving access to life-saving data: the  SCORE for Health Data Technical Package.  The COVID-19 pandemic has highlighted the urgent need for timely and reliable data to drive strategic health action. Too many countries still lack both the infrastructure to routinely gather health data and the analytical capacity ",
+      "url": "https://www.who.int/news/item/27-08-2020-new-who-technical-package-health-data-for-covid-19-response",
+      "published": "Sat, 10 Oct 2026 07:49:45 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "COVID-19 disrupting mental health services in most countries, WHO survey",
+      "summary": "COVID-19 disrupting mental health services in most countries, WHO survey. The COVID-19 pandemic has disrupted or halted critical mental health services in 93% of countries worldwide while the demand for mental health is increasing, according to a new WHO survey. The survey of 130 countries provides the first global data showing\n    the devastating impact of COVID-19 on access to mental health services and underscores the urgent need for increased funding.   The survey was published ahead of WHO&rsquo;s  Big Event for Mental Health  &nbsp;̶&nbsp; a global online advocacy event on 10 October tha",
+      "url": "https://www.who.int/news/item/05-10-2020-covid-19-disrupting-mental-health-services-in-most-countries-who-survey",
+      "published": "Tue, 06 Oct 2020 16:42:38 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries",
+      "summary": "Global partnership to make available 120 million affordable, quality COVID-19 rapid tests for low- and middle-income countries. A full access package includes WHO policy guidance on the use of antigen-based rapid diagnostic tests, manufacturer volume guarantees for low and middle-income countries,&nbsp; catalytic funding to assist governments to deploy the tests and an initial US$50 million procurement fund    Several rapid, point-of-care antigen tests are being assessed by WHO for Emergency Use Listing (EUL)    Agreements between the Bill &amp; Melinda Gates Foundation and test manufacturers ",
+      "url": "https://www.who.int/news/item/28-09-2020-global-partnership-to-make-available-120-million-affordable-quality-covid-19-rapid-tests-for-low--and-middle-income-countries",
+      "published": "Mon, 28 Sep 2020 18:37:30 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "In WHO global pulse survey, 90% of countries report disruptions to essential health services since COVID-19 pandemic",
+      "summary": "In WHO global pulse survey, 90% of countries report disruptions to essential health services since COVID-19 pandemic. WHO to roll out learning and monitoring tools to improve service provision during pandemic   The World Health Organization (WHO) today published a first indicative  survey on the impact of COVID-19 on health systems  based on 105 countries&rsquo; reports. Data collected from five regions over the period from March\n    to June 2020 illustrate that almost every country (90%) experienced disruption to its health services, with low- and middle-income countries reporting the greates",
+      "url": "https://www.who.int/news/item/31-08-2020-in-who-global-pulse-survey-90-of-countries-report-disruptions-to-essential-health-services-since-covid-19-pandemic",
+      "published": "Mon, 31 Aug 2020 10:00:25 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "172 countries and multiple candidate vaccines engaged in COVID-19 vaccine Global Access Facility",
+      "summary": "172 countries and multiple candidate vaccines engaged in COVID-19 vaccine Global Access Facility. Nine CEPI-supported candidate vaccines are part of the COVAX initiative, with a further nine candidates under evaluation, and procurement conversations on-going with additional producers not currently receiving research and development (R&amp;D) funding through COVAX &ndash; giving COVAX the largest and most diverse COVID-19 vaccine portfolio in the world     80 potentially self-financing countries have submitted non-binding expressions of interest to the Gavi-coordinated COVAX Facility, joining 9",
+      "url": "https://www.who.int/news/item/24-08-2020-172-countries-and-multiple-candidate-vaccines-engaged-in-covid-19-vaccine-global-access-facility",
+      "published": "Mon, 24 Aug 2020 16:44:16 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Global polio eradication initiative applauds WHO African region for wild polio-free certification",
+      "summary": "Global polio eradication initiative applauds WHO African region for wild polio-free certification. Today, the Africa Regional Certification Commission certified the WHO African Region as wild polio-free after four years without a case. With this historic milestone, five of the six WHO regions &ndash; representing over 90% of the world&rsquo;s population\n    &ndash; are now free of the wild poliovirus, moving the world closer to achieving global polio eradication.   Only two countries worldwide continue to see wild poliovirus transmission: Pakistan and Afghanistan.   The Global Polio Eradicatio",
+      "url": "https://www.who.int/news/item/25-08-2020-global-polio-eradication-initiative-applauds-who-african-region-for-wild-polio-free-certification",
+      "published": "Mon, 24 Aug 2020 12:56:01 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "World Humanitarian Day 2020: A tribute to aid workers on the front lines",
+      "summary": "World Humanitarian Day 2020: A tribute to aid workers on the front lines. Amid a global pandemic, unprecedented needs and growing insecurity, aid workers and health-care responders are staying and delivering to the world&rsquo;s most vulnerable people.      Last year was the most violent on record for humanitarians, with 483 attacked, 125 killed, 234 wounded and 124 kidnapped. The UN condemns all attacks on humanitarians.      OCHA and partners present the inspiring stories of humanitarian #RealLifeHeroes who are stepping up to meet the challenges.   Today, World Humanitarian Day, the world ho",
+      "url": "https://www.who.int/news/item/19-08-2020-world-humanitarian-day-2020-a-tribute-to-aid-workers-on-the-front-lines",
+      "published": "Wed, 19 Aug 2020 07:55:05 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Plane carrying WHO trauma and surgical supplies arrives in Beirut, Lebanon",
+      "summary": "Plane carrying WHO trauma and surgical supplies arrives in Beirut, Lebanon. A plane carrying 20 tonnes of WHO health supplies has landed in Beirut, Lebanon, to support the treatment of patients injured by the massive blast that occurred in the city on 4 August. The supplies will cover 1000 trauma interventions and 1000 surgical interventions for people suffering from injuries and burns resulting from the blast.  The shipment was airlifted from WHO&rsquo;s logistics hub in Dubai earlier this afternoon using a plane donated by the Government of the United Arab Emirates, a key WHO partner in heal",
+      "url": "https://www.who.int/news/item/05-08-2020-plane-carrying-who-trauma-and-surgical-supplies-arrives-in-beirut-lebanon",
+      "published": "Fri, 07 Aug 2020 14:38:20 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "COVID-19 Emergency Committee highlights need for response efforts over long term",
+      "summary": "COVID-19 Emergency Committee highlights need for response efforts over long term. The Emergency Committee on COVID-19, convened by the WHO Director-General under the International Health Regulations (2005) (IHR), held its fourth meeting on 31 July. In its statement following the meeting, published today, it expressed &ldquo;appreciation for WHO and partners&rsquo; COVID-19 pandemic response efforts, and highlighted the anticipated lengthy duration of this COVID-19 pandemic, noting the importance of sustained community, national, regional, and global response efforts.&rdquo;&nbsp;&nbsp;   After",
+      "url": "https://www.who.int/news/item/01-08-2020-covid-19-emergency-committee-highlights-need-for-response-efforts-over-long-term",
+      "published": "Sat, 01 Aug 2020 14:47:25 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "New COVID-19 Law Lab to provide vital legal information and support for the global COVID-19 response",
+      "summary": "New COVID-19 Law Lab to provide vital legal information and support for the global COVID-19 response. Launching today, the COVID-19 Law Lab initiative gathers and shares legal documents from over 190 countries across the world to help states establish and implement strong legal frameworks to manage the pandemic. The goal is to ensure that laws protect the health and wellbeing of individuals and communities and that they adhere to international human rights standards.   The new Lab (at  www.COVIDLawLab.org ) is a joint project of United Nations Development Programme (UNDP), the World Health Org",
+      "url": "https://www.who.int/news/item/22-07-2020-new-covid-19-law-lab-to-provide-vital-legal-information-and-support-for-the-global-covid-19-response",
+      "published": "Wed, 22 Jul 2020 14:01:26 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO Director-General pays tribute to Spain’s sacrifices and leadership to confront COVID-19",
+      "summary": "WHO Director-General pays tribute to Spain’s sacrifices and leadership to confront COVID-19. &nbsp;  World Health Organization Director-General Dr Tedros Adhanom Ghebreyesus today joined the leadership of Spain, paying homage to those who have lost their lives in the country due to COVID-19, saluting the heroic efforts of heath workers and praising the\n    government&rsquo;s resolute and robust response to reverse the virus&rsquo;s transmission.   &ldquo;It is with great respect that I join the King of Spain, the Prime Minister and the entire government of the country to pay tribute to the peo",
+      "url": "https://www.who.int/news/item/16-07-2020-who-director-general-pays-tribute-to-spain-s-sacrifices-and-leadership-to-confront-covid-19",
+      "published": "Thu, 16 Jul 2020 11:36:26 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "More than 150 countries engaged in COVID-19 vaccine global access facility",
+      "summary": "More than 150 countries engaged in COVID-19 vaccine global access facility. Seventy-five countries submit expressions of interest to COVAX Facility, joining up to 90 further countries which could be supported by the COVAX Advance Market Commitment (AMC)    The COVAX Facility, and the AMC within it, is designed to guarantee rapid, fair and equitable access to COVID-19 vaccines for every country in the world, rich and poor, to make rapid progress towards slowing the pandemic&nbsp;      Interest from governments representing more than 60% of the world&rsquo;s population offers &lsquo;tremendous v",
+      "url": "https://www.who.int/news/item/15-07-2020-more-than-150-countries-engaged-in-covid-19-vaccine-global-access-facility",
+      "published": "Wed, 15 Jul 2020 14:39:21 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "As more go hungry and malnutrition persists, achieving Zero Hunger by 2030 in doubt, UN report warns",
+      "summary": "As more go hungry and malnutrition persists, achieving Zero Hunger by 2030 in doubt, UN report warns. Rome &ndash; More people are going hungry, an annual study by the United Nations has found. Tens of millions have joined the ranks of the chronically undernourished over the past five years, and countries around the world continue to struggle with multiple forms of malnutrition.      The latest edition of the State of Food Security and Nutrition in the World, published today, estimates that almost 690 million people went hungry in 2019 &ndash; up by 10 million from 2018, and by nearly 60 milli",
+      "url": "https://www.who.int/news/item/13-07-2020-as-more-go-hungry-and-malnutrition-persists-achieving-zero-hunger-by-2030-in-doubt-un-report-warns",
+      "published": "Mon, 13 Jul 2020 14:00:59 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "earthquake",
+      "title": "Independent evaluation of global COVID-19 response announced",
+      "summary": "Independent evaluation of global COVID-19 response announced. PWHO Director-General today announced the initiation of the Independent Panel for Pandemic Preparedness and Response (IPPPR) to evaluate the world&rsquo;s response to the COVID-19 pandemic.  In  remarks  to WHO Member States, Director-General Tedros Adhanom Ghebreyesus said the Panel will be co-chaired by former Prime Minister of New Zealand Helen Clark and former President of Liberia Ellen Johnson Sirleaf. Prime Minister Clark\n    went to on lead the United Nations Development Programme and President Sirleaf is a recipient of the N",
+      "url": "https://www.who.int/news/item/09-07-2020-independent-evaluation-of-global-covid-19-response-announced",
+      "published": "Thu, 09 Jul 2020 13:40:54 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "UN Public Service Day",
+      "summary": "UN Public Service Day. Honouring the public servants who have been working on the frontlines of the COVID-19 pandemic.       Whether working in healthcare or delivering essential services in the areas of sanitation, social welfare, education, postal delivery, transport, law enforcement, and more, public servants globally have continued to work in the community as many people shelter at home, risking their lives to ensure ours can continue.      WHO Director-General joined a virtual high-level panel at the United Nations to mark Public Service Day on 23 June to honour the women and men who are ",
+      "url": "https://www.who.int/news/item/23-06-2020-un-public-service-day",
+      "published": "Wed, 08 Jul 2020 04:19:37 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO experts to travel to China",
+      "summary": "WHO experts to travel to China. WHO experts will travel to China to work together with their Chinese counterparts to prepare scientific plans for identifying the zoonotic source of the SARS-COV-2 virus. The experts will develop the scope and TOR for a WHO-led international mission. &nbsp;     Identifying the origin of emerging viral disease has proven complex in past epidemics in different countries. A well planned series of scientific researches will advance the understanding of animal reservoirs and the route of transmission to humans. The process is an evolving endeavor which may lead to fu",
+      "url": "https://www.who.int/news/item/07-07-2020-who-experts-to-travel-to-china",
+      "published": "Tue, 07 Jul 2020 18:56:21 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO: access to HIV medicines severely impacted by COVID-19 as AIDS response stalls",
+      "summary": "WHO: access to HIV medicines severely impacted by COVID-19 as AIDS response stalls. Seventy-three countries have warned that they are at risk of stock-outs of antiretroviral (ARV) medicines as a result of the COVID-19 pandemic, according to a new WHO survey conducted ahead of the International AIDS Society&rsquo;s biannual conference. Twenty-four countries reported having either a critically low stock of ARVs or disruptions in the supply of these life-saving medicines.&nbsp;\n  The survey follows a  modelling exercise \n convened by WHO and UNAIDS in May which forecasted that a six-month disrupt",
+      "url": "https://www.who.int/news/item/06-07-2020-who-access-to-hiv-medicines-severely-impacted-by-covid-19-as-aids-response-stalls",
+      "published": "Mon, 06 Jul 2020 14:00:26 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Listings of WHO’s response to COVID-19",
+      "summary": "Listings of WHO’s response to COVID-19. WHO provides this timeline of the organization’s COVID-19 response activities for general information. WHO will update the timeline on a regular basis and in light of evolving events and new information. Unless noted otherwise, country-specific information and data are as reported to WHO by its Member States. \nThis timeline continues in the spirit of, and supersedes, the WHO Rolling Updates and the WHO Timeline statement published in April 2020. It is not intended to be exhaustive and does not contain details of every event or WHO activity. \nAs of 29 Jun",
+      "url": "https://www.who.int/news/item/29-06-2020-covidtimeline",
+      "published": "Mon, 29 Jun 2020 14:24:38 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "The World Health Organization reminds public to remain vigilant through Mr Bean’s Essential COVID-19 Checklist",
+      "summary": "The World Health Organization reminds public to remain vigilant through Mr Bean’s Essential COVID-19 Checklist. Public Service Announcement reminds people about the importance of\nwashing hands, physical distancing and showing kindness            The World Health Organization (WHO), Project Everyone and Tiger Aspect\nProductions have partnered to launch a Public Service Announcement (PSA) using global\ncomedy cartoon star, Mr Bean.    &nbsp;             With cases of COVID-19\ncontinuing to rise globally, &ldquo;Mr Bean&rsquo;s Essential COVID-19 Checklist&rdquo; is a reminder\nto people about the ",
+      "url": "https://www.who.int/news/item/22-06-2020-the-world-health-organization-reminds-public-to-remain-vigilant-through-mr-bean-s-essential-covid-19-checklist",
+      "published": "Mon, 22 Jun 2020 09:51:24 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Statement from Dr Mike Ryan, Executive Director, WHO Health Emergencies Programme at the Yemen High-level Pledging Conference",
+      "summary": "Statement from Dr Mike Ryan, Executive Director, WHO Health Emergencies Programme at the Yemen High-level Pledging Conference. (Thank you Mark, Shukran Dr. Al Rabeeah)   I am speaking today on behalf of WHO Director-General Dr Tedros, and of Dr Ahmed Al-Mandhari, WHO Regional Director for the Eastern Mediterranean Region&nbsp;  Excellencies, distinguished delegates, ladies and gentlemen, salam aleikum,&nbsp;  As we all know, Yemen is the most complex humanitarian operation in the world. &nbsp;   Indeed, when Dr Al-Mandhari&nbsp; - who is also participating in this event - visited Yemen last ye",
+      "url": "https://www.who.int/news/item/02-06-2020-statement-from-dr-mike-ryan-executive-director-who-health-emergencies-programme-at-the-yemen-high-level-pledging-conference",
+      "published": "Wed, 03 Jun 2020 09:32:42 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "Stop tobacco industry exploitation of children and young people",
+      "summary": "Stop tobacco industry exploitation of children and young people. The World Health Organization is today launching a new kit for school students aged 13-17 to alert them to the tobacco industry tactics used to hook them to addictive products. Every year the tobacco industry invests more than USD 9 billion to advertise its products. Increasingly, it is targeting young people with nicotine and tobacco products in a bid to replace the 8 million people that its products kill every year.  \n This year&rsquo;s WHO&rsquo;s World No Tobacco Day campaign focuses on protecting children and young people fr",
+      "url": "https://www.who.int/news/item/29-05-2020-stop-tobacco-industry-exploitation-of-children-and-young-people",
+      "published": "Fri, 29 May 2020 04:00:52 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "At least 80 million children under one at risk of diseases such as diphtheria, measles and polio as COVID-19 disrupts routine vaccination efforts, warn Gavi, WHO and UNICEF",
+      "summary": "At least 80 million children under one at risk of diseases such as diphtheria, measles and polio as COVID-19 disrupts routine vaccination efforts, warn Gavi, WHO and UNICEF. COVID 19 is disrupting life-saving immunization services around the world, putting millions of children &ndash; in rich and poor countries alike &ndash; at risk of diseases like diphtheria, measles and polio. This stark warning comes from the World Health\n    Organization, UNICEF and Gavi, the Vaccine Alliance ahead of the Global Vaccine Summit on 4 June, at which world leaders will come together to help maintain immunizat",
+      "url": "https://www.who.int/news/item/22-05-2020-at-least-80-million-children-under-one-at-risk-of-diseases-such-as-diphtheria-measles-and-polio-as-covid-19-disrupts-routine-vaccination-efforts-warn-gavi-who-and-unicef",
+      "published": "Fri, 22 May 2020 14:59:57 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "other",
+      "title": "WHO and UNHCR join forces to improve health services for refugees, displaced and stateless people",
+      "summary": "WHO and UNHCR join forces to improve health services for refugees, displaced and stateless people. The World Health Organization (WHO) and UNHCR, the UN Refugee Agency today signed a new agreement to strengthen and advance public health services for the millions of forcibly displaced people around the world.  The agreement updates and expands an existing 1997 agreement between the two organizations. A key aim this year will be to support ongoing efforts to protect some 70 million forcibly displaced people from COVID-19. Around 26 million of these are refugees, 80 per cent of whom are sheltered",
+      "url": "https://www.who.int/news/item/21-05-2020-who-and-unhcr-join-forces-to-improve-health-services-for-refugees-displaced-and-stateless-people",
+      "published": "Thu, 21 May 2020 10:06:48 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "WHO",
+      "trust_score": 0.9,
+      "crisis_type": "disease",
+      "title": "WHO and Costa Rica preview technology pooling initiative to ensure access to COVID-19 health products for all",
+      "summary": "WHO and Costa Rica preview technology pooling initiative to ensure access to COVID-19 health products for all. Geneva, 15 May 2020 &ndash; Presidents Carlos Alvarado Quesada of Costa Rica and Sebasti&aacute;n Pi&ntilde;era of Chile joined WHO Director-General Dr Tedros Adhanom Ghebreyesus today to announce progress on a technology platform that aims to lift access barriers to effective vaccines, medicines and other health products against COVID-19. Costa Rica proposed the idea at the beginning of the COVID-19 outbreak and several countries are now backing the proposal. \n &ldquo;Our proposal re",
+      "url": "https://www.who.int/news/item/15-05-2020-who-and-costa-rica-preview-technology-pooling-initiative-to-ensure-access-to-covid-19-health-products-for-all",
+      "published": "Fri, 15 May 2020 17:56:30 Z",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.8M, Depth:10km) in Papua New Guinea 12/11/2026 22:04 UTC, Few people affected (in MMI>=VII).",
+      "summary": "Green earthquake (Magnitude 5.8M, Depth:10km) in Papua New Guinea 12/11/2026 22:04 UTC, Few people affected (in MMI>=VII).. On 11/12/2026 10:04:06 PM, an earthquake occurred in Papua New Guinea potentially affecting Few people affected (in MMI>=VII). The earthquake had Magnitude 5.8M, Depth:10km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1577060",
+      "published": "Thu, 12 Nov 2026 22:20:24 GMT",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.5M, Depth:59.652km) in Guatemala 10/11/2026 14:54 UTC, 1.2 million in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.5M, Depth:59.652km) in Guatemala 10/11/2026 14:54 UTC, 1.2 million in MMI IV.. On 11/10/2026 2:54:19 PM, an earthquake occurred in Guatemala potentially affecting 1.2 million in MMI IV. The earthquake had Magnitude 5.5M, Depth:59.652km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576618",
+      "published": "Tue, 10 Nov 2026 15:15:15 GMT",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "flood",
+      "title": "Green flood alert in Myanmar",
+      "summary": "Green flood alert in Myanmar. On 10/11/2026, a flood started in Myanmar, lasting until 12/11/2026 (last update). The flood caused 0 deaths and 50 displaced .",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104280",
+      "published": "Thu, 12 Nov 2026 07:27:59 GMT",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 5.7M, Depth:24.173km) in Japan 09/11/2026 04:52 UTC, 230 thousand in MMI IV.",
+      "summary": "Green earthquake (Magnitude 5.7M, Depth:24.173km) in Japan 09/11/2026 04:52 UTC, 230 thousand in MMI IV.. On 11/9/2026 4:52:51 AM, an earthquake occurred in Japan potentially affecting 230 thousand in MMI IV. The earthquake had Magnitude 5.7M, Depth:24.173km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576372",
+      "published": "Mon, 09 Nov 2026 05:03:32 GMT",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    },
+    {
+      "source": "GDACS",
+      "trust_score": 0.95,
+      "crisis_type": "earthquake",
+      "title": "Green earthquake (Magnitude 6.4M, Depth:17km) in Solomon Is. 09/11/2026 03:34 UTC, 8 thousand in MMI VI.",
+      "summary": "Green earthquake (Magnitude 6.4M, Depth:17km) in Solomon Is. 09/11/2026 03:34 UTC, 8 thousand in MMI VI.. On 11/9/2026 3:34:59 AM, an earthquake occurred in Solomon Is. potentially affecting 8 thousand in MMI VI. The earthquake had Magnitude 6.4M, Depth:17km.",
+      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1576364",
+      "published": "Mon, 09 Nov 2026 03:45:14 GMT",
+      "collected_at": "2026-11-13T13:47:28.890046+00:00"
+    }
+  ]
+}
