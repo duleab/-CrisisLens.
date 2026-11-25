@@ -856,10 +856,10 @@ CrisisLens represents the future of disaster response — where AI transforms sc
 
 | Field | Value |
 |-------|-------|
-| **Last Run** | 2026-11-24 |
-| **Events Detected** | 46 |
+| **Last Run** | 2026-11-25 |
+| **Events Detected** | 48 |
 | **Sources Active** | 4 (USGS, BMKG, WHO, GDACS) |
-| **Top Crisis Type** | disease (18 events) |
+| **Top Crisis Type** | earthquake (18 events) |
 
-*🤖 Auto-updated daily by GitHub Actions — [View latest report](data/daily_report_2026-11-24.json)*
+*🤖 Auto-updated daily by GitHub Actions — [View latest report](data/daily_report_2026-11-25.json)*
 <!-- CRISISLENS_STATS_END -->
